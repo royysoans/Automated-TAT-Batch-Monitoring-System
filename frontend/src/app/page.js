@@ -460,6 +460,41 @@ export default function Dashboard() {
         </>
       )}
 
+      {activeTab === "alerts" && (
+        <div className="panel" style={{ marginTop: "24px", maxWidth: "1000px", marginLeft: "auto", marginRight: "auto" }}>
+          <div className="panel-header">
+            <div className="panel-title">Alert Center Overview</div>
+          </div>
+          <div className="alert-list" style={{ maxHeight: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
+            {alerts.length === 0 ? (
+              <div className="empty-state">
+                <div className="empty-state-icon">✅</div>
+                <div className="empty-state-text">Pipeline healthy. No alerts have been generated yet.</div>
+              </div>
+            ) : (
+              <AnimatePresence>
+                {alerts.map((a) => (
+                  <motion.div key={a.id} initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} exit={{opacity: 0}} className={`alert-item ${a.acknowledged ? "acknowledged" : ""}`}>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", width: "100%" }}>
+                      <div>
+                        <div className={`alert-type ${a.alert_type}`}>{a.alert_type.replace("_", " ").toUpperCase()}</div>
+                        <div className="alert-message" style={{ fontSize: "14px", marginTop: "4px" }}>{a.message}</div>
+                        <div className="alert-time" style={{ marginTop: "8px" }}>{formatDate(a.created_at)} ({timeAgo(a.created_at)})</div>
+                      </div>
+                      {!a.acknowledged ? (
+                        <button className="btn-acknowledge" style={{ flexShrink: 0, marginLeft: "16px", padding: "8px 16px" }} onClick={() => acknowledgeAlert(a.id)}>Acknowledge Issue</button>
+                      ) : (
+                        <div style={{ fontSize: "12px", color: "var(--accent-green)", fontWeight: "600", padding: "4px 12px", background: "var(--accent-green-bg)", borderRadius: "12px" }}>Resolved</div>
+                      )}
+                    </div>
+                  </motion.div>
+                ))}
+              </AnimatePresence>
+            )}
+          </div>
+        </div>
+      )}
+
       {/* Advanced Draw Component for Timeline visualization */}
       <AnimatePresence>
         {selectedSample && (
