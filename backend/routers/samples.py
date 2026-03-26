@@ -243,3 +243,24 @@ def update_sample_status(sample_id: str, body: StatusUpdate):
     conn.close()
 
     return {"success": True, "sample_id": sample_id, "old_status": current_status, "new_status": new_status}
+
+
+@router.delete("/{sample_id}")
+def delete_sample(sample_id: str):
+    """Delete a sample and its associated alerts."""
+    conn = get_db()
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT id FROM samples WHERE sample_id = %s", (sample_id,))
+    if not cursor.fetchone():
+        conn.close()
+        raise HTTPException(status_code=404, detail="Sample not found")
+
+    # Delete associated alerts first due to foreign key constraint
+    cursor.execute("DELETE FROM alerts WHERE sample_id = %s", (sample_id,))
+    cursor.execute("DELETE FROM samples WHERE sample_id = %s", (sample_id,))
+
+    conn.commit()
+    conn.close()
+
+    return {"success": True, "message": f"Sample {sample_id} deleted successfully"}

@@ -66,6 +66,7 @@ export default function Dashboard() {
   const [testCode, setTestCode] = useState("BIOC007");
   const [receivedAt, setReceivedAt] = useState("");
   const [sending, setSending] = useState(false);
+  const [deleting, setDeleting] = useState(false);
 
   // Initialize theme
   useEffect(() => {
@@ -179,6 +180,25 @@ export default function Dashboard() {
     } catch (err) {
       console.error(err);
     }
+  };
+
+  const deleteSample = async (sampleId) => {
+    if (!confirm(`Are you sure you want to delete sample ${sampleId}? This action cannot be undone.`)) return;
+    setDeleting(true);
+    try {
+      const res = await fetch(`${API}/api/samples/${sampleId}`, { method: "DELETE" });
+      if (res.ok) {
+        showToast(`Sample ${sampleId} deleted successfully`, "success");
+        setSelectedSample(null);
+        fetchData();
+      } else {
+        const data = await res.json();
+        showToast(data.detail || "Failed to delete sample", "error");
+      }
+    } catch (err) {
+      showToast("Error connecting to server", "error");
+    }
+    setDeleting(false);
   };
 
   // Sorting Handler
@@ -458,7 +478,12 @@ export default function Dashboard() {
                   <div style={{fontSize: "20px", fontWeight: "700", fontFamily: "JetBrains Mono"}}>{selectedSample.sample_id}</div>
                   <div style={{fontSize: "13px", color: "var(--text-muted)"}}>{selectedSample.test_name || selectedSample.test_code}</div>
                 </div>
-                <button className="btn-close" onClick={() => setSelectedSample(null)}><X size={20} /></button>
+                <div style={{display: "flex", gap: "8px", alignItems: "flex-start"}}>
+                  <button onClick={() => deleteSample(selectedSample.sample_id)} disabled={deleting} style={{padding: "6px 10px", background: "var(--accent-red-bg)", color: "var(--accent-red)", border: "1px solid var(--accent-red)", borderRadius: "6px", cursor: "pointer", fontSize: "12px", fontWeight: "600"}}>
+                    {deleting ? "Deleting..." : "Delete"}
+                  </button>
+                  <button className="btn-close" onClick={() => setSelectedSample(null)}><X size={20} /></button>
+                </div>
               </div>
               
               <div className="drawer-body">
