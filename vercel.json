@@ -18,11 +18,5 @@
       "src": "/(.*)",
       "dest": "frontend/$1"
     }
-  ],
-  "crons": [
-    {
-      "path": "/api/alerts/check-breaches",
-      "schedule": "* * * * *"
-    }
   ]
 }
