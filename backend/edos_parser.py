@@ -75,10 +75,23 @@ def load_edos():
             tat_json = json.dumps(tat_parsed, default=str)
 
             cursor.execute("""
-                INSERT OR REPLACE INTO tests
+                INSERT INTO tests
                 (test_code, test_name, state, city, mrp, test_group, specimen_type,
                  method, temperature, schedule_raw, tat_raw, schedule_json, tat_json)
                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT (test_code) DO UPDATE SET
+                    test_name = EXCLUDED.test_name,
+                    state = EXCLUDED.state,
+                    city = EXCLUDED.city,
+                    mrp = EXCLUDED.mrp,
+                    test_group = EXCLUDED.test_group,
+                    specimen_type = EXCLUDED.specimen_type,
+                    method = EXCLUDED.method,
+                    temperature = EXCLUDED.temperature,
+                    schedule_raw = EXCLUDED.schedule_raw,
+                    tat_raw = EXCLUDED.tat_raw,
+                    schedule_json = EXCLUDED.schedule_json,
+                    tat_json = EXCLUDED.tat_json
             """, (
                 test_code, test_name, state, city, mrp, test_group, specimen_type,
                 method, temperature, schedule_raw, tat_raw, schedule_json, tat_json

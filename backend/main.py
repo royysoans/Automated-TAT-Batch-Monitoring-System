@@ -21,14 +21,21 @@ from routers import webhook, samples, alerts, tests, batches
 # Vercel Cron now triggers `POST /api/alerts/check-breaches` periodically.
 
 
+import os
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Initialize database, load EDOS data on startup."""
-    print("🔧 Initializing Postgres database...")
-    init_db()
-    print("📊 Loading EDOS data...")
-    result = load_edos()
-    print(f"✅ Loaded {result['loaded']} tests ({result['skipped']} skipped)")
+    """Initialize database, load EDOS data on startup (Local only)."""
+    # Vercel functions must boot instantly. We skip heavy CSV parsing
+    # because the Neon Postgres DB is already fully seeded.
+    if not os.environ.get("VERCEL"):
+        print("🔧 Initializing Postgres database...")
+        init_db()
+        print("📊 Loading EDOS data...")
+        result = load_edos()
+        print(f"✅ Loaded {result['loaded']} tests ({result['skipped']} skipped)")
+    else:
+        print("⚡ Vercel Serverless Boot (Skipping DB Init)")
 
     yield
     print("👋 Shutting down...")
