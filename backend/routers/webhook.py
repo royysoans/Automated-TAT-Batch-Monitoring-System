@@ -127,11 +127,17 @@ def receive_sample(payload: SampleWebhook):
     conn.commit()
     conn.close()
 
-    # Check and create alerts
+    # Check and create alerts (this may update status to 'breached')
     alerts = check_and_create_alerts(
         payload.sample_id, payload.test_code,
         received_at, batch_cutoff, eta, missed_batch
     )
+
+    # Re-fetch official status from DB in case alert_service updated it
+    cursor = conn.cursor()
+    cursor.execute("SELECT status FROM samples WHERE sample_id = %s", (payload.sample_id,))
+    final_status = cursor.fetchone()["status"]
+    conn.close()
 
     return {
         "success": True,
@@ -141,7 +147,7 @@ def receive_sample(payload: SampleWebhook):
         "received_at": received_at.isoformat(),
         "batch_cutoff": batch_cutoff.isoformat(),
         "eta": eta.isoformat(),
-        "status": status,
+        "status": final_status,
         "missed_batch": missed_batch,
         "original_batch_cutoff": original_batch_cutoff,
         "alerts": alerts,
