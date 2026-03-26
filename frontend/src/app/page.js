@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, ChevronUp, ChevronDown, X, Activity, Clock, FlaskConical, ThermometerSnowflake, AlertTriangle } from "lucide-react";
 
-const API = "http://localhost:8000";
+const API = process.env.NEXT_PUBLIC_API_URL || (process.env.NODE_ENV === "production" ? "" : "http://localhost:8001");
 
 function formatTimeRemaining(seconds) {
   if (!seconds || seconds <= 0) return "Overdue";
@@ -48,6 +48,7 @@ export default function Dashboard() {
   const [batches, setBatches] = useState([]);
   const [activeTab, setActiveTab] = useState("dashboard");
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState(null);
   
   // UI States
   const [toasts, setToasts] = useState([]);
@@ -97,9 +98,12 @@ export default function Dashboard() {
       setSamples(samplesData.samples || []);
       setAlerts(alertsData.alerts || []);
       setBatches(batchesData.batches || []);
-      setLoading(false);
+      setFetchError(null);
     } catch (err) {
       console.error("Fetch error:", err);
+      setFetchError("Failed to load data. API might be unreachable.");
+    } finally {
+      setLoading(false);
     }
   }, []);
 
@@ -210,6 +214,17 @@ export default function Dashboard() {
 
   if (loading) {
     return <div style={{ display: "flex", justifyContent: "center", padding: "64px" }}>Loading laboratory data...</div>;
+  }
+
+  if (fetchError) {
+    return (
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "50vh", gap: "16px" }}>
+        <AlertTriangle size={48} color="var(--accent-red)" />
+        <h2 style={{ color: "var(--accent-red)" }}>Connection Error</h2>
+        <p style={{ color: "var(--text-muted)" }}>{fetchError}</p>
+        <button className="btn primary" onClick={() => { setLoading(true); fetchData(); }}>Retry Connection</button>
+      </div>
+    );
   }
 
   return (
