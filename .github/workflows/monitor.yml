@@ -1,0 +1,32 @@
+name: TAT Breach Monitor
+
+on:
+  schedule:
+    # Runs every 5 minutes (GitHub's minimum practical threshold for cron)
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  check-breaches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hit Vercel Monitor Endpoint
+        # VERCEL_URL should be added to GitHub Secrets > Actions
+        # It should look like: https://your-project.vercel.app
+        run: |
+          if [ -z "${{ secrets.VERCEL_URL }}" ]; then
+            echo "Error: VERCEL_URL secret is not set. Please set it in GitHub Settings > Secrets."
+            exit 1
+          fi
+          
+          echo "Pinging $VERCEL_URL/api/alerts/check-breaches"
+          curl -X POST -s -o response.json -w "%{http_code}" "${{ secrets.VERCEL_URL }}/api/alerts/check-breaches" > http_status.txt
+          
+          STATUS=$(cat http_status.txt)
+          echo "HTTP Status: $STATUS"
+          cat response.json
+          
+          if [ "$STATUS" -ne 200 ]; then
+            echo "Error: Ping failed with status $STATUS"
+            exit 1
+          fi
