@@ -37,7 +37,6 @@ def check_and_create_alerts(sample_id, test_code, received_at, batch_cutoff, eta
         alerts_created.append({"type": "missed_batch", "severity": "warning", "message": message})
 
     # 2. TAT Breach Warning — if ETA is more than expected
-    # We check if the time from received_at to eta seems excessive (> 7 days for standard tests)
     time_to_result = (eta - received_at).total_seconds() / 3600  # hours
     if time_to_result > 168:  # more than 7 days
         message = (
@@ -96,7 +95,7 @@ def check_all_samples_for_breaches():
         cursor.execute("""
             SELECT COUNT(*) as cnt FROM alerts
             WHERE sample_id = %s AND alert_type = 'tat_breach'
-            AND created_at > datetime('now', '-1 hour')
+            AND created_at > NOW() - INTERVAL '1 hour'
         """, (sample_id,))
 
         if cursor.fetchone()["cnt"] == 0:
@@ -113,7 +112,7 @@ def check_all_samples_for_breaches():
 
             # Update sample status
             cursor.execute("""
-                UPDATE samples SET status = 'breached', updated_at = CURRENT_TIMESTAMP
+                UPDATE samples SET status = 'breached', updated_at = NOW()
                 WHERE sample_id = %s
             """, (sample_id,))
 

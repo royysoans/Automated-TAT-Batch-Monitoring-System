@@ -35,7 +35,14 @@ def list_alerts(
     cursor.execute(query, params)
     rows = cursor.fetchall()
 
-    alerts = [dict(row) for row in rows]
+    # Stringify TIMESTAMP columns for JSON serialization
+    alerts = []
+    for row in rows:
+        alert_dict = dict(row)
+        if alert_dict.get("created_at"):
+            alert_dict["created_at"] = str(alert_dict["created_at"])
+        alerts.append(alert_dict)
+
     conn.close()
 
     return {"alerts": alerts, "total": len(alerts)}

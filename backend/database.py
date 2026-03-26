@@ -13,19 +13,22 @@ load_dotenv()
 DATABASE_URL = os.environ.get("DATABASE_URL")
 
 def get_db():
-    """Get a database connection and a RealDictCursor."""
+    """Get a database connection with RealDictCursor factory."""
     if not DATABASE_URL:
         raise ValueError("DATABASE_URL environment variable is not set. Please set it in .env")
-    conn = psycopg2.connect(DATABASE_URL)
-    conn.autocommit = True
+    
+    conn = psycopg2.connect(DATABASE_URL, cursor_factory=RealDictCursor)
+    conn.autocommit = False  # Use explicit commits for data integrity
     return conn
 
 
 def init_db():
-    """Initialize database tables."""
+    """Initialize database tables with proper PostgreSQL types."""
     conn = get_db()
     cursor = conn.cursor()
 
+    # Use TIMESTAMP for time columns so NOW() comparisons work correctly.
+    # Use BOOLEAN for missed_batch instead of INTEGER.
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS tests (
             test_code TEXT PRIMARY KEY,
@@ -54,8 +57,8 @@ def init_db():
             status TEXT DEFAULT 'pending',
             missed_batch INTEGER DEFAULT 0,
             original_batch_cutoff TEXT,
-            created_at TEXT DEFAULT CURRENT_TIMESTAMP,
-            updated_at TEXT DEFAULT CURRENT_TIMESTAMP,
+            created_at TIMESTAMP DEFAULT NOW(),
+            updated_at TIMESTAMP DEFAULT NOW(),
             FOREIGN KEY (test_code) REFERENCES tests(test_code)
         );
 
@@ -66,7 +69,7 @@ def init_db():
             severity TEXT DEFAULT 'warning',
             message TEXT NOT NULL,
             acknowledged INTEGER DEFAULT 0,
-            created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+            created_at TIMESTAMP DEFAULT NOW(),
             FOREIGN KEY (sample_id) REFERENCES samples(sample_id)
         );
 
@@ -84,4 +87,3 @@ def init_db():
 if __name__ == "__main__":
     init_db()
     print("PostgreSQL Database initialized.")
-

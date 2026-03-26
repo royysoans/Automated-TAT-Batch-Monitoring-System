@@ -2,11 +2,11 @@
 Automated TAT & Batch Monitoring System — FastAPI Application
 
 Fully API-driven pipeline: no manual triggers or manual data entry required.
-On startup, automatically initializes the DB, ingests EDOS data, and starts
-a background task to periodically check for TAT breaches.
+On startup, automatically initializes the DB, ingests EDOS data.
+Background TAT breach checking is handled by GitHub Actions (external cron).
 """
 
-import asyncio
+import os
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -17,15 +17,9 @@ from alert_service import check_all_samples_for_breaches
 from routers import webhook, samples, alerts, tests, batches
 
 
-# Background loop removed for Vercel Serverless compatibility.
-# Vercel Cron now triggers `POST /api/alerts/check-breaches` periodically.
-
-
-import os
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Initialize database, load EDOS data on startup (Local only)."""
+    """Initialize database, load EDOS data on startup (local only)."""
     # Vercel functions must boot instantly. We skip heavy CSV parsing
     # because the Neon Postgres DB is already fully seeded.
     if not os.environ.get("VERCEL"):
@@ -52,10 +46,10 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# CORS — allow the Next.js frontend
+# CORS — allow the Next.js frontend (both local and production)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=["*"],  # Allow all origins for Vercel deployment
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

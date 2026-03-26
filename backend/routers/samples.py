@@ -64,7 +64,7 @@ def list_samples(
         is_overdue = False
         if eta:
             delta = (eta - now).total_seconds()
-            time_remaining = max(0, delta)
+            time_remaining = max(0.0, delta)
             is_overdue = delta < 0
 
         samples.append({
@@ -83,7 +83,7 @@ def list_samples(
             "tat_raw": row["tat_raw"],
             "time_remaining_seconds": time_remaining,
             "is_overdue": is_overdue,
-            "created_at": row["created_at"],
+            "created_at": str(row["created_at"]) if row["created_at"] else None,
         })
 
     conn.close()
@@ -122,10 +122,10 @@ def get_stats():
     cursor.execute("SELECT COUNT(*) as count FROM alerts WHERE acknowledged = 0")
     active_alerts = cursor.fetchone()["count"]
 
-    # Recent samples (last 24h)
+    # Recent samples (last 24h) — created_at is now a TIMESTAMP column
     cursor.execute("""
         SELECT COUNT(*) as count FROM samples
-        WHERE created_at > datetime('now', '-1 day')
+        WHERE created_at > NOW() - INTERVAL '1 day'
     """)
     recent = cursor.fetchone()["count"]
 
@@ -166,13 +166,20 @@ def get_sample(sample_id: str):
     cursor.execute("""
         SELECT * FROM alerts WHERE sample_id = %s ORDER BY created_at DESC
     """, (sample_id,))
-    alerts = [dict(a) for a in cursor.fetchall()]
+    alert_rows = cursor.fetchall()
+    # Convert RealDictRow to plain dicts, stringify datetimes
+    alerts = []
+    for a in alert_rows:
+        alert_dict = dict(a)
+        if alert_dict.get("created_at"):
+            alert_dict["created_at"] = str(alert_dict["created_at"])
+        alerts.append(alert_dict)
 
     now = datetime.now()
     eta = datetime.fromisoformat(row["eta"]) if row["eta"] else None
     time_remaining = None
     if eta:
-        time_remaining = max(0, (eta - now).total_seconds())
+        time_remaining = max(0.0, (eta - now).total_seconds())
 
     conn.close()
 
@@ -228,7 +235,7 @@ def update_sample_status(sample_id: str, body: StatusUpdate):
         )
 
     cursor.execute("""
-        UPDATE samples SET status = %s, updated_at = CURRENT_TIMESTAMP
+        UPDATE samples SET status = %s, updated_at = NOW()
         WHERE sample_id = %s
     """, (new_status, sample_id))
 
@@ -236,4 +243,3 @@ def update_sample_status(sample_id: str, body: StatusUpdate):
     conn.close()
 
     return {"success": True, "sample_id": sample_id, "old_status": current_status, "new_status": new_status}
-

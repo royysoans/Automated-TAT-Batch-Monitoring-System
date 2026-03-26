@@ -22,7 +22,7 @@ def list_batches(
     conn = get_db()
     cursor = conn.cursor()
 
-    # Get all active samples grouped by batch_cutoff
+    # PostgreSQL strict GROUP BY: must include all non-aggregated SELECT columns.
     cursor.execute("""
         SELECT
             s.batch_cutoff,
@@ -33,11 +33,11 @@ def list_batches(
             t.tat_raw,
             COUNT(*) as sample_count,
             SUM(CASE WHEN s.missed_batch = 1 THEN 1 ELSE 0 END) as missed_count,
-            GROUP_CONCAT(s.sample_id) as sample_ids
+            STRING_AGG(s.sample_id, ',') as sample_ids
         FROM samples s
         LEFT JOIN tests t ON s.test_code = t.test_code
         WHERE s.status IN ('assigned', 'reassigned', 'pending', 'in_batch', 'processing')
-        GROUP BY s.batch_cutoff, s.test_code
+        GROUP BY s.batch_cutoff, s.test_code, t.test_name, t.test_group, t.schedule_raw, t.tat_raw
         ORDER BY s.batch_cutoff ASC
         LIMIT %s
     """, (limit,))
@@ -82,7 +82,7 @@ def upcoming_batches():
 
     # Get distinct test codes with pending samples
     cursor.execute("""
-        SELECT DISTINCT s.test_code, t.test_name, t.schedule_json, t.schedule_raw
+        SELECT DISTINCT ON (s.test_code) s.test_code, t.test_name, t.schedule_json, t.schedule_raw
         FROM samples s
         LEFT JOIN tests t ON s.test_code = t.test_code
         WHERE s.status IN ('assigned', 'reassigned', 'pending')
