@@ -65,6 +65,12 @@ def check_and_create_alerts(sample_id, test_code, received_at, batch_cutoff, eta
         """, (sample_id, severity, message))
         alerts_created.append({"type": "tat_breach", "severity": severity, "message": message})
 
+        # Update sample status immediately so the dashboard updates
+        cursor.execute("""
+            UPDATE samples SET status = 'breached', updated_at = NOW()
+            WHERE sample_id = %s
+        """, (sample_id,))
+
     conn.commit()
     conn.close()
     return alerts_created
