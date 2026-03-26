@@ -1,0 +1,1070 @@
+﻿Edos List,,,,,,,,,,,
+#,state,city,test code,test name,mrp,group,specimen type,method,temp,test schedule,tat
+1,Maharashtra,Mumbai,ELISA023,test_1,7200,C6,Serum,EIA,2 - 8 °C,Tue / Fri 6 pm,Next Day 8 pm
+2,Maharashtra,Mumbai,IMMU-O-116,test_2,3180,C6,3 ml Serum,CLIA,2 - 8 °C,Wed/ Sat 6 pm,3rd Day 7 pm
+3,Maharashtra,Mumbai,BIOC-O-243,test_3,2000,C5,"10 ml random Urine. Collected in a acid wash metal free container, Use powder less gloves. Patient should avoid fish 3 days prior to specimen collection, use powder less gloves during collection",ICPMS,2 - 8 °C,Daily 3 pm,3rd day 5 pm
+4,Maharashtra,Mumbai,BIOC-O-242,test_4,2000,C5,"10 ml aliquot of 24 Hrs Urine. Collected in a acid wash metal free container, Use powder less gloves. Mention volume. Patient should avoid fish 3 days prior to specimen collection, use powder less gloves during collection",ICPMS,2 - 8 °C,Daily 3 pm,3rd day 5 pm
+5,Maharashtra,Mumbai,BIOC-O-237,test_5,2100,C5,"2 ml Serum In Metal Free Vacutainer, (Royal Blue K2 tube), Trace element serum tube, Patient should avoid fish 3 days prior to specimen collection, use powder less gloves during collection",ICPMS,2 - 8 °C,Daily 3 pm,3rd day 5 pm
+6,Maharashtra,Mumbai,MOLBI167,test_6,4500,C6,3 ml Serum / 20 ml Urine,PCR,2 - 8 °C,Daily 3 pm,3rd day 5 pm
+7,Maharashtra,Mumbai,HAEM-O-044,test_7,2300,C5,"3 ml EDTA Whole Blood, 3 ml Whole Blood Na Heparin or 2 ml Bone marrow in Na Heparin",Flow Cytometry,Room Temp,Daily 12 pm,Next day 7 pm
+8,Maharashtra,Mumbai,MICRO083,test_8,2230,C6,Stool In Sterile Container,Vitek/ MALDITOF,2 - 8 °C,Daily 6 pm,5th Day 9 pm
+9,Maharashtra,Mumbai,GENP-O-153,test_9,5500,C6,4 ml Whole Blood Sodium Heparin,FISH,2 - 8 °C,Daily 2 pm,8th Day 7 pm
+10,Maharashtra,Mumbai,SERO044,test_10,400,C1,2 ml Serum,Agglutination,2 - 8 °C,Daily 9 am to 7 pm,Next day 7 pm
+11,Maharashtra,Mumbai,SERO043,test_11,370,C1,2 ml Serum,Agglutination,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+12,Maharashtra,Mumbai,GENP-O-173,test_12,25000,C3,5 ml EDTA Whole Blood,NGS,2 - 8 °C,Daily 5 pm,22 Days
+13,Maharashtra,Mumbai,HAEM-O-043,test_13,270,C1,3 ml EDTA Whole Blood,Automated Cell  Counter & Microscopy,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+14,Maharashtra,Mumbai,ELISA-O-142,test_14,3700,C6,"3 ml Serum, Clinical history reqd",EIA,2 - 8 °C,1st & 3rd Thu 5 pm,5th Day 7 pm
+15,Maharashtra,Mumbai,ELISA-O-141,test_15,3700,C6,"3 ml Serum, Clinical history reqd",EIA,2 - 8 °C,1st & 3rd Thu 5 pm,5th Day 7 pm
+16,Maharashtra,Mumbai,ELISA-O-140,test_16,1050,C6,3 ml Serum,Agglutination,2 - 8 °C,Daily 12 pm,Next day 8 pm
+17,Maharashtra,Mumbai,MICRO082,test_17,500,C3,200 ml Water In Sterile  Container,Culture,2 - 8 °C,Daily 9 am to 6 pm,3rd Day 7 pm
+18,Maharashtra,Mumbai,MOLBI157,test_18,3400,C6,2 ml CSF in Sterile Container,Real Time PCR,2 - 8 °C,Wed/ Sat 6 pm,3rd Day 8 pm
+19,Maharashtra,Mumbai,ELISA-O-138,test_19,1900,C5,3 ml Serum,CLIA,2 - 8 °C,Daily 6 pm,Next Day 2 pm
+20,Maharashtra,Mumbai,ELISA-O-136,test_20,1400,C5,3 ml Serum,CLIA,2 - 8 °C,Tue/ Thu/ Sat 12 pm,Next Day 8 pm
+21,Maharashtra,Mumbai,ELISA-O-135,test_21,10000,C6,2 ml Citrated platelet poor Plasma,Immunoturbidimetry,2 - 8 °C,Sat 6 pm,Mon 10 pm
+22,Maharashtra,Mumbai,BIOC-O-236,test_22,3800,C6,24 hrs Urine in 6N HCL as Preservative,LCMS,2 - 8 °C,Wed / Sat 5 pm,3rd Day 7 pm
+23,Maharashtra,Mumbai,IMMU-O-113,test_23,3600,C6,2 ml Serum,CLIA,2 - 8 °C,Daily 12 pm,Next Day 6 pm
+24,Maharashtra,Mumbai,IMMUP024,test_24,1900,C3,3 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+25,Maharashtra,Mumbai,IMMU092,test_25,1670,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+26,Maharashtra,Mumbai,BIOC-O-235,test_26,3500,C6,"3ml EDTA whole Blood, Covered in aluminium foil",HPLC,2 - 8 °C,Fri 6 pm,Mon 9 pm
+27,Maharashtra,Mumbai,IMMU-O-110,test_27,1500,C6,3 ml serum,CMIA,2 - 8 °C,Daily 6 pm,Next Day 2 pm
+28,Maharashtra,Mumbai,IMMU091,test_28,1100,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+29,Maharashtra,Mumbai,IMMU-O-109,test_29,3700,C6,"3ml EDTA whole Blood, Covered in aluminium foil",HPLC,2 - 8 °C,Tue/ Fri 6 pm,3rd day 7 pm
+30,Maharashtra,Mumbai,SERO-O-080,test_30,8600,C5,3 ml Serum,IFA,2 - 8 °C,Mon / Wed / Thu / Sat 3 pm,Next day 7 pm
+31,Maharashtra,Mumbai,SERO-O-079,test_31,8600,C5,2 ml CSF in Sterile Container,IFA,2 - 8 °C,Mon / Wed / Thu / Sat 3 pm,Next day 7 pm
+32,Maharashtra,Mumbai,SERO042,test_32,260,C1,2 ml Serum,Flocculation,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+33,Maharashtra,Mumbai,SERO041,test_33,280,C5,2 ml CSF in Sterile Container,Flocculation,2 - 8 °C,Daily 12 pm,Next Day 6 pm
+34,Maharashtra,Mumbai,BIOC-O-232,test_34,990,C5,2 ml Serum. Do not collect in SST tube,PETINIA,2 - 8 °C,Daily 3 pm,Next Day 6 pm
+35,Maharashtra,Mumbai,CIPA-O-026,test_35,140,C1,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+36,Maharashtra,Mumbai,CIPA020,test_36,180,C1,10 ml Spot Urine,Microscopy,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+37,Maharashtra,Mumbai,CYTO076,test_37,1050,C3,10 ml Spot Urine,Staining &  microscopy,2 - 8 °C,Daily 9 am to 8 pm,48 Hrs
+38,Maharashtra,Mumbai,MICRO033,test_38,990,C3,5 ml Midstream Urine Sample In Sterile Container,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+39,Maharashtra,Mumbai,BIOC007,test_39,360,C1,10 ml 24 Hrs. Urine. No Preservative,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+40,Maharashtra,Mumbai,BIOC179,test_40,230,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+41,Maharashtra,Mumbai,BIOC178,test_41,360,C1,10 ml 24 Hrs. Urine. No Preservative,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+42,Maharashtra,Mumbai,BIOC177,test_42,190,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+43,Maharashtra,Mumbai,IMMU-O-107,test_43,1200,C6,3 ml Serum,CLIA,2 - 8 °C,Daily 5 pm,Next Day 12 pm
+44,Maharashtra,Mumbai,MOLPA-O-327,test_44,6000,C5,4 ml EDTA Whole blood,"PCR, Fragment analysis",2 - 8 °C,Tue / Sat 12 pm,9th Day 7 pm
+45,Maharashtra,Mumbai,ELISA040,test_45,1700,C6,3 ml Serum,Fluoroenzymeimmunoassay,2 - 8 °C,Daily 6 pm,3rd Day 8 pm
+46,Maharashtra,Mumbai,POP288,test_46,2050,C4,"3 ml EDTA Whole Blood, 5 ml Serum, 10 ml Urine Sample, Blood in Bactec Aerobic Bottles",Refer Individual  Test,2 - 8 °C,Daily 5 pm,"Prelimanary Next Day, Final report 5th Day"
+47,Maharashtra,Mumbai,MOLBI161,test_47,1700,C3,2 tubes of 3 ml EDTA whole blood,PCR,2 - 8 °C,Daily 6 pm,Next  day 11 pm
+48,Maharashtra,Mumbai,SERO040,test_48,630,C3,2 ml Serum,Immuno Chromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+49,Maharashtra,Mumbai,SERO039,test_49,600,C3,2 ml Serum,Immuno Chromatography,2 - 8 °C,Daily 3 pm,Next day 12 pm
+50,Maharashtra,Mumbai,ELISA032,test_50,1250,C3,2 ml Serum,ELISA,2 - 8 °C,Wed/ Sat 1 pm,Same Day 7 pm
+51,Maharashtra,Mumbai,ELISA-O-130,test_51,1150,C5,3 ml serum,EIA,2 - 8 °C,Wed 12 pm,Next day 7 pm
+52,Maharashtra,Mumbai,IMMU-O-100,test_52,4600,C6,3 ml Serum,ECLIA,2 - 8 °C,Daily 6 pm,Next Day 12 pm
+53,Maharashtra,Mumbai,ELISA-O-134,test_53,270,C5,3 Blood Spots of heel prick on DBS card,Fluoroimmunoassay,Room Temp,Mon to Fri 3 pm,3rd Day 8 pm
+54,Maharashtra,Mumbai,IMMU090,test_54,380,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+55,Maharashtra,Mumbai,HAEM044,test_55,1750,C3,3 ml EDTA Whole Blood,Immuno Chromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+56,Maharashtra,Mumbai,IMMU-O-105,test_56,2550,C6,"3 ml Serum, Provide Clinical history",As per indvidual test,2 - 8 °C,Daily 6 pm,3day 5 pm
+57,Maharashtra,Mumbai,BIOC174,test_57,300,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+58,Maharashtra,Mumbai,BIOC173,test_58,1360,C5,2 ml Serum,Immunoturbidimetry,2 - 8 °C,Daily 6 pm,Next Day 1 pm
+59,Maharashtra,Mumbai,IMMU-O-102,test_59,1300,C6,2 ml CSF in Sterile Container,CMIA,2 - 8 °C,Daily 6 pm,Next Day 1 pm
+60,Maharashtra,Mumbai,IMMU089,test_60,1200,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+61,Maharashtra,Mumbai,BIOC-O-227,test_61,4850,C6,3 ml EDTA whole blood or Na heparin plasma,EIA,2 - 8 °C,Tue/ Fri 6 pm,Next Day 7 pm
+62,Maharashtra,Mumbai,SERO038,test_62,650,C5,2 ml Serum,Haemagglutination,2 - 8 °C,Daily 12 pm,Next Day 6 pm
+63,Maharashtra,Mumbai,IMMU088,test_63,700,C2,3 ml Serum,EIA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 6 hrs
+64,Maharashtra,Mumbai,ELISA039,test_64,1300,C2,3 ml Serum,EIA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 6 hrs
+65,Maharashtra,Mumbai,IMMU087,test_65,700,C2,3 ml Serum,EIA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 6 hrs
+66,Maharashtra,Mumbai,MOLBI143,test_66,3430,C7,10 ml Of Amniotic Fluid,PCR,2 - 8 °C,Daily 5 pm,8th Day 7 pm
+67,Maharashtra,Mumbai,ELISA-O-132,test_67,680,C5,3 ml Serum,EIA,2 - 8 °C,Tue / Thu / Sat 12 pm,Next Day 8 pm
+68,Maharashtra,Mumbai,ELISA037,test_68,3100,C5,4 ml Serum,As per indvidual test,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+69,Maharashtra,Mumbai,SERO036,test_69,1750,C5,4 ml Serum,As per indvidual test,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+70,Maharashtra,Mumbai,SERO035,test_70,1750,C5,4 ml Serum,As per indvidual test,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+71,Maharashtra,Mumbai,ELISA036,test_71,1600,C5,2 ml Serum,ELISA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+72,Maharashtra,Mumbai,ELISA034,test_72,1600,C5,2 ml Serum,ELISA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+73,Maharashtra,Mumbai,ELISA033,test_73,3300,C5,4 ml Serum,As per indvidual test,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+74,Maharashtra,Mumbai,HISTO216,test_74,1350,C3,Tissue in Formalin,Microscopy,Room Temp,Daily 9 am to 7 pm,5th Day 7 pm
+75,Maharashtra,Mumbai,PATHO51,test_75,4300,C5,3 ml Serum,CLIA,2 - 8 °C,Sat 3 pm,Tue 7 pm
+76,Maharashtra,Mumbai,IMMU-O-101,test_76,5200,C6,3 ml Serum,ECLIA,2 - 8 °C,Daily 6 pm,6th Day 9 pm
+77,Maharashtra,Mumbai,IMMUP011,test_77,790,C2,2 ml Serum,Refer Individual  Test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+78,Maharashtra,Mumbai,IMMUP009,test_78,590,C2,2 ml Serum,Refer Individual  Test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+79,Maharashtra,Mumbai,IMMUP007,test_79,2290,C6,2 ml CSF in Sterile Container,CMIA,2 - 8 °C,Daily 6 pm,Next Day 12 pm
+80,Maharashtra,Mumbai,IMMUP006,test_80,2200,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+81,Maharashtra,Mumbai,IMMU-O-099,test_81,1600,C6,2 ml CSF in Sterile Container,CLIA,2 - 8 °C,Daily 6 pm,Next Day 12 pm
+82,Maharashtra,Mumbai,IMMU-O-098,test_82,1750,C5,3 ml Serum,CLIA,2 - 8 °C,Daily 6 pm,Next Day 12 pm
+83,Maharashtra,Mumbai,POP-O-124,test_83,12700,C6,5 ml EDTA whole blood,Real Time PCR,2 - 8 °C,Tue / Thu 6 pm,11th Day 7 pm
+84,Maharashtra,Mumbai,POP-O-123,test_84,17500,C6,"3 ml Serum, 2 ml Citrate Plasma, Prepare Platelet Poor Plasma Within 1 Hrs. of Collection",As per indvidual test,2 - 8 °C,Wed / Sat 6 pm,Next Day 8 pm
+85,Maharashtra,Mumbai,POP-O-122,test_85,9500,C6,"3 ml Serum, 2 ml Citrate Plasma, Prepare Platelet Poor Plasma Within 1 Hrs. of Collection",As per indvidual test,Frozen,Wed / Sat 6 pm,Next Day 8 pm
+86,Maharashtra,Mumbai,POP281,test_86,18500,C6,"3 ml Serum, 2 ml Citrate Plasma, Prepare Platelet Poor Plasma Within 1 Hrs. of Collection",As per indvidual test,Frozen,Wed / Sat 6 pm,Next Day 8 pm
+87,Maharashtra,Mumbai,HAEM-O-041,test_87,850,C5,"2 ml Citrate Plasma, Prepare Platelet Poor Plasma Within 1 Hrs. of Collection",Photooptical Clot Detection,Frozen,Daily 3 pm,Next Day 6 pm
+88,Maharashtra,Mumbai,BIOC-O-224,test_88,1070,C6,3 ml Serum,Petinia,2 - 8 °C,Daily 6 pm,Next Day 12 pm
+89,Maharashtra,Mumbai,BIOC-O-223,test_89,3200,C6,20 ml Urine in Sterile Container. No Preservative,ICPMS,2 - 8 °C,Daily 6 pm,6th Day 9 pm
+90,Maharashtra,Mumbai,BIOC-O-222,test_90,3200,C6,3 ml K2 EDTA Whole Blood in Metal Free Tube,ICPMS,2 - 8 °C,Daily 6 pm,6th Day 9 pm
+91,Maharashtra,Mumbai,BIOC-O-221,test_91,2900,C6,3 ml Serum In Metal Free Tube (Royal Blue Top Tube),ICPMS,2 - 8 °C,Daily 6 pm,6th Day 9 pm
+92,Maharashtra,Mumbai,POP345,test_92,2300,C4,"3 ml EDTA Whole Blood,   2 ml Serum",As per indvidual test,2 - 8 °C,Tue/ Thu/ Sat 10 am,Same Day 5 pm
+93,Maharashtra,Mumbai,IMMU085,test_93,1300,C2,3 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+94,Maharashtra,Mumbai,IMMU086,test_94,730,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+95,Maharashtra,Mumbai,IMMU-O-097,test_95,2490,C4,3 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 6 pm,Next day 2 pm
+96,Maharashtra,Mumbai,MOLBI173,test_96,2250,C4,"Sputum, BAL, CSF, Pus, Aspirate, pleural fluid, Abscess, Tissue, Lymph Node, Urine, Other body fluid",RT PCR,Room Temp,Tue / Fri 3 pm,Next day 7 pm
+97,Maharashtra,Mumbai,SERO-O-074,test_97,2900,C5,Blood in Lithium Heparin,ELISA,Room Temp,Mon / Wed / Fri 3 pm,Next Day 7 pm
+98,Maharashtra,Mumbai,MYCBA001,test_98,8000,C8,3-5 ml Pure Culture of MTB Complex,Broth Micro Dilution,2 - 8 °C,Daily 5 pm,22 Days
+99,Maharashtra,Mumbai,MYCBA019,test_99,9200,C3,3-5 ml Pure Culture Of Mtb Complex,MGIT,2 - 8 °C,Daily 9 am to 8 pm,21 Days
+100,Maharashtra,Mumbai,MYCBA017,test_100,7800,C3,3-5 ml Pure Culture Of Mtb Complex,MGIT,2 - 8 °C,Daily 9 am to 8 pm,21 Days
+101,Maharashtra,Mumbai,MYCBA015,test_101,5300,C3,3-5 ml Pure Culture Of Mtb Complex,MGIT,2 - 8 °C,Daily 9 am to 8 pm,21 Days
+102,Maharashtra,Mumbai,MYCBA018,test_102,6000,C3,3-5 ml Pure Culture Of Mtb Complex,MGIT,2 - 8 °C,Daily 9 am to 8 pm,21 Days
+103,Maharashtra,Mumbai,MYCBA020,test_103,6100,C3,3-5 ml Pure Culture Of Mtb Complex,MGIT,2 - 8 °C,Daily 9 am to 8 pm,21 Days
+104,Maharashtra,Mumbai,MYCBA016,test_104,3400,C3,3-5 ml Pure Culture Of Mtb Complex,MGIT,2 - 8 °C,Daily 9 am to 8 pm,21 Days
+105,Maharashtra,Mumbai,MYCBA022,test_105,14500,C3,3-5 ml Pure Culture Of Mtb Complex,MGIT,2 - 8 °C,Daily 9 am to 8 pm,21 Days
+106,Maharashtra,Mumbai,MYCBA021,test_106,13800,C3,3-5 ml Pure Culture Of Mtb Complex,MGIT,2 - 8 °C,Daily 9 am to 8 pm,21 Days
+107,Maharashtra,Mumbai,SERO-O-073,test_107,3700,C5,"3 ml EDTA Whole Blood, Ideal sample time 1 hour before next dose, provide date & time of sampling amount and time of dose",LC-MS/MS,Room Temp,Daily 3 pm,Next day 10 pm
+108,Maharashtra,Mumbai,IMMU083,test_108,260,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+109,Maharashtra,Mumbai,IMMU082,test_109,310,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+110,Maharashtra,Mumbai,IMMU081,test_110,260,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+111,Maharashtra,Mumbai,IMMU080,test_111,310,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+112,Maharashtra,Mumbai,MOLPA-O-320,test_112,7000,C6,3ml EDTA whole Blood,Real Time PCR,Room Temp,Mon/ Thu 6 pm,4th Day 8 pm
+113,Maharashtra,Mumbai,CIPA019,test_113,210,C1,Stool In Sterile Container,Biochemical and Microscopy,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+114,Maharashtra,Mumbai,CIPA-O-025,test_114,1250,C5,Stone (S) In A Clean Container,"FTIR, Digital Photography",Room Temp,Daily 12 pm,3rd Day 12 pm
+115,Maharashtra,Mumbai,CIPA-O-024,test_115,1250,C5,Urinary Stone Sample In Plain Container,"FTIR, Digital Photography",Room Temp,Daily 12 pm,3rd Day 12 pm
+116,Maharashtra,Mumbai,CIPA-O-023,test_116,1250,C5,Stone (S) In A Clean Container,"FTIR, Digital Photography",Room Temp,Daily 12 pm,3rd Day 12 pm
+117,Maharashtra,Mumbai,POP-O-002,test_117,2300,C4,4 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 am to 3 pm,Next day 7 pm
+118,Maharashtra,Mumbai,ELISA031,test_118,1850,C5,3 ml Serum,EIA,2 - 8 °C,Daily 6 pm,Next day 7 pm
+119,Maharashtra,Mumbai,ELISA030,test_119,1740,C5,3 ml Serum,EIA,2 - 8 °C,Daily 6 pm,Next day 7 pm
+120,Maharashtra,Mumbai,ELISA-O-021,test_120,2500,C5,2 ml Serum,EIA,2 - 8 °C,Wed 12 pm,Next Day 9 pm
+121,Maharashtra,Mumbai,ANDRO003,test_121,7000,C6,Full Quantity Of Semen In Sterile Container,CASA Sperm chromatin dispersion,Walk In,Daily 8 am to 2 pm,Same Day 7 pm
+122,Maharashtra,Mumbai,ANDRO-O-001,test_122,1150,C5,3 ml Serum,EIA,2 - 8 °C,Tue / Fri 12 pm,Next day 7 pm
+123,Maharashtra,Mumbai,CIPA022,test_123,140,C1,10 ml Spot Urine,Biochemistry,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+124,Maharashtra,Mumbai,IMMU-O-094,test_124,1550,C6,3 ml serum,Nephelometry,2 - 8 °C,Daily 6 pm,Next Day 12 pm
+125,Maharashtra,Mumbai,BIOC002,test_125,360,C1,10 ml 24 Hrs. Urine. No Preservative,ISE,2 - 8 °C,Daily 9 am to 8 pm,Same Day 3 hr
+126,Maharashtra,Mumbai,BIOC172,test_126,360,C1,10 ml Spot Urine,ISE,2 - 8 °C,Daily 9 am to 8 pm,Same Day 3 hr
+127,Maharashtra,Mumbai,BIOC171,test_127,260,C1,2 ml Serum,ISE,2 - 8 °C,Daily 9 am to 8 pm,Same Day 3 hr
+128,Maharashtra,Mumbai,BIOC170,test_128,1600,C4,"2 ml Flouride Plasma, 4 ml Serum",Refer Individual  Test,2 - 8 °C,Refer Individual Test,Same Day
+129,Maharashtra,Mumbai,SERO-O-065,test_129,1750,C5,3 ml serum,EIA,2 - 8 °C,Mon/ Thu 12 pm,3rd day 8 pm
+130,Maharashtra,Mumbai,IMMUD-O-001,test_130,2650,C6,3 ml Serum,EIA,2 - 8 °C,Tue / Fri 5 pm,3rd Day 5 pm
+131,Maharashtra,Mumbai,GENP-O-111,test_131,5700,C5,3 ml EDTA Whole Blood; Ideal sampling time is 1 hour beofre next dose,LC-MS/MS,2 - 8 °C,Mon to Sat 3 pm,3rd day 7 pm
+132,Maharashtra,Mumbai,BIOC-O-218,test_132,2890,C9,10 ml Spot Urine in acid washed Metal Free Container; No preservative,ICPMS,2 - 8 °C,Daily 6 pm,11th Day 8 pm
+133,Maharashtra,Mumbai,HAEM043,test_133,200,C5,3 ml EDTA Whole Blood,Deoxygenation,2 - 8 °C,Daily 12 pm,Next Day 7  pm
+134,Maharashtra,Mumbai,IMMU079,test_134,2700,C6,3 ml Serum; Age and Gender mandatory,CLIA,2 - 8 °C,Daily 6 pm,Next Day 2 pm
+135,Maharashtra,Mumbai,BIOC167,test_135,220,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day 4hr
+136,Maharashtra,Mumbai,BIOC164,test_136,220,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day 4hr
+137,Maharashtra,Mumbai,BIOC-O-215,test_137,360,C5,"2 ml Serum, 2 ml Ascitic fluid",BCG,2 - 8 °C,Daily 3 pm,Next Day 6 pm
+138,Maharashtra,Mumbai,ANDRO004,test_138,2100,C6,Full Quantity Of Semen In Sterile Container,CASA - Swim down,Walk In,Daily 9  am to 4 pm,Same Day
+139,Maharashtra,Mumbai,ANDRO005,test_139,350,C6,Full Quantity Of Semen In Sterile Container,CASA End point test,Walk In,Daily 9  am to 3 pm,Next Day
+140,Maharashtra,Mumbai,ANDRO002,test_140,950,C6,Full Quantity Of Semen In Sterile Container,CASA,Walk In,Daily 9  am to 3 pm,Same Day 6 PM
+141,Maharashtra,Mumbai,ANDRO001,test_141,1550,C6,Sperm Sample In Sterile Container With 37 Deg/Cel,CASA,Walk In,Daily 9  am to 3 pm,Same Day 6 PM
+142,Maharashtra,Mumbai,BIOC-O-210,test_142,2900,C6,20 ml Aliqout of 24 Hr Urine i Acid washed Metal Free Container Mention Volume. No preservative,ICPMS,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+143,Maharashtra,Mumbai,BIOC-O-209,test_143,3300,C6,"10 ml Spot Urine in Acid washed Metal Free Container, No preservative",ICPMS,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+144,Maharashtra,Mumbai,BIOC-O-208,test_144,3450,C6,4 ml Serum in Metal Free Tube,ICPMS,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+145,Maharashtra,Mumbai,BIOC-O-207,test_145,2900,C6,4 ml Blood In Metal Free Tube (K2 EDTA),ICPMS,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+146,Maharashtra,Mumbai,SERO-O-063,test_146,1190,C6,3 ml Serum,EIA,2 - 8 °C,Mon / Wed / Fri 6 pm,Next day 7 pm
+147,Maharashtra,Mumbai,ELISA029,test_147,1380,C5,3 ml Serum,EIA,2 - 8 °C,Mon/ Thu 12 pm,Next day 7 pm
+148,Maharashtra,Mumbai,ELISA028,test_148,700,C2,2 ml Serum,EIA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 6 hrs
+149,Maharashtra,Mumbai,IMMU072,test_149,1300,C2,2 ml Serum,CMIA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 6 hrs
+150,Maharashtra,Mumbai,IMMU073,test_150,700,C2,2 ml Serum,EIA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 6 hrs
+151,Maharashtra,Mumbai,SERO-O-061,test_151,680,C5,3 ml Serum,EIA,2 - 8 °C,Tue / Thu / Sat 3 pm,Next day 7 pm
+152,Maharashtra,Mumbai,ELISA-O-126,test_152,2180,C5,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,Next day 7 pm
+153,Maharashtra,Mumbai,ELISA-O-125,test_153,2840,C5,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,Next day 7 pm
+154,Maharashtra,Mumbai,MICRO080,test_154,480,C2,3 ml EDTA Whole Blood,Microscopy,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+155,Maharashtra,Mumbai,BIOC163,test_155,840,C2,2 ml Fluid In Sterile Container & EDTA,Biochemical and Microscopy,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+156,Maharashtra,Mumbai,BIOC162,test_156,840,C2,3 ml Fluid In Sterile Container & EDTA,Biochemical and Microscopy,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+157,Maharashtra,Mumbai,BIOC161,test_157,840,C2,3 ml Fluid In Sterile Container & EDTA,Biochemical and Microscopy,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+158,Maharashtra,Mumbai,BIOC160,test_158,840,C2,3 ml Fluid In Sterile Container & EDTA,Biochemical and Microscopy,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+159,Maharashtra,Mumbai,BIOC159,test_159,840,C2,2 ml Body Fluid in Sterile Container,Microscopy,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+160,Maharashtra,Mumbai,BIOC158,test_160,840,C2,2 ml Body Fluid in Sterile Container,Microscopy,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+161,Maharashtra,Mumbai,BIOC157,test_161,840,C2,"Fluid In Sterile container,",Biochemical and Microscopy,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+162,Maharashtra,Mumbai,SERO-O-059,test_162,1050,C5,Stool in Sterile Container,ICT,2 - 8 °C,Daily 12 pm,Next day 7 pm
+163,Maharashtra,Mumbai,ELISA027,test_163,1800,C6,3 ml Serum,EIA,2 - 8 °C,Tue / Fri 6 pm,Next day 7 pm
+164,Maharashtra,Mumbai,POP-O-108,test_164,2400,C4,4 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,3- 4 Days 6 pm
+165,Maharashtra,Mumbai,HAEM042,test_165,780,C2,2 ml Serum,Agglutination,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+166,Maharashtra,Mumbai,HAEM041,test_166,350,C2,3 ml EDTA Whole Blood,Staining &  microscopy,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+167,Maharashtra,Mumbai,MICRO079,test_167,8000,C8,Swab in VTM,Multiplex PCR,Room Temp,Daily 3 pm,3rd day 8 pm
+168,Maharashtra,Mumbai,BIOC-O-205,test_168,3750,C6,3 ml EDTA Plasma or 3 ml Na Heparin Plasma (fasting recommended),CLIA,Frozen,Daily 6 pm,Next day 7 pm
+169,Maharashtra,Mumbai,BIOCP044,test_169,1050,C2,5 ml Serum,Refer Individual  Test,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+170,Maharashtra,Mumbai,BIOCP041,test_170,2000,C2,5 ml Serum,Refer Individual  Test,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+171,Maharashtra,Mumbai,CIPA018,test_171,230,C1,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+172,Maharashtra,Mumbai,CIPA017,test_172,230,C1,Stool In Sterile Container,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+173,Maharashtra,Mumbai,IMMU071,test_173,2250,C5,"2 ml Serum, 2 ml EDTA Whole Blood, Wrap tube in aluminium foil",CLIA,2 - 8 °C,Daily 3 pm,Next Day 9 pm
+174,Maharashtra,Mumbai,BIOC150,test_174,550,C5,2ml Synovial Fluid in sterile container,Immunoturbidimetry,2 - 8 °C,Daily 3 pm,Next Day 4 pm
+175,Maharashtra,Mumbai,BIOC155,test_175,650,C2,2 ml Serum,Nephelometry,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+176,Maharashtra,Mumbai,IMMU-O-091,test_176,3050,C3,"3 ml Serum, BPD value & Clinical History",Time Resolve Florometry,2 - 8 °C,Daily 3 pm,3rd Day 9 pm
+177,Maharashtra,Mumbai,BIOC-O-203,test_177,2600,C6,3 ml Serum,Biochemical,2 - 8 °C,Daily 6 pm,Next day 12 pm
+178,Maharashtra,Mumbai,HAEM-O-039,test_178,470,C3,Pus In Sterile Container,Microscopy and staining,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+179,Maharashtra,Mumbai,POP-O-103,test_179,2800,C3,"2 Blood culture bottle (Aerobic and anaerobic), 3 ml Serum",Refer Individual  Test,2 - 8 °C,Daily 5 pm,As per individual Test
+180,Maharashtra,Mumbai,IMMU070,test_180,1550,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+181,Maharashtra,Mumbai,IMMU067,test_181,1650,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+182,Maharashtra,Mumbai,IMMU069,test_182,840,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+183,Maharashtra,Mumbai,IMMU068,test_183,1350,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+184,Maharashtra,Mumbai,HAEM039,test_184,390,C1,2 ml Citrated Plasma,Optomechanical,Room Temp,Daily 9 am to 7 pm,Same Day
+185,Maharashtra,Mumbai,MOLPA-O-275,test_185,3700,C5,"3 ml EDTA Whole Blood, clinician prescription is mandatory",Real Time PCR,2 - 8 °C,Sat / Fri 12 pm,3rd Day 7 pm
+186,Maharashtra,Mumbai,BIOC143,test_186,300,C5,2 ml CSF in sterile container,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day 4 Hrs
+187,Maharashtra,Mumbai,BIOC149,test_187,570,C2,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+188,Maharashtra,Mumbai,BIOC006,test_188,580,C2,10 ml 24 Hrs. Urine. No Preservative. Mention volume,Enzymatic,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+189,Maharashtra,Mumbai,BIOC185,test_189,300,C1,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+190,Maharashtra,Mumbai,BIOC146,test_190,310,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+191,Maharashtra,Mumbai,SERO-O-056,test_191,6150,C5,2 ml Citrated Platelet Poor Plasma,Immunoturbidimetry,Frozen,Wed / Sat 6 pm,3rd Day 4 pm
+192,Maharashtra,Mumbai,BIOC-O-202,test_192,4450,C5,2 ml Citrated Platelet Poor Plasma,Clotting,Frozen,Wed / Sat 6 pm,3rd Day 4 pm
+193,Maharashtra,Mumbai,BIOC-O-199,test_193,2500,C6,4 ml Serum,Electrophoresis,2 - 8 °C,Daily 6 pm,3rd Day 8 pm
+194,Maharashtra,Mumbai,BIOC-O-200,test_194,880,C5,"10 ml Aliquot of 24 Hrs. Urine. In dark container. No Preservative, Mention volume",Electrophoresis,2 - 8 °C,Wed / Sat 6 pm,3rd Day 8 pm
+195,Maharashtra,Mumbai,BIOC-O-198,test_195,900,C3,2 ml Serum,Capillary Electrophoresis,2 - 8 °C,Daily 12 pm,Next day 7 pm
+196,Maharashtra,Mumbai,SERO-O-055,test_196,5100,C5,2 ml Citrated Platelet Poor Plasma,ELFA,2 - 8 °C,Daily 6 pm,Next Day 10 pm
+197,Maharashtra,Mumbai,BIOC-O-197,test_197,4450,C5,2 ml Citrated Platelet Poor Plasma,Chromogenic,Frozen,Wed / Sat 6 pm,3rd day 5 pm
+198,Maharashtra,Mumbai,BIOC148,test_198,360,C1,24 Hrs. Urine In  Dark Container. No  Preservative,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+199,Maharashtra,Mumbai,IMMUD-O-022,test_199,930,C6,10 ml Spot Urine,Immuno Chromatography,2 - 8 °C,Daily 6 pm,Next Day 12 pm
+200,Maharashtra,Mumbai,IMMU064,test_200,630,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+201,Maharashtra,Mumbai,IMMU-O-089,test_201,960,C6,3 ml Serum,CLIA,2 - 8 °C,Daily 6 pm,Next day 7 pm
+202,Maharashtra,Mumbai,IMMU063,test_202,520,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+203,Maharashtra,Mumbai,IMMU062,test_203,690,C2,2 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+204,Maharashtra,Mumbai,IMMU061,test_204,2550,C3,2 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+205,Maharashtra,Mumbai,IMMU-O-087,test_205,9000,C5,3 ml EDTA Plasma (Seperate Plasma Within 2 Hrs. of collection),CMIA,2 - 8 °C,Sat 3 pm,Mon 8 pm
+206,Maharashtra,Mumbai,CIPA016,test_206,300,C1,10 ml Spot Urine,Immuno Chromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+207,Maharashtra,Mumbai,BIOC141,test_207,3700,C6,3 ml Serum,Nephelometry,2 - 8 °C,Daily 6 pm,Next day 1 pm
+208,Maharashtra,Mumbai,POP239,test_208,1800,C4,"3 ml EDTA whole blood, 2 ml Fluoride Plasma, 5 ml Serum, 10 ml Urine",As per indvidual test,2 - 8 °C,Daily 9 am to 5 pm,Same Day
+209,Maharashtra,Mumbai,POP240,test_209,2800,C4,"3 ml EDTA whole blood, 2 ml Fluoride Plasma, 5 ml Serum, 10 ml Urine, 2 ml Citrated Plasma",As per indvidual test,2 - 8 °C,Daily 9 am to 5 pm,Same Day
+210,Maharashtra,Mumbai,POP238,test_210,2900,C4,"5 ml Serum, 3 ml EDTA Whole Blood, 2 ml Fluoride, 5 ml Urine",As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+211,Maharashtra,Mumbai,POP237,test_211,1850,C4,"5 ml Serum, 3 ml EDTA Whole Blood, 2 ml Fluoride, 5 ml Urine",As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+212,Maharashtra,Mumbai,PATHO36,test_212,7400,C6,"4 ml Whole Blood In EDTA, Clinical & family history, Clinician number & prescription mandatory",Methylation PCR,2 - 8 °C,Mon / Thu 6 pm,8th Day 9 pm
+213,Maharashtra,Mumbai,GENP-O-158,test_213,6500,C6,4 ml Peripheral Blood in Sodium Heparin,FISH,2 - 8 °C,Daily 2 pm,8th Day 7 pm
+214,Maharashtra,Mumbai,BIOC140,test_214,350,C1,10 ml Spot Urine,ISE,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+215,Maharashtra,Mumbai,BIOC-O-195,test_215,350,C1,"10 ml Aliquot of 24 Hrs. Urine. No Preservative, Mention volume",ISE,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+216,Maharashtra,Mumbai,BIOC139,test_216,260,C1,2 ml Serum,ISE,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+217,Maharashtra,Mumbai,BIOC-O-194,test_217,4050,C6,10 ml spot urine collected in dark colour bottle,Column Chromatography,2 - 8 °C,Wed 6 pm,3rd day 7 pm
+218,Maharashtra,Mumbai,GENP-O-151,test_218,7250,C6,30 mg POC specimen in transport medium/sterile container in normal saline,FISH,2 - 8 °C,Daily 2 pm,8th Day 7 pm
+219,Maharashtra,Mumbai,MOLBI-O-064,test_219,3100,C5,2ml BAL/ Sputum,Real Time PCR,2 - 8 °C,Tue/ Thu/ Sat,Next Day 8 pm
+220,Maharashtra,Mumbai,MOLPA-O-307,test_220,5600,C5,2 ml Bone marrow in Sodium Heparin,Real Time PCR,2 - 8 °C,Daily 12 pm,3rd Day 8 pm
+221,Maharashtra,Mumbai,MOLPA-O-306,test_221,5600,C5,3 ml EDTA Whole Blood,Real Time PCR,2 - 8 °C,Daily 12 pm,3rd Day 8 pm
+222,Maharashtra,Mumbai,MOLPA-O-305,test_222,4200,C5,3 ml Whole Blood  in Sodium Heparin,FISH,Room Temp,Daily 5 pm,6th Day 7 pm
+223,Maharashtra,Mumbai,MOLPA-O-304,test_223,4200,C5,2 ml Bone marrow in Sodium Heparin,FISH,Room Temp,Daily 5 pm,6th Day 7 pm
+224,Maharashtra,Mumbai,HAEM-O-037,test_224,9350,C6,3 ml Serum,IFA,2 - 8 °C,Sat 6 pm,Tue  12 pm
+225,Maharashtra,Mumbai,HAEM038,test_225,290,C1,"3 ml EDTA Whole Blood, 3.2 % Citrate (To Rule out EDTA Aggregates)",Automated Cell  Counter & Microscopy,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+226,Maharashtra,Mumbai,BIOC-O-196,test_226,5500,C6,"3 ml EDTA plasma, 3 ml Na heparin plasma",CLIA,2 - 8 °C,Mon / Thu 6 pm,3rd Day 8 pm
+227,Maharashtra,Mumbai,ELISA-O-120,test_227,1480,C6,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,Fri 7 pm
+228,Maharashtra,Mumbai,ELISA-O-119,test_228,1480,C6,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,Fri 7 pm
+229,Maharashtra,Mumbai,CIPA015,test_229,300,C5,10 ml Spot Urine. No preservative,Molybdate UV,2 - 8 °C,Daily 3 pm,Next Day 6 pm
+230,Maharashtra,Mumbai,CIPA014,test_230,300,C5,10 ml Aliquot of 24 hrs Urine. No preservative. Mention volume,Molybdate UV,2 - 8 °C,Daily 3 pm,Next Day 6 pm
+231,Maharashtra,Mumbai,BIOC137,test_231,270,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+232,Maharashtra,Mumbai,POP-O-095,test_232,5100,C5,"3 ml Citrated Plasma, 3 ml Serum. (Heparin should be discountinued  & anticoagulant  7 days prior to test)",As per indvidual test,"Serum 2 - 8 °C, Plasma Frozen",Mon / Wed / Fri 6 pm,Next day 9 pm
+233,Maharashtra,Mumbai,POP-O-094,test_233,8380,C5,"3 ml Citrated Plasma, 3 ml Serum. (Heparin should be discountinued  & anticoagulant  7 days prior to test)",As per indvidual test,"Serum 2 - 8 °C, Plasma Frozen",Wed 6 pm,Next day 9 pm
+234,Maharashtra,Mumbai,ELISA-O-118,test_234,5400,C5,4 ml Serum,ELISA,2 - 8 °C,Wed 6 pm,3rd Day 8 pm
+235,Maharashtra,Mumbai,ELISA-O-117,test_235,5400,C5,4 ml Serum,ELISA,2 - 8 °C,Wed 6 pm,3rd Day 8 pm
+236,Maharashtra,Mumbai,BIOC-O-192,test_236,1140,C6,3 ml Serum,PETINIA,2 - 8 °C,Daily 7 pm,Next Day 12 pm
+237,Maharashtra,Mumbai,ELISA-O-108,test_237,300,C5,3 Blood Spots of heel prick on DBS card,Fluoroimmunoassay,Room Temp,Mon to Fri 3 pm,3rd Day 8 pm
+238,Maharashtra,Mumbai,ELISA-O-107,test_238,1070,C6,2 ml Serum,PETINIA,2 - 8 °C,Daily 7 pm,Next Day 12 pm
+239,Maharashtra,Mumbai,IMMUD-O-021,test_239,1050,C5,3 ml Serum,"ImmunoCAP, FEIA",2 - 8 °C,Daily 12 pm,Next day 7 pm
+240,Maharashtra,Mumbai,IMMUD-O-020,test_240,1050,C5,3 ml Serum,"ImmunoCAP, FEIA",2 - 8 °C,Daily 12 pm,Next day 7 pm
+241,Maharashtra,Mumbai,CIPA013,test_241,140,C1,Urine in sterile container,Nephelometry,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+242,Maharashtra,Mumbai,CIPA-O-022,test_242,140,C1,Stool In Sterile Container,Nephelometry,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+243,Maharashtra,Mumbai,HAEM037,test_243,350,C1,"3 ml EDTA Whole Blood, 2 Fresh Smears",Microscopy,Room Temp,Daily 9 am to 8 pm,Same Day
+244,Maharashtra,Mumbai,HAEM036,test_244,230,C1,3 ml EDTA Plasma,Automated Cell Counter,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+245,Maharashtra,Mumbai,BIOC-O-189,test_245,710,C6,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 4 pm,Same Day 10 pm
+246,Maharashtra,Mumbai,POP231,test_246,7900,C4,"5 ml Serum, 3 ml Fluoride Plasma",Refer Individual  Test,2 - 8 °C,Daily 9 am to 3 pm,4th Day 7 pm
+247,Maharashtra,Mumbai,POP366,test_247,6100,C4,"3 ml Serum, 3 ml Fluoride Plasma",As per indvidual test,2 - 8 °C,Daily 9 am to 3 pm,Next Day 9 pm
+248,Maharashtra,Mumbai,POP358,test_248,2100,C4,"3 ml Serum, 3 ml Fluoride Plasma",As per indvidual test,2 - 8 °C,Daily 9 am to 6 pm,Same Day
+249,Maharashtra,Mumbai,CYTO-O-022,test_249,730,C6,"3 Direct Bone Marrow Aspirate slides, Clinical history & Clinician number is mandatory",Cytochemistry,2 - 8 °C,Wed / Sat 6 pm,4th day 9 pm
+250,Maharashtra,Mumbai,CYTO-O-027,test_250,730,C6,"3 Fresh Peripheral smear slides, 3 ml EDTA Whole blood, Clinical history & Clinician number is mandatory",Cytochemistry,Room Temp,Wed / Sat 6 pm,4th day 9 pm
+251,Maharashtra,Mumbai,SERO-O-051,test_251,1700,C5,2 ml Serum,IFA,2 - 8 °C,Daily 12 pm,Next day 7 pm
+252,Maharashtra,Mumbai,PATHO1739,test_252,13400,C5,2 ml CSF in sterile container,Immunoblot,2 - 8 °C,Daily 12 pm,Next Day 8 pm
+253,Maharashtra,Mumbai,IMMU-O-086,test_253,1050,C5,2 ml Serum,CLIA,2 - 8 °C,Daily 12 pm,Next Day 6 pm
+254,Maharashtra,Mumbai,CYTO058,test_254,950,C3,Stains Smears,Microscopy,Room Temp,Daily 9 am to 8 pm,3rd Day
+255,Maharashtra,Mumbai,CYTO056,test_255,850,C3,Pre Fixed Smears Along With P/S Fidings,Microscopy,Room Temp,Daily 9 am to 5 pm,3rd Day
+256,Maharashtra,Mumbai,CYTO-O-020,test_256,950,C3,Pre Fixed Smears,Microscopy,Room Temp,Daily 9 am to 5 pm,3rd Day
+257,Maharashtra,Mumbai,POP337,test_257,1650,C4,"3 ml Serum, 2 ml EDTA Whole Blood",As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,Same Day 4 Hrs
+258,Maharashtra,Mumbai,IMMU-O-085,test_258,1700,C5,3 ml serum,ECLIA,,Wed/ Sat 12 pm,Next day 7 pm
+259,Maharashtra,Mumbai,BIOC202,test_259,1600,C5,3 ml Serum,Blot,2 - 8 °C,Daily 12 pm,Same Day
+260,Maharashtra,Mumbai,CIPA-O-002,test_260,2100,C6,"20 ml Aliquot of 24 Hrs. Urine. No Preservative, Mention volume",Biochemical,2 - 8 °C,Daily 6 pm,Next Day 10 pm
+261,Maharashtra,Mumbai,BIOCP038,test_261,2700,C4,3 ml Serum,Refer Individual  Test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+262,Maharashtra,Mumbai,CYTO-O-019,test_262,3700,C6,3 ml Serum,IFA,2 - 8 °C,Sat 6 pm,Tue 8 pm
+263,Maharashtra,Mumbai,CIPA012,test_263,200,C3,Stool In Sterile Container,"Concentration , Stain and microscopy",2 - 8 °C,Daily 9 am to 7 pm,Same Day
+264,Maharashtra,Mumbai,MICRO078,test_264,2600,C8,Swab In Sterile Container,Culture,2 - 8 °C,Daily 9 am to 5 pm,3 to 5 Days
+265,Maharashtra,Mumbai,MICRO077,test_265,26000,C8,Swab In Sterile Container,Culture,2 - 8 °C,Daily 9 am to 5 pm,3 to 5 Days
+266,Maharashtra,Mumbai,MICRO076,test_266,300,C8,Swab In Sterile Container,Culture,2 - 8 °C,Daily 9 am to 5 pm,3 to 5 Days
+267,Maharashtra,Mumbai,MICRO075,test_267,1200,C8,Swab In Sterile Container,Culture,2 - 8 °C,Daily 9 am to 5 pm,3 to 5 Days
+268,Maharashtra,Mumbai,MICRO074,test_268,1900,C8,Swab In Sterile Container,Culture,2 - 8 °C,Daily 9 am to 5 pm,3 to 5 Days
+269,Maharashtra,Mumbai,MICRO089,test_269,1400,C8,Swab In Sterile Container,Culture,2 - 8 °C,Daily 9 am to 5 pm,3 to 5 Days
+270,Maharashtra,Mumbai,POP356,test_270,2900,C4,4 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 AM to 8 pm,Same day
+271,Maharashtra,Mumbai,IMMU-O-084,test_271,3000,C6,3 ml serum,CLIA,2 - 8 °C,Daily 6 pm,Next day 2 pm
+272,Maharashtra,Mumbai,HAEM-O-036,test_272,580,C5,3 ml Na Heparin Whole Blood,Parparts method,2 - 8 °C,Daily 12 pm,3rd Day 7 pm
+273,Maharashtra,Mumbai,CIPA-O-021,test_273,800,C5,10 ml Spot Urine. No preservative,Freezing Point Depression,2 - 8 °C,Daily 3 pm,Next day 9 pm
+274,Maharashtra,Mumbai,BIOC-O-185,test_274,800,C5,"2 ml Serum, Separate serum within I hour of collection",Freezing Point Depression,2 - 8 °C,Daily 3 pm,Next day 9 pm
+275,Maharashtra,Mumbai,BIOC-O-181,test_275,710,C6,10 ml Spot Urine,Biochemical,Room Temp,Daily 4 pm,Same Day 10 pm
+276,Maharashtra,Mumbai,GENP-O-171,test_276,12000,C6,FFPE Tissue/ block Histopatholog,"NGS,IHC",Room Temp,Daily 5 pm,14 Days
+277,Maharashtra,Mumbai,GENP-O-170,test_277,15000,C7,FFPE Tissue/ block Histopatholog,"NGS, FISH",Room Temp,Daily 5 pm,14 Days
+278,Maharashtra,Mumbai,GENP-O-166,test_278,19000,C6,3 ml EDTA Whole Blood/ Bone Marrow and FFPE Tissue,NGS,Room Temp,Daily 5 pm,21 Days
+279,Maharashtra,Mumbai,GENP-O-165,test_279,17000,C6,3 ml EDTA Whole Blood,NGS,Room Temp,Daily 5 pm,21 Days
+280,Maharashtra,Mumbai,GENP-O-164,test_280,31000,C4,3 ml EDTA Whole Blood/ Bone Marrow and FFPE Tissue,NGS,Room Temp,Daily 5 pm,21 Days
+281,Maharashtra,Mumbai,GENP-O-163,test_281,21000,C6,3 ml EDTA Whole Blood,NGS,Room Temp,Daily 5 pm,21 Days
+282,Maharashtra,Mumbai,GENP-O-168,test_282,27000,C4,Whole blood - EDTA vacutainer Dry - DBS card Amniotic Fluid - Sterile 15  ml Falcon tube Corionic Villus Sample - Sterile 15  ml Falcon tube with,NGS +MLPA,Room Temp,Daily 5 pm,21 Days
+283,Maharashtra,Mumbai,GENP-O-169,test_283,13000,C7,FFPE Tissue/ block Histopatholog,"Sanger sequencing, FISH",Room Temp,Daily 5 pm,10 days
+284,Maharashtra,Mumbai,GENP-O-174,test_284,26000,C5,FFPE Tissue/Paraffin block. Histopathology report Mandatory,NGS,Room Temp,Daily 5 pm,22 Days
+285,Maharashtra,Mumbai,MOLPA-O-271,test_285,5700,C6,"2 ml CSF in Sterile Container & 3 ml serum, Both samples to be collected at same time or within 1 hour",Isoelectric Focusing By IEF,2 - 8 °C,Mon/ Thu 6 pm,3rd Day 7 pm
+286,Maharashtra,Mumbai,CIPA011,test_286,150,C1,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+287,Maharashtra,Mumbai,CIPA010,test_287,190,C1,Stool In Sterile Container,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+288,Maharashtra,Mumbai,BIOCP035,test_288,1750,C4,"3 ml EDTA Whole Blood,  5 ml Serum",As per indvidual test,2 - 8 °C,Daily 9 AM to 8 pm,Same day
+289,Maharashtra,Mumbai,IMMU060,test_289,2650,C3,2 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+290,Maharashtra,Mumbai,GENP-O-103,test_290,3600,C6,2 ml CSF in Sterile Container,CLIA,2 - 8 °C,Mon / Thu 6 pm,Next Day 9 pm
+291,Maharashtra,Mumbai,GENP-O-102,test_291,3750,C6,3 ml Serum,ECLIA,2 - 8 °C,Mon / Thu 6 pm & Sat 12 pm,Next day 7 pm
+292,Maharashtra,Mumbai,GENP-O-101,test_292,7800,C6,FFPE Block (>10% of tumor containt),ddPCR,Room Temp,Tue/ Thu/ Sat 6 pm,6th Day 9 pm
+293,Maharashtra,Mumbai,MOLPA-O-269,test_293,6800,C5,"FFPE Block (>10% of tumor containt), Physician prescription mandatory","PCR, Sequencing",Room Temp,Mon 12 pm,8 Days
+294,Maharashtra,Mumbai,BIOC-O-179,test_294,2500,C6,20 ml of Aliqout From 24 Hr Urine (10 Ml of 6N HCL as Preservative),EIA,2 - 8 °C,Mon / Thu 6 pm,3rd Day 9 pm
+295,Maharashtra,Mumbai,SERO-O-050,test_295,4800,C6,"3 ml EDTA Plasma, Do not consume bananas, pineapple, chocolates, coffee, icecream, high diet in cereals and vanilla, potatoes and B complex 48 hours before collection.",EIA,2 - 8 °C,Mon / Thu 6 pm,3rd Day 9 pm
+296,Maharashtra,Mumbai,BIOC-O-178,test_296,3800,C6,"10 ml Aliquot of 24 Hrs. Urine. No Preservative, Mention volume",ELISA,2 - 8 °C,Tue 5 pm,3rd Day 9 pm
+297,Maharashtra,Mumbai,SERO-O-049,test_297,3800,C6,3 ml EDTA Plasma,EIA,2 - 8 °C,Tue 6 pm,3rd Day 9 pm
+298,Maharashtra,Mumbai,POP-O-086,test_298,6800,C6,3 ml serum,IFA,2 - 8 °C,Daily 6 pm,Next Day 10 pm
+299,Maharashtra,Mumbai,,test_299,7200,C6,2 ml CSF in sterile container,IFA,2 - 8 °C,Daily 6 pm,Next Day 10 pm
+300,Maharashtra,Mumbai,POP-O-085,test_300,7950,C6,2 ml CSF in Sterile Container & 3 ml serum,IFA,2 - 8 °C,Mon/ Thu 6 pm,Next Day 10 pm
+301,Maharashtra,Mumbai,IMMU-O-082,test_301,7700,C6,"3 ml Serum,",IFA,2 - 8 °C,Mon / Wed / Thu / Sat 12 pm,Next day 7 pm
+302,Maharashtra,Mumbai,IMMU-O-083,test_302,6750,C6,2 ml CSF in Sterile Container,IFA,2 - 8 °C,Wed/ Sat 6 pm,3rd day 12 PM
+303,Maharashtra,Mumbai,POP-O-084,test_303,11650,C6,"3 ml Serum, 2 ml CSF",IFA,2 - 8 °C,Wed/ Sat 6 pm,3rd day 12 PM
+304,Maharashtra,Mumbai,GENP-O-175,test_304,14000,C6,10 ml Blood In Streck Tube,Genomic sequences,2 - 8 °C,Daily 3 pm,10th Day 7 pm
+305,Maharashtra,Mumbai,GENP-O-097,test_305,8800,C6,10 ml Blood In Streck Tube,Genomic sequences,2 - 8 °C,Daily 3 pm,10th Day 7 pm
+306,Maharashtra,Mumbai,BIOC-O-241,test_306,740,C5,15 ml Spot Urine,Lateral flow Immuunoassay,2 - 8 °C,Daily 12 pm,Next day 7 pm
+307,Maharashtra,Mumbai,BIOC-O-174,test_307,1450,C6,"3 ml Serum, Please indicate history of the drug dose taken, time of sample collection",CLIA,2 - 8 °C,Daily 6 pm,Next Day 8 pm
+308,Maharashtra,Mumbai,BIOC-O-173,test_308,1680,C6,"10 ml Spot Urine , Please indicate history of the drug dose taken, time of sample collection",CLIA,2 - 8 °C,Daily 6 pm,Next Day 8 pm
+309,Maharashtra,Mumbai,ELISA-O-101,test_309,2600,C5,3 Blood Spots of heel prick on DBS card,"Fluoroimmunoassay, Capillary Electrophoresis",2 - 8 °C,Tue/Thu/Sat 12 pm,3rd Day 9 pm
+310,Maharashtra,Mumbai,ELISA-O-099,test_310,2000,C5,3 Blood Spots of heel prick on DBS card,Fluoroimmunoassay,2 - 8 °C,Mon to Fri 12 pm,3rd Day 9 pm
+311,Maharashtra,Mumbai,ELISA-O-098,test_311,1100,C5,3 Blood Spots of heel prick on DBS card,Fluoroimmunoassay,2 - 8 °C,Mon to Fri 12 pm,3rd Day 9 pm
+312,Maharashtra,Mumbai,ELISA-O-097,test_312,660,C5,3 Blood Spots of heel prick on DBS card,Fluoroimmunoassay,2 - 8 °C,Mon to Fri 12 pm,3rd Day 9 pm
+313,Maharashtra,Mumbai,BIOC-O-166,test_313,1250,C6,10 ml Spot Urine,CLIA,2 - 8 °C,Daily 6 pm,Next Day 8 pm
+314,Maharashtra,Mumbai,BIOC-O-165,test_314,2500,C6,3 ml Serum,CLIA,2 - 8 °C,Daily 6 pm,Next Day 8 pm
+315,Maharashtra,Mumbai,ELISA-O-096,test_315,2300,C6,3 ml Serum,EIA,2 - 8 °C,Wed / Sat 5 pm,3rd Day 7 pm
+316,Maharashtra,Mumbai,ELISA-O-095,test_316,2300,C6,3 ml Serum,EIA,2 - 8 °C,Sat 12 PM and Wed 5 pm,3rd daty 7 pm
+317,Maharashtra,Mumbai,POP-O-081,test_317,10400,C5,"5 ml Serum, Patient should not have general anaesthetic or muscle relaxant drugs 24 prior to sampling.","EIA, IFA",2 - 8 °C,Sat 3 Pm,Sat 5 pm
+318,Maharashtra,Mumbai,IMMU-O-081,test_318,6000,C5,3 ml Serum,EIA,2 - 8 °C,Mon/ Thue 12 pm,3d day 8 pm
+319,Maharashtra,Mumbai,ELISA-O-094,test_319,1770,C5,3 ml Serum,CLIA,2 - 8 °C,Daily 6 PM,3rd Day 8 pm
+320,Maharashtra,Mumbai,ELISA-O-092,test_320,2035,C5,3 ml Serum,CLIA,2 - 8 °C,Daily 6 PM,Next Day 8 pm
+321,Maharashtra,Mumbai,MOLPA-O-260,test_321,530,C6,3 Blood Spots of heel prick on DBS card,EIA,2 - 8 °C,Daily 6 PM,3rd Day 8 pm
+322,Maharashtra,Mumbai,MICRO069,test_322,1400,C3,Nasal / Axilla/ Groin Swab In Sterile Container,Culture,2 - 8 °C,Daily 9 am to 5 pm,3rd Day 7 pm
+323,Maharashtra,Mumbai,MOLPA-O-251,test_323,3000,C6,"2 ml Citrate Plasma, Prepare Platelet Poor Plasma Within 1 Hrs. of Collection",Clotting,Frozen,"Daily 12 pm, 6 PM",Next Day 2 pm
+324,Maharashtra,Mumbai,MOLPA-O-247,test_324,1950,C5,4 ml Serum,IFA,2 - 8 °C,Daily 12 PM,Next day 7 pm
+325,Maharashtra,Mumbai,BIOC005,test_325,660,C2,10 ml Aliquot of 24 Hrs. Urine. No Preservative,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+326,Maharashtra,Mumbai,BIOC135,test_326,640,C2,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+327,Maharashtra,Mumbai,BIOC004,test_327,610,C2,10 ml Aliquot of 24 Hrs. Urine. No Preservative,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+328,Maharashtra,Mumbai,BIOC134,test_328,610,C2,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+329,Maharashtra,Mumbai,BIOC-O-152,test_329,710,C6,10 ml Spot Urine,Biochemical,Room Temp,Daily 5 pm,Next Day 1 pm
+330,Maharashtra,Mumbai,BIOC-O-151,test_330,710,C6,10 ml Spot Urine,Biochemical,Room Temp,Daily 6 pm,Next Day 1 pm
+331,Maharashtra,Mumbai,BIOC-O-149,test_331,3500,C6,"20 ml Aliquot of 24 Hrs. Urine With 6 N HCL as Preservative, Mention urine volume",EIA,2 - 8 °C,Wed / Sat 5 pm,3rd day 8 pm
+332,Maharashtra,Mumbai,BIOC-O-150,test_332,5450,C6,3 ml EDTA Whole Blood,EIA,2 - 8 °C,Mon / Thu 5 pm,3rd day 8 pm
+333,Maharashtra,Mumbai,MOLBI160,test_333,25000,C8,2 ml CSF in Sterile Container,Multiplex PCR,2 - 8 °C,Daily 3 pm,3rd day 7 pm
+334,Maharashtra,Mumbai,ELISA-O-091,test_334,1870,C5,2 ml Serum,CLIA,2 - 8 °C,Daily 6 pm,Next day 7 pm
+335,Maharashtra,Mumbai,ELISA-O-152,test_335,3000,C5,2 ml CSF in Sterile Container & 3 ml serum,EIA,2 - 8 °C,Mon/ Thu 12 pm,Next day 7 pm
+336,Maharashtra,Mumbai,ELISA-O-089,test_336,1870,C5,3 ml Serum,CLIA,2 - 8 °C,Daily 6 pm,Next day 7 pm
+337,Maharashtra,Mumbai,SERO026,test_337,270,C3,Skin prick test,Manual (For Walkin patients only),2 - 8 °C,Daily 9 am to 7 pm,3rd Day
+338,Maharashtra,Mumbai,BIOC-O-138,test_338,2200,C5,10 ml aliquot from 24 hrs urine  Collected In Acid Washed container (Metal Free) Container,ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 9 pm
+339,Maharashtra,Mumbai,BIOC-O-137,test_339,2200,C5,10 ml Aliquot of Random Urine Collected In An Acid Washed (Metal Free) Container,ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 9 pm
+340,Maharashtra,Mumbai,BIOC-O-136,test_340,3350,C6,4 ml Serum In Metal Free Tube,ICPMS,2 - 8 °C,Daily 6 pm,4th Day 7 pm
+341,Maharashtra,Mumbai,BIOC-O-135,test_341,2200,C5,4 ml EDTA Whole Blood In Metal Free Tube (K2 EDTA Royal Tube),ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 9 pm
+342,Maharashtra,Mumbai,HAEM034,test_342,600,C2,3 ml EDTA Whole Blood,Immuno Chromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+343,Maharashtra,Mumbai,HAEM033,test_343,280,C1,3 ml EDTA Whole Blood,Microscopy,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+344,Maharashtra,Mumbai,MOLBI134,test_344,2000,C3,3 ml EDTA Plasma,RT PCR,2 - 8 °C,Daily 6 pm,Same Day 11 pm
+345,Maharashtra,Mumbai,BIOC133,test_345,570,C6,"10 ml Aliquot of 24 Hrs. Urine collected in 10 ml 12M HCl container, Mention volume",Biochemical,2 - 8 °C,Daily 9 am to 6 pm,Next Day 1 pm
+346,Maharashtra,Mumbai,BIOC132,test_346,480,C2,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+347,Maharashtra,Mumbai,HAEM-O-032,test_347,2350,C5,"2 ml Citrate Plasma, Prepare Platelet Poor Plasma Within 1 Hrs. of Collection",Clotting,Frozen,Daily 5 pm,Next Day 12 pm
+348,Maharashtra,Mumbai,MOLBI132,test_348,5500,C6,2 ml Sputum/ BAL /Other Respiratory Samples In Sterile Container,Line Probe Assay,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+349,Maharashtra,Mumbai,MOLBI131,test_349,4500,C6,Pure Growth Of Mycobacterium Spp. On Lj Slant/ Mgit Tube/ Bactec Alert Bottle.,Line Probe Assay,2 - 8 °C,Mon 6 pm,3rd Day 9 pm
+350,Maharashtra,Mumbai,MOLBI130,test_350,1800,C6,2 ml Sputum/Bal/Other Respiratory Samples In Sterile Container,Line Probe Assay,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+351,Maharashtra,Mumbai,BIOC130,test_351,1000,C5,2 ml Serum,Turbidimetry,2 - 8 °C,Daily 9 am to 3 pm,Next Day 7 pm
+352,Maharashtra,Mumbai,ELISA026,test_352,1900,C5,2 ml Serum,EIA,2 - 8 °C,Tue 12 pm,Next day 7 pm
+353,Maharashtra,Mumbai,ELISA041,test_353,1680,C5,2 ml Serum,IFA,2 - 8 °C,Daily 12 pm,Next day 7 pm
+354,Maharashtra,Mumbai,BIOCP029,test_354,1090,C2,3 ml Serum,Refer Individual  Test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+355,Maharashtra,Mumbai,BIOCP027,test_355,1400,C2,"2 ml Citrated Plasma, 5 ml Serum",Refer Individual  Test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+356,Maharashtra,Mumbai,BIOC-O-130,test_356,360,C5,3 ml Serum,Colorimetric,2 - 8 °C,Daily 3 pm,Next day 7 pm
+357,Maharashtra,Mumbai,BIOC-O-129,test_357,1200,C5,3 ml Serum,"Spectophotometry,Electrophoresis",2 - 8 °C,Daily 12 pm,4th Day 7 pm
+358,Maharashtra,Mumbai,BIOCP024,test_358,770,C2,3 ml Serum,Biochemical,2 - 8 °C,Refer Individual Test,Same Day
+359,Maharashtra,Mumbai,BIOCP025,test_359,2200,C4,3 ml Serum,Biochemical,2 - 8 °C,Refer Individual Test,Next Day 7 pm
+360,Maharashtra,Mumbai,BIOC128,test_360,690,C2,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+361,Maharashtra,Mumbai,IMMU059,test_361,620,C2,3 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+362,Maharashtra,Mumbai,IMMU058,test_362,530,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+363,Maharashtra,Mumbai,IMMUP004,test_363,1650,C2,3 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+364,Maharashtra,Mumbai,IMMUP003,test_364,1450,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+365,Maharashtra,Mumbai,BIOC-O-125,test_365,5800,C6,"3 ml serum in plain vacutainer, mention time of dose, time of collection",LCMS-MS,Room Temp,Daily 6 pm,Next day 7 pm
+366,Maharashtra,Mumbai,ELISA025,test_366,1350,C5,2 ml Serum,EIA,2 - 8 °C,Daily 5 pm,Next day 7 pm
+367,Maharashtra,Mumbai,SERO023,test_367,1000,C2,2 ml Serum,Immuno Chromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+368,Maharashtra,Mumbai,ELISA024,test_368,1350,C6,2 ml Serum,EIA,2 - 8 °C,Daily 5 pm,Next day 7 pm
+369,Maharashtra,Mumbai,SERO024,test_369,1000,C2,2 ml serum,Immunochromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day 4 Hrs
+370,Maharashtra,Mumbai,MOLBI128,test_370,2350,C7,10 ml Urine In Sterile Container,RT PCR,2 - 8 °C,Daily 6 pm,3rd Day 2 pm
+371,Maharashtra,Mumbai,MOLBI127,test_371,1700,C3,3 ml EDTA Whole Blood,RT PCR,2 - 8 °C,Daily 3 pm,Same Day 11 pm
+372,Maharashtra,Mumbai,HAEM-O-029,test_372,630,C6,3 ml EDTA Whole Blood,Dark field microscopy,2 - 8 °C,Daily 12 pm & 5 pm,Next day 7 pm
+373,Maharashtra,Mumbai,BIOC-O-122,test_373,1850,C5,10 ml Aliquot of Random Urine Collected In An Acid Washed (Metal Free) Container,ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 7 pm
+374,Maharashtra,Mumbai,BIOC-O-121,test_374,1850,C5,10 ml aliquot from 24 hrs urine  Collected In Acid Washed container (Metal Free) Container,ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 7 pm
+375,Maharashtra,Mumbai,BIOC-O-120,test_375,1850,C5,4 ml EDTA Whole Blood In Metal Free Tube (K2 EDTA Royal Tube),ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 7 pm
+376,Maharashtra,Mumbai,BIOC125,test_376,420,C2,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+377,Maharashtra,Mumbai,CYTO057,test_377,990,C3,Cervical Scrapping in LBC Container,Staining &  microscopy,Room Temp,Daily 9 am to 8 pm,3rd Day
+378,Maharashtra,Mumbai,BIOC-O-118,test_378,1330,C6,"5 ml EDTA whole blood, Clinical history & Clinician contact Number mandatory",Cytochemistry,Room Temp,Daily 6 pm,4th Day 8 pm
+379,Maharashtra,Mumbai,BIOC-O-117,test_379,3150,C5,20 ml Urine Spot,Nephelometry,2 - 8 °C,Daily 9 am to 6 pm,Next Day 5 pm
+380,Maharashtra,Mumbai,BIOC121,test_380,3150,C5,3 ml Serum,Immunoturbidimetry,2 - 8 °C,Daily 9 am to 6 pm,Next Day 5 pm
+381,Maharashtra,Mumbai,BIOC-O-115,test_381,1150,C5,"2 ml Na Fluoride Plasma (Grey Top), Collection should done without applying tourniquet",Spectrophotometry,2 - 8 °C,Daily 3 pm,Next day 7 pm
+382,Maharashtra,Mumbai,BIOC-O-114,test_382,1150,C5,2 ml CSF in Sterile Container,Spectrophotometry,2 - 8 °C,Daily 3 pm,Next day 7 pm
+383,Maharashtra,Mumbai,MOLBI125,test_383,8250,C5,FFPE Block (>10% of tumor containt),ddPCR,Room Temp,Tue/ Thu/ Sat 5 pm,6th Day 9 pm
+384,Maharashtra,Mumbai,GENP-O-095,test_384,6800,C5,Tissue in normal saline/FFPE Block,PCR,2 - 8 °C,Fri 12 pm,18 Days
+385,Maharashtra,Mumbai,MOLPA-O-183,test_385,3800,C3,3 ml Heparin Whole Blood,Chromosomal Analysis G-Branding,2 - 8 °C,Daily 3 pm,15th Day 7 pm
+386,Maharashtra,Mumbai,GENP-O-141,test_386,4500,C6,4 ml Whole Blood Na Heparin,Cell Culture,2 - 8 °C,Daily 2 pm,22nd Day 7 pm
+387,Maharashtra,Mumbai,MOLPA-O-181,test_387,12000,C7,2 - 3 Cm Chorionic Villi or Placenta Villi in container Provied By Lab,Bacs on Beads,2 - 8 °C,Daily 2 pm,21 Days
+388,Maharashtra,Mumbai,BIOC-O-113,test_388,3700,C5,10 ml Urine,Nephelometry,2 - 8 °C,Daily 9 AM to 6 pm,Next Day 3 pm
+389,Maharashtra,Mumbai,BIOC120,test_389,3200,C5,3 ml EDTA Whole Blood,Flow Cytometry,2 - 8 °C,Daily 6 pm,3rd Day 8 pm
+390,Maharashtra,Mumbai,BIOC197,test_390,5300,C5,10 ml Urine,Immunoturbidimetry,2 - 8 °C,Daily 9 AM to 6 pm,Next Day 3 pm
+391,Maharashtra,Mumbai,BIOC119,test_391,5800,C5,3 ml Serum,Immunoturbidimetry,2 - 8 °C,Daily 9 AM to 6 pm,Next Day 3 pm
+392,Maharashtra,Mumbai,POP361,test_392,2100,C4,3 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 AM to 8 pm,Same day
+393,Maharashtra,Mumbai,SERO-O-040,test_393,1550,C5,3 ml Serum,EIA,2 - 8 °C,Mon/ Thu 12 pm,Next Day 9 pm
+394,Maharashtra,Mumbai,MOLPA-O-178,test_394,13150,C4,5 ml EDTA Whole Blood,"RT PCR, PCR Fragment Analysis, Sanger Sequencing",2 - 8 °C,Tue / Fri 6 pm,11th Day 8 pm
+395,Maharashtra,Mumbai,MOLPA-O-174,test_395,5900,C5,3 ml EDTA Whole Blood,"RT PCR, Fragment Analysis",2 - 8 °C,Wed / Sat 12 pm,Sat / Wed 8 pm
+396,Maharashtra,Mumbai,GENP-O-093,test_396,5800,C5,3 ml EDTA Whole Blood,Real Time PCR,2 - 8 °C,Daily 12 pm,3rd Day 7 pm
+397,Maharashtra,Mumbai,CYTO-O-017,test_397,2200,C5,3 ml Serum,Indirect IFA,2 - 8 °C,Daily 12 pm,3rd Day 7 pm
+398,Maharashtra,Mumbai,BIOC-O-108,test_398,2900,C6,"10 ml Aliquot of 24 Hrs. Urine in metal free container. No Preservative, Mention volume",ICPMS,2 - 8 °C,Daily 6 pm,4th Day 9 pm
+399,Maharashtra,Mumbai,BIOCP022,test_399,840,C2,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+400,Maharashtra,Mumbai,BIOC117,test_400,450,C2,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+401,Maharashtra,Mumbai,BIOC116,test_401,650,C2,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+402,Maharashtra,Mumbai,IMMU-O-079,test_402,2700,C6,2 ml Serum,IFA,2 - 8 °C,Wed / Sat 5 pm,3rd Day 12 pm
+403,Maharashtra,Mumbai,IMMUD022,test_403,3300,C5,3ml EDTA plasma,CLIA,2 - 8 °C,Daily 9 am to 6 pm,Next Day 12 pm
+404,Maharashtra,Mumbai,IMMU057,test_404,900,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+405,Maharashtra,Mumbai,IMMU056,test_405,900,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+406,Maharashtra,Mumbai,IMMU055,test_406,900,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+407,Maharashtra,Mumbai,IMMU054,test_407,900,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+408,Maharashtra,Mumbai,GENP-O-089,test_408,2850,C6,2 ml Serum,CLIA,,Wed/ Sat 6 pm,3rd Day 8 pm
+409,Maharashtra,Mumbai,IMMU-O-077,test_409,2050,C5,2 ml Serum,CLIA,2 - 8 °C,Fri 12 pm,Next Day 9 pm
+410,Maharashtra,Mumbai,BIOC-O-107,test_410,2200,C5,2 ml Serum (preferred sampling time for females on Day 2/ 3 of mentrual cycle,EIA,2 - 8 °C,Mon/ Wed/ Fri 12 pm,Next Day 9 pm
+411,Maharashtra,Mumbai,BIOC-O-106,test_411,850,C5,2 ml Serum,CLIA,2 - 8 °C,Daily 12 pm,Next Day 9 pm
+412,Maharashtra,Mumbai,ELISA-O-084,test_412,1870,C6,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,Next Day 9 pm
+413,Maharashtra,Mumbai,ELISA-O-083,test_413,1870,C6,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,Next Day 9 pm
+414,Maharashtra,Mumbai,ELISA-O-082,test_414,1870,C6,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,Next Day 9 pm
+415,Maharashtra,Mumbai,ELISA-O-081,test_415,1870,C6,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,Next Day 9 pm
+416,Maharashtra,Mumbai,MOLBI115,test_416,5000,C6,Nasophyragenal Swab in VTM medium,PCR,2 - 8 °C,Daily 6 pm,Next  day 12 pm
+417,Maharashtra,Mumbai,MOLBI170,test_417,5500,C6,Nasophyragenal Swab in VTM medium,PCR,2 - 8 °C,Daily 6 pm,Next  day 12 pm
+418,Maharashtra,Mumbai,POP350,test_418,5300,C4,"3 ml of blood in EDTA, 3ml fluoride Plasma,  5 ml of serum",As per indvidual test,2 - 8 °C,Daily 9 AM to 7 pm,Same day
+419,Maharashtra,Mumbai,POP339,test_419,3800,C4,"3 ml EDTA whole blood, 2 ml Fluoride Plasma, 5 ml Serum, 20 ml Urine in Sterile Container, Semen in Sterile Container",As per indvidual test,2 - 8 °C,Daily 9 am to 5 pm,4th Day 5 pm
+420,Maharashtra,Mumbai,POP-O-068,test_420,5350,C6,3 ml Serum,IFA,Frozen,Wed/ Sat 6 pm,3rd Day 8 pm
+421,Maharashtra,Mumbai,CYTO-O-023,test_421,1350,C5,2 ml Serum,Latex agglutination,Frozen,Daily 12 pm,Next day 7 pm
+422,Maharashtra,Mumbai,CYTO-O-016,test_422,300,C3,2 ml CSF in Sterile Container,Microscopy,2 - 8 °C,Daily 9  am to 4 pm,Next Day 9 pm
+423,Maharashtra,Mumbai,POP-O-067,test_423,4600,C7,4 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 am to 6 pm,As per individual Test
+424,Maharashtra,Mumbai,IMMUD-O-019,test_424,1150,C5,3 ml serum,Immunoturbidimetry,2 - 8 °C,Daily 3 pm,Next day 7 pm
+425,Maharashtra,Mumbai,IMMUD-O-017,test_425,8300,C6,10 ml Aliquot From 24 Hrs Urine/ Spot Urine,As per indvidual test,2 - 8 °C,Sat 6 pm,4th Day 7 pm
+426,Maharashtra,Mumbai,PATHO49,test_426,7850,C6,3 ml Serum,As per indvidual test,2 - 8 °C,Mon / Wed / Fri 5 pm,3rd Day 7 pm
+427,Maharashtra,Mumbai,IMMUD-O-016,test_427,5800,C6,4 ml Serum,Electrophoresis,2 - 8 °C,Mon / Wed / Fri 6 pm,3rd Day 7 pm
+428,Maharashtra,Mumbai,IMMUD-O-015,test_428,6650,C6,"20 ml of Aliqout From 24 Hr Urine, Mention Volume, Exclude First Morning Sample",Electrophoresis,2 - 8 °C,Wed 6 pm,3rd Day 7 pm
+429,Maharashtra,Mumbai,HAEM032,test_429,330,C2,3 ml EDTA Whole with Fresh Smear,Automated cell counter,Room Temp,Daily 9 am to 8 pm,Same Day
+430,Maharashtra,Mumbai,HISTO159,test_430,5500,C7,FFPE Tissue/Paraffin block. Histopathology report Mandatory,IHC,Room Temp,Daily 5 pm,7th Day
+431,Maharashtra,Mumbai,HISTO-O-303,test_431,4500,C7,FFPE Tissue/Paraffin block. Histopathology report Mandatory,IHC,Room Temp,Daily 5 pm,7th Day
+432,Maharashtra,Mumbai,HISTO-O-530,test_432,2750,C7,FFPE Tissue/Paraffin block. Histopathology report Mandatory,IHC,Room Temp,Daily 5 pm,7th Day
+433,Maharashtra,Mumbai,HISTO-O-304,test_433,5500,C7,FFPE Tissue/Paraffin block. Histopathology report Mandatory,IHC,Room Temp,Daily 5 pm,7th Day
+434,Maharashtra,Mumbai,HISTO-O-300,test_434,8500,C7,FFPE Tissue/Paraffin block. Histopathology report Mandatory,IHC,Room Temp,Daily 5 pm,7th Day
+435,Maharashtra,Mumbai,HISTO160,test_435,9000,C7,FFPE Tissue/Paraffin block. Histopathology report Mandatory,IHC,Room Temp,Daily 5 pm,7th Day
+436,Maharashtra,Mumbai,IMMU-O-076,test_436,1450,C6,2 ml CSF in Sterile Container,Nephelometry,2 - 8 °C,Wed / Sat 5 pm,Next day 7 pm
+437,Maharashtra,Mumbai,HAEM-O-025,test_437,3150,C9,3 ml EDTA Whole Blood,Flow Cytometry,Room Temp,Daily 6 pm,5th Day 9 pm
+438,Maharashtra,Mumbai,BIOC114,test_438,650,C5,2 ml Serum,Immunoturbidimetry,2 - 8 °C,Daily 3 pm,Next day 7 pm
+439,Maharashtra,Mumbai,IMMU-O-075,test_439,1600,C6,2 ml CSF in Sterile Container,Immunoturbidimetry,2 - 8 °C,Daily 9 am to 5 pm,Next Day 3 pm
+440,Maharashtra,Mumbai,HAEM-O-024,test_440,3100,C9,3 ml EDTA Whole Blood,Flow Cytometry,Room Temp,Daily 6 pm,5th Day 9 pm
+441,Maharashtra,Mumbai,IMMU-O-074,test_441,7200,C6,3 ml Serum,Nephelometry,2 - 8 °C,Daily 9 am to 6 pm,Next Day 2 pm
+442,Maharashtra,Mumbai,BIOC113,test_442,650,C5,2 ml Serum,Immunoturbidimetry,2 - 8 °C,Daily 3 pm,Next day 7 pm
+443,Maharashtra,Mumbai,IMMU-O-073,test_443,3650,C6,"2 ml Serum, (8-10 Hrs Fasting Mandatory)",CLIA,2 - 8 °C,Daily 9 am to 6 pm,Next Day 12 pm
+444,Maharashtra,Mumbai,IMMU-O-072,test_444,3850,C6,3 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 6 pm,Next Day 12 pm
+445,Maharashtra,Mumbai,IMMU052,test_445,910,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+446,Maharashtra,Mumbai,IMMU-O-071,test_446,3400,C6,3 ml EDTA Whole Blood,Flow Cytometry,Room Temp,Daily 6 pm,3rd Day 8 pm
+447,Maharashtra,Mumbai,IMMU-O-070,test_447,1450,C6,2 ml CSF in Sterile Container,Nephelometry,2 - 8 °C,Wed / Sat 6 pm,3rd Day 8 pm
+448,Maharashtra,Mumbai,BIOC112,test_448,650,C5,2 ml Serum,Immunoturbidimetry,2 - 8 °C,Daily 3 pm,Next day 7 pm
+449,Maharashtra,Mumbai,POP-O-064,test_449,5500,C6,"3ml Serum, Stool in Sterile container",As per indvidual test,2 - 8 °C,Wed 1 pm,Next Day 9 pm
+450,Maharashtra,Mumbai,POP180,test_450,1700,C4,"3ml EDTA Whole Blood, 3 ml fluoride, 5ml serum, 20 ml urine",As per indvidual test,2 - 8 °C,Daily 9 AM to 8 pm,Same day
+451,Maharashtra,Mumbai,GENP-O-087,test_451,3300,C5,4 ml EDTA Whole Blood,PCR and DNA Fragment analysis,2 - 8 °C,Mon 12 pm,12th Day 7 pm
+452,Maharashtra,Mumbai,ELISA-O-079,test_452,740,C4,3 ml Serum,ELISA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+453,Maharashtra,Mumbai,ELISA-O-077,test_453,740,C4,3 ml Serum,ELISA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+454,Maharashtra,Mumbai,ELISA-O-076,test_454,1300,C4,3 ml Serum,ELISA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+455,Maharashtra,Mumbai,ELISA-O-074,test_455,740,C4,3 ml Serum,ELISA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+456,Maharashtra,Mumbai,ELISA019,test_456,740,C4,3 ml Serum,ELISA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+457,Maharashtra,Mumbai,SERO-O-039,test_457,2330,C6,3 ml Serum,Western Blot,2 - 8 °C,Daily 6 pm,3rd Day 10 pm
+458,Maharashtra,Mumbai,ELISA022,test_458,740,C2,2 ml Serum,ELISA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+459,Maharashtra,Mumbai,SERO-O-038,test_459,2330,C6,3 ml Serum,Western Blot,2 - 8 °C,Daily 6 pm,3rd Day 10 pm
+460,Maharashtra,Mumbai,ELISA021,test_460,740,C2,2 ml Serum,ELISA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+461,Maharashtra,Mumbai,ELISA020,test_461,1300,C2,3 ml Serum,ELISA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 8 pm
+462,Maharashtra,Mumbai,MOLBI-O-018,test_462,4500,C6,"2 ml CSF in sterile container, 2 ml serum, swab in normal saline with sufficient material in sterile falcon tube, 3ml blister fluid in sterile container",Real Time PCR,2 - 8 °C,Tue / Thu / Sat 6 pm,Next Day 10 pm
+463,Maharashtra,Mumbai,BIOC110,test_463,800,C2,2 ml Serum,Nephelometry,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+464,Maharashtra,Mumbai,IMMU046,test_464,1650,C2,2 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+465,Maharashtra,Mumbai,POP352,test_465,1250,C4,3 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 am to 6 pm,Same Day
+466,Maharashtra,Mumbai,MOLBI112,test_466,2500,C4,Vaginal Swab In LBC Container,RT PCR,Room Temp,Wed / Sat 6 pm,Next day 7 pm
+467,Maharashtra,Mumbai,MOLBI152,test_467,2250,C4,Vaginal Swab In LBC Container,RT PCR,Room Temp,Wed / Sat 6 pm,Next day 7 pm
+468,Maharashtra,Mumbai,IMMUD021,test_468,2400,C4,3 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+469,Maharashtra,Mumbai,IMMU-O-066,test_469,4400,C5,"20 ml Spot Urine Sample, Add 50% HCL Drop By Drop To Maintain Ph 1-2, Do not Use Concentrated HCL",LCMS-MS,2 - 8 °C,Tue / Fri 12 pm,Fri / Tue 8 pm
+470,Maharashtra,Mumbai,IMMU-O-065,test_470,330,C5,"10 ml Urine, Wrap container in Aluminium Foil",Chemical,2 - 8 °C,Daily 3 pm,Next day 7 pm
+471,Maharashtra,Mumbai,IMMU051,test_471,1300,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+472,Maharashtra,Mumbai,IMMU050,test_472,1200,C3,"2 ml Serum, 2 ml Flouride Plasma, Fasting Mandatory",CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+473,Maharashtra,Mumbai,MOLBI111,test_473,2550,C3,3 ml EDTA Whole Blood,Real Time PCR,2 - 8 °C,Tue/ Fri 5 pm,Next Day 7 pm
+474,Maharashtra,Mumbai,POP-O-060,test_474,5700,C3,2 Tubes of 3 ml EDTA Plasma,Real Time PCR/ Flow Cytometry,2 - 8 °C,Tue/ Fri 6 pm,3rd Day 5 pm
+475,Maharashtra,Mumbai,SERO022,test_475,2900,C6,2 ml Serum,Western Blot,2 - 8 °C,Daily 6 pm,Next day 7 pm
+476,Maharashtra,Mumbai,MOLBI105,test_476,4900,C3,2 Tubes of 3 ml EDTA Plasma,Real time PCR,2 - 8 °C,Tue/ Fri 6 pm,Next Day 7 pm
+477,Maharashtra,Mumbai,MOLBI106,test_477,3300,C3,2 Tubes of 3 ml EDTA Plasma,Real time PCR,2 - 8 °C,Tue/ Fri 6 pm,Next Day 7 pm
+478,Maharashtra,Mumbai,SERO020,test_478,520,C1,2 ml Serum,Immunofiltration,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+479,Maharashtra,Mumbai,IMMU049,test_479,650,C1,2 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+480,Maharashtra,Mumbai,IMMU047,test_480,650,C1,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+481,Maharashtra,Mumbai,SERO-O-086,test_481,7500,C9,2 ml Serum,Gel method,Frozen,Daily 6 pm,5th Day 7 pm
+482,Maharashtra,Mumbai,HISTO084,test_482,1200,C3,Tissue In 10% Formalin,"Tissue Grossing, Processing and Microscopy",Room Temp,Daily 9 am to 7 pm,5th Day 7 pm
+483,Maharashtra,Mumbai,HISTO082,test_483,1500,C3,Tissue In 10% Formalin,"Tissue Grossing, Processing and Microscopy",Room Temp,Daily 9 am to 7 pm,5th Day 7 pm
+484,Maharashtra,Mumbai,HISTO081,test_484,1800,C3,Tissue In 10% Formalin,"Tissue Grossing, Processing and Microscopy",Room Temp,Daily 9 am to 7 pm,7th Day 7 pm
+485,Maharashtra,Mumbai,HISTO078,test_485,3300,C3,Tissue In 10% Formalin,"Tissue Grossing, Processing and Microscopy",Room Temp,Daily 9 am to 7 pm,7th Day 7 pm
+486,Maharashtra,Mumbai,HISTO102,test_486,1100,C3,Tissue In 10% Formalin,"Tissue Grossing, Processing and Microscopy",Room Temp,Daily 9 am to 7 pm,4th Day 7 pm
+487,Maharashtra,Mumbai,HISTO088,test_487,1200,C3,Tissue In 10% Formalin,"Tissue Grossing, Processing and Microscopy",Room Temp,Daily 9 am to 7 pm,4th Day 7 pm
+488,Maharashtra,Mumbai,HISTO151,test_488,2100,C3,Tissue In 10% Formalin,Microscopy,Room Temp,Daily 9 am to 7 pm,6th Day 7 pm
+489,Maharashtra,Mumbai,HISTO147,test_489,5000,C3,Tissue In 10% Formalin,Microscopy,Room Temp,Daily 9 am to 7 pm,6th Day 7 pm
+490,Maharashtra,Mumbai,HISTO144,test_490,2100,C3,Tissue In 10% Formalin,Microscopy,Room Temp,Daily 9 am to 7 pm,6th Day 7 pm
+491,Maharashtra,Mumbai,HISTO143,test_491,1800,C3,Tissue In 10% Formalin,Microscopy,Room Temp,Daily 9 am to 7 pm,6th Day 7 pm
+492,Maharashtra,Mumbai,HISTO133,test_492,3200,C3,Tissue In 10% Formalin,Microscopy,Room Temp,Daily 9 am to 7 pm,6th Day 7 pm
+493,Maharashtra,Mumbai,HISTO129,test_493,2300,C3,Tissue In 10% Formalin,Microscopy,Room Temp,Daily 9 am to 7 pm,6th Day 7 pm
+494,Maharashtra,Mumbai,HISTO128,test_494,3200,C3,Tissue In 10% Formalin,Microscopy,Room Temp,Daily 9 am to 7 pm,6th Day 7 pm
+495,Maharashtra,Mumbai,SERO-O-087,test_495,1600,C5,3 ml Serum,EIA,2 - 8 °C,Wed 12 pm,Next Day 9 pm
+496,Maharashtra,Mumbai,HISTO-O-540,test_496,1350,C3,Tissue In Formalin,Microscopy,Room Temp,Daily 9 am to 7 pm,6th Day 7 pm
+497,Maharashtra,Mumbai,HISTO083,test_497,1500,C3,Stained Slides,Microscopy,Room Temp,Daily 9 am to 7 pm,3rd Day
+498,Maharashtra,Mumbai,HISTO080,test_498,1100,C3,Tissue In Formalin,Microscopy,Room Temp,Daily 9 am to 7 pm,5th Day 7 pm
+499,Maharashtra,Mumbai,BIOC111,test_499,1850,C4,3 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+500,Maharashtra,Mumbai,POP-O-011,test_500,7200,C4,3 ml Serum,As per indvidual test,2 - 8 °C,Daily 3 pm,As per individual Test
+501,Maharashtra,Mumbai,IMMU010,test_501,1500,C3,2 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+502,Maharashtra,Mumbai,SERO007,test_502,630,C2,2 ml Serum,Immuno Chromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+503,Maharashtra,Mumbai,IMMU009,test_503,1680,C6,2 ml Serum,CLIA,2 - 8 °C,Wed/ Sat 6 pm,Next day 7 pm
+504,Maharashtra,Mumbai,GENP-O-167,test_504,21000,C6,"5 ml EDTA Whole blood, Amniotic Fluid/  Chorionic Villi - Sterile in 15 ml Falcon tube  nutrient medium  DNA - 1.5ml  sterile cryotube""",NGS,Room Temp,Daily 5 pm,21 Days
+505,Maharashtra,Mumbai,POP-O-056,test_505,7500,C7,4 ml Serum,As per indvidual test,2 - 8 °C,Daily 5 pm,Refer Individual Test
+506,Maharashtra,Mumbai,IMMUP025,test_506,3400,C4,4 ml Serum,As per indvidual test,2 - 8 °C,Daily 5 pm,Same Day
+507,Maharashtra,Mumbai,POP-O-053,test_507,4450,C5,4 ml Serum,As per indvidual test,2 - 8 °C,Daily 5 pm,Refer Individual Test
+508,Maharashtra,Mumbai,CYTO040,test_508,1600,C6,2 ml Fluid In LBC Container,Staining &  microscopy,Room Temp,Daily 6 pm,4th Day
+509,Maharashtra,Mumbai,POP-O-051,test_509,230,C6,3 ml EDTA Whole Blood,Microscopy,2 - 8 °C,Daily 6 pm,Next Day 10 pm
+510,Maharashtra,Mumbai,POP-O-050,test_510,6000,C6,4 ml  EDTA Whole Blood or 4 ml Serum (In Metal Free Tube),ICPMS,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+511,Maharashtra,Mumbai,POP-O-049,test_511,11500,C6,4 ml  EDTA Whole Blood or 4 ml Serum (In Metal Free Tube),ICPMS,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+512,Maharashtra,Mumbai,IMMUP001,test_512,2050,C4,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+513,Maharashtra,Mumbai,POP059,test_513,4000,C4,"3 ml EDTA Whole Blood, 3 ml Serum, 1 ml Flouride Plasma",As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+514,Maharashtra,Mumbai,POP057,test_514,3000,C4,"3 ml EDTA Whole Blood, 3 ml Serum, 1 ml Flouride Plasma",As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+515,Maharashtra,Mumbai,POP050,test_515,1800,C4,"3 ml EDTA Whole Blood, 3 ml Serum, 1 ml Flouride Plasma",As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+516,Maharashtra,Mumbai,POP032,test_516,950,C4,"3 ml EDTA Whole Blood, 3 ml Serum, 1 ml Flouride Plasma, 10 ml urine in container",As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+517,Maharashtra,Mumbai,IMMU-O-062,test_517,2600,C6,3 ml Serum,CMIA,2 - 8 °C,Daily 6 pm,Next day 10 pm
+518,Maharashtra,Mumbai,ELISA-O-073,test_518,2550,C6,3 ml Serum,EIA,2 - 8 °C,Wed / Sat 5 pm,Next Day 9 pm
+519,Maharashtra,Mumbai,MOLBI103,test_519,6200,C6,3 ml EDTA Plasma,Real Time PCR,2 - 8 °C,Daily 6 pm,11th Day 8 pm
+520,Maharashtra,Mumbai,ELISA-O-072,test_520,2900,C5,2 ml Serum,EIA,2 - 8 °C,Mon 3 pm,3rd Day 7 pm
+521,Maharashtra,Mumbai,IMMU-O-061,test_521,1560,C5,3 ml Serum,EIA,2 - 8 °C,Wed / Sat 6 pm,Next day 7 pm
+522,Maharashtra,Mumbai,MOLBI093,test_522,3850,C6,3 ml EDTA Whole Blood,Real Time PCR,2 - 8 °C,Mon/ Thu 6 pm,Next Day 7 pm
+523,Maharashtra,Mumbai,MOLBI085,test_523,4900,C6,2 Tubes of 3 ml EDTA Plasma,Real Time PCR,2 - 8 °C,Mon/ Thu 6 pm,Next day 7 pm
+524,Maharashtra,Mumbai,SERO006,test_524,650,C1,2 ml Serum,Immunofiltration,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+525,Maharashtra,Mumbai,GENP-O-085,test_525,7400,C6,3 ml Serum or 3 ml EDTA Plasma,PCR & Sequencing,2 - 8 °C,Mon / Thu 6 pm,3rd Day 7 pm
+526,Maharashtra,Mumbai,GENP-O-084,test_526,24950,C6,3 ml Serum,"CLIA , PCR & Sequencing",2 - 8 °C,Daily 6 pm,11th Day 8 pm
+527,Maharashtra,Mumbai,MOLBI102,test_527,1580,C6,3 ml Serum,CLIA & Real Time PCR,2 - 8 °C,Mon / Thu 5 pm,3rd Day 7 pm
+528,Maharashtra,Mumbai,IMMU045,test_528,750,C1,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+529,Maharashtra,Mumbai,MOLBI101,test_529,4450,C6,3 ml Serum,PCR & Sequencing,2 - 8 °C,Sat 6 pm,Wed 8 pm
+530,Maharashtra,Mumbai,MOLBI100,test_530,8480,C6,3 ml Serum or 3 ml EDTA Plasma,PCR & Sequencing,2 - 8 °C,Sat 6 pm,Wed 8 pm
+531,Maharashtra,Mumbai,GENP-O-083,test_531,5780,C9,3 ml Serum,PCR & Sequencing,2 - 8 °C,Tue 6 pm,9th Day 8 pm
+532,Maharashtra,Mumbai,MOLBI091,test_532,3850,C5,3 ml EDTA Whole Blood,Real Time PCR,2 - 8 °C,Mon/ Thu 6 pm,Next Day 7 pm
+533,Maharashtra,Mumbai,MOLBI090,test_533,4500,C5,2 ml EDTA Plasma,Real Time PCR,2 - 8 °C,Mon/ Thu 6 pm,Next day 7 pm
+534,Maharashtra,Mumbai,MOLBI095,test_534,5780,C9,3 ml Serum,PCR & Sequencing,2 - 8 °C,Tue 6 pm,11th Day 8 pm
+535,Maharashtra,Mumbai,POP-O-052,test_535,11550,C9,3 ml Serum,PCR & Sequencing,2 - 8 °C,Daily 6 pm,11th Day 8 pm
+536,Maharashtra,Mumbai,SERO016,test_536,510,C1,2 ml Serum,Immuno Chromatography,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+537,Maharashtra,Mumbai,IMMU044,test_537,730,C1,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+538,Maharashtra,Mumbai,HAEM-O-023,test_538,1100,C3,3 ml EDTA Whole Blood,HPLC,Room Temp,Tue/ Thu/ Sat 10 am,Same Day 7 pm
+539,Maharashtra,Mumbai,HAEM-O-022,test_539,1100,C3,3 ml EDTA Whole Blood,HPLC,Room Temp,Tue/ Thu/ Sat 10 am,Same Day 7 pm
+540,Maharashtra,Mumbai,IMMU040,test_540,1150,C6,2 ml Serum,CMIA,2 - 8 °C,Daily 9 am to 6 pm,Next day 12 pm
+541,Maharashtra,Mumbai,HAEM029,test_541,600,C2,3 ml EDTA Whole Blood,HPLC,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+542,Maharashtra,Mumbai,HAEM001,test_542,1040,C2,3 ml EDTA Whole Blood,HPLC,2 - 8 °C,Tue/ Thu/ Sat 10 am,Same Day 7 pm
+543,Maharashtra,Mumbai,MOLBI094,test_543,5400,C6,3 ml EDTA Whole Blood,PCR,Room Temp,Daily 5 pm,8th Day 7 pm
+544,Maharashtra,Mumbai,IMMU039,test_544,2600,C4,3 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 8 pm,Same day 6 Hrs
+545,Maharashtra,Mumbai,SERO004,test_545,1200,C2,2 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 7 pm,Same day 6 Hrs
+546,Maharashtra,Mumbai,ELISA-O-020,test_546,1200,C5,2 ml Serum,CLIA,2 - 8 °C,Daily 12 pm,Next Day 7 pm
+547,Maharashtra,Mumbai,IMMU004,test_547,2300,C6,2 ml serum,ELFA/ CLIA,2 - 8 °C,Daily 12 pm,Next Day 7 pm
+548,Maharashtra,Mumbai,MOLPA-O-080,test_548,2150,C5,2 ml Serum,Immunoturbidimetry,2 - 8 °C,Mon/ Thu 3pm,Next Day 9 pm
+549,Maharashtra,Mumbai,MOLBI166,test_549,5200,C8,"3 ml Sputum In Sterile Container (BAL, CSF, Pleural Fluid, sputum, Tracheal aspirate, Whole blood EDTA) / 20 ml Urine/ Nasopharengeal Swab",Real time PCR,2 - 8 °C,Daily 3 pm,3rd day 5 pm
+550,Maharashtra,Mumbai,MICRO061,test_550,350,C3,Stool In Sterile Container,Wet mount,2 - 8 °C,Daily 9 am to 6 pm,Same Day
+551,Maharashtra,Mumbai,HAEM-O-019,test_551,3100,C5,3 ml Citrated Platelet Poor Plasma,Photo-optical & Electromechanical Clot Detection,Frozen,Tue / Fri 12 pm,Fri / Tue 8 pm
+552,Maharashtra,Mumbai,HAEM-O-018,test_552,220,C5,10 ml Spot Urine,Strip method,2 - 8 °C,Daily 3 pm,Next day 7 pm
+553,Maharashtra,Mumbai,HAEM-O-017,test_553,1150,C9,2 ml Citrated Plasma,Biochemical,Frozen,Daily 5 pm,6th Day 7 pm
+554,Maharashtra,Mumbai,HAEM028,test_554,250,C1,3 ml EDTA Whole Blood,Automated Cell Counter,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+555,Maharashtra,Mumbai,POP439,test_555,1900,C1,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+556,Maharashtra,Mumbai,MOLBI089,test_556,4300,C6,Nasopharyngeal Swab/ Throat Swabin VTM,Real Time PCR,2 - 8 °C,Daily 9 am to 6 pm,Next Day
+557,Maharashtra,Mumbai,ELISA018,test_557,2440,C6,2 ml Serum,EIA,2 - 8 °C,Wed / Sat 6 pm,3rd Day 7 pm
+558,Maharashtra,Mumbai,IMMU043,test_558,1880,C5,2 ml Serum,EIA,2 - 8 °C,Wed / Sat 12 pm,Next day 7 pm
+559,Maharashtra,Mumbai,SERO017,test_559,1880,C5,2 ml Serum,EIA,2 - 8 °C,Wed / Sat 12 pm,Next day 7 pm
+560,Maharashtra,Mumbai,MICRO-O-006,test_560,1450,C5,Tissue In Sterile Saline (Tissue/ Biopsy),Vitek/ MALDITOF,2 - 8 °C,Daily 9 am to 6 pm,16th Day 7 pm
+561,Maharashtra,Mumbai,ELISA017,test_561,1500,C3,Stool In Sterile Container,ELISA,2 - 8 °C,Wed/ Sat 2 pm,Same Day
+562,Maharashtra,Mumbai,IMMU-O-047,test_562,990,C5,3 ml Serum (in fasting & resting condition),CLIA,2 - 8 °C,Daily 9 am to 6 pm,Next day 12 pm
+563,Maharashtra,Mumbai,MICRO059,test_563,350,C3,Samples In Sterile Container,Gram's stain,2 - 8 °C,Daily 9 am to 6 pm,Next day 7 pm
+564,Maharashtra,Mumbai,MICRO060,test_564,330,C3,Sample In Sterile Container,Gram's stain,2 - 8 °C,Daily 9 am to 6 pm,Next day 12 pm
+565,Maharashtra,Mumbai,BIOC192,test_565,2200,C2,"3 ml Serum, 3 ml Fluoride Plasma",Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+566,Maharashtra,Mumbai,BIOC107,test_566,740,C2,3 ml Fluriode Plasma Of Each Vial,Hexokinase,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+567,Maharashtra,Mumbai,BIOC106,test_567,380,C2,3 ml Fluriode Plasma Of Each Vial,Hexokinase,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+568,Maharashtra,Mumbai,BIOC105,test_568,380,C2,3 ml Fluriode Plasma Of Each Vial,Hexokinase,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+569,Maharashtra,Mumbai,BIOC104,test_569,350,C2,3 ml Fluriode Plasma Of Each Vial,Hexokinase,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+570,Maharashtra,Mumbai,BIOC102,test_570,300,C2,3 ml Fluriode Plasma Of Each Vial,Hexokinase,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+571,Maharashtra,Mumbai,BIOC099,test_571,95,C1,2 ml Fluoride Plasma,Hexokinase,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+572,Maharashtra,Mumbai,BIOC097,test_572,95,C1,2 ml Fluoride Plasma,Hexokinase,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+573,Maharashtra,Mumbai,BIOC096,test_573,95,C1,3 ml Fluriode Plasma (Glucose Not provided by Lab),Hexokinase,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+574,Maharashtra,Mumbai,BIOC093,test_574,95,C1,2 ml Fluoride Plasma,Hexokinase,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+575,Maharashtra,Mumbai,BIOC092,test_575,130,C3,Fluid In Sterile container,Hexokinase,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+576,Maharashtra,Mumbai,CIPA008,test_576,70,C1,5 ml Spot Urine,Dipstick,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+577,Maharashtra,Mumbai,SERO-O-033,test_577,1950,C5,3 ml Serum,EIA,2 - 8 °C,Wed 12 pm,Next day 7 pm
+578,Maharashtra,Mumbai,SERO-O-032,test_578,1950,C5,3 ml Serum,EIA,2 - 8 °C,Wed 12 pm,Next day 7 pm
+579,Maharashtra,Mumbai,SERO-O-031,test_579,1210,C6,Stool In Sterile Container,Immunochromatography,2 - 8 °C,Daily 6 pm,Next Day 12 pm
+580,Maharashtra,Mumbai,HISTO073,test_580,1650,C3,Tissue In 10% Formalin,"Tissue Grossing, Processing and Microscopy",Room Temp,Daily 9 am to 8 pm,7th Day 7 pm
+581,Maharashtra,Mumbai,MOLBI087,test_581,2400,C6,2ml Pulmonary & extra pulmonary specimen,Genexpert,2 - 8 °C,Daily 9 am to 6 pm,Next Day 12 pm
+582,Maharashtra,Mumbai,MOLBI084,test_582,3200,C6,Pulmonary Samples In Sterile Container,Genexpert & Culture,2 - 8 °C,Daily 9 am to 6 pm,Genexpert Next Day & Culture 6 Weeks
+583,Maharashtra,Mumbai,MOLBI083,test_583,3200,C6,Extrapulmonary Specimen in Sterile Container,Genexpert & Culture,2 - 8 °C,Daily 9 am to 6 pm,Genexpert Next Day & Culture 6 Weeks
+584,Maharashtra,Mumbai,MOLBI082,test_584,3200,C6,Site Specific Specimen,Genexpert & Culture,Room Temp,Daily 9 am to 6 pm,Genexpert Next Day & Culture 6 Weeks
+585,Maharashtra,Mumbai,BIOC-O-093,test_585,1800,C5,2 ml serum,IFA,2 - 8 °C,Daily 12 pm,Next day 7 pm
+586,Maharashtra,Mumbai,IMMU-O-045,test_586,1500,C6,"2 ml Serum, Fasting Mandatory",CLIA,2 - 8 °C,Daily 6 pm,Next day 12 pm
+587,Maharashtra,Mumbai,ELISA-O-066,test_587,4340,C6,2 ml Serum,Immunoblot,2 - 8 °C,Mon 6 pm,3rd Day 8 pm
+588,Maharashtra,Mumbai,ELISA-O-065,test_588,4340,C6,2 ml Serum,Immunoblot,2 - 8 °C,Mon 6 pm,3rd Day 8 pm
+589,Maharashtra,Mumbai,BIOC090,test_589,300,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+590,Maharashtra,Mumbai,ELISA-O-064,test_590,300,C5,3 Blood Spots of heel prick on DBS card,Fluoroimmunoassay,Room Temp,Mon to Fri 3 pm,3rd Day 8 pm
+591,Maharashtra,Mumbai,BIOC-O-086,test_591,5600,C5,3 ml Serum,CLIA,2 - 8 °C,Daily 3 pm,Next day 8 pm
+592,Maharashtra,Mumbai,PATHO55,test_592,6800,C5,3 ml Serum,CLIA,2 - 8 °C,Tue / Thu/ Sat 12 pm,Next day 8 pm
+593,Maharashtra,Mumbai,PATHO54,test_593,6200,C6,3 ml Serum,CLIA,2 - 8 °C,Mon / Wed / Fri 5 pm,Next Day 9 pm
+594,Maharashtra,Mumbai,HAEM027,test_594,1040,C3,3 ml EDTA Whole Blood,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+595,Maharashtra,Mumbai,HAEM026,test_595,580,C3,3 ml EDTA Whole Blood,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+596,Maharashtra,Mumbai,ELISA-O-063,test_596,300,C5,3 Blood Spots of heel prick on DBS card,Fluoroimmunoassay,Room Temp,Mon to Fri 3 pm,3rd Day 8 pm
+597,Maharashtra,Mumbai,MYCOL006,test_597,1100,C3,All Respiratory And Non Respiratory Samples In Sterile Container,Culture,2 - 8 °C,Daily 9 am to 6 pm,28 Days
+598,Maharashtra,Mumbai,MYCOL005,test_598,450,C3,All Respiratory And Non Respiratory Samples In Sterile Container,Staining &  microscopy,2 - 8 °C,Daily 9 am to 6 pm,Same Day
+599,Maharashtra,Mumbai,MYCOL003,test_599,800,C3,Pure Culture,Vitek 2,2 - 8 °C,Daily 9 am to 6 pm,3rd Day
+600,Maharashtra,Mumbai,MYCOL002,test_600,1000,C3,Pure Culture,Vitek 2,2 - 8 °C,Daily 9 am to 6 pm,3rd Day
+601,Maharashtra,Mumbai,MYCOL001,test_601,1050,C3,Swab/ Tissue/ Blood in Culture bottle,Culture,2 - 8 °C,Daily 9 am to 6 pm,28 Days
+602,Maharashtra,Mumbai,IMMU037,test_602,620,C2,3 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+603,Maharashtra,Mumbai,IMMU036,test_603,530,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+604,Maharashtra,Mumbai,BIOC-O-085,test_604,560,C5,2 ml Serum,Spectrophotometry,2 - 8 °C,Daily 3 pm,Next day 7 pm
+605,Maharashtra,Mumbai,IMMU-O-044,test_605,2080,C5,2 ml Serum (Age & Sex to be mentioned mandatory),CLIA,2 - 8 °C,Daily 9 am to 5 pm,Next Day 12 pm
+606,Maharashtra,Mumbai,IMMU035,test_606,970,C6,"20 ml Aliquot of 24 Hrs. Urine. No Preservative, Mention volume, exclude 1st Morning Urine Sample",CLIA,2 - 8 °C,Daily 9 am to 5 pm,Next Day 12 pm
+607,Maharashtra,Mumbai,IMMU-O-043,test_607,1500,C6,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 5 pm,Next Day 12 pm
+608,Maharashtra,Mumbai,IMMU034,test_608,3400,C6,3 ml Serum,CMIA,2 - 8 °C,Daily 9 am to 5 pm,Next Day 12 pm
+609,Maharashtra,Mumbai,GENP-O-148,test_609,5300,C6,4 ml Whole Blood Na Heparin,Cell Culture,2 - 8 °C,Daily 2 pm,28 Days
+610,Maharashtra,Mumbai,IMMUD020,test_610,11500,C6,4 ml Serum,Hybrid (Microarray + EIA),2 - 8 °C,Daily 9 am to 6 pm,6th Day
+611,Maharashtra,Mumbai,BIOC-O-083,test_611,1190,C2,2 ml Serum,CLIA,2 - 8 °C,Tue / Thu / Sat 7 pm,Same Day
+612,Maharashtra,Mumbai,CYTO039,test_612,1850,C3,LBC Container With Fluid/ Slides,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 2 pm
+613,Maharashtra,Mumbai,CYTO038,test_613,1500,C3,Fluid / Slides,Microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 2 pm
+614,Maharashtra,Mumbai,CYTO037,test_614,1700,C3,Stained Slides,Microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 2 pm
+615,Maharashtra,Mumbai,CYTO036,test_615,1550,C3,Cervical Scrapping in LBC Container,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 2 pm
+616,Maharashtra,Mumbai,CYTO035,test_616,1650,C3,Fixed And Air Dried Smears,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 2 pm
+617,Maharashtra,Mumbai,CYTO034,test_617,1550,C3,Cervical Scrapping in LBC Container,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 2 pm
+618,Maharashtra,Mumbai,CYTO033,test_618,1650,C3,Fixed And Air Dried Smears,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 2 pm
+619,Maharashtra,Mumbai,CYTO032,test_619,1550,C3,Fixed And Air Dried Smears,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 2 pm
+620,Maharashtra,Mumbai,CYTO031,test_620,1550,C3,Cervical Scrapping in LBC Container,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 2 pm
+621,Maharashtra,Mumbai,CYTO030,test_621,1650,C3,Fixed And Air Dried Smears,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 2 pm
+622,Maharashtra,Mumbai,CYTO029,test_622,1650,C3,FNAC Slides,Microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 2 pm
+623,Maharashtra,Mumbai,GENP-O-154,test_623,7250,C6,20-30ml Amniotic Fluid Sterile Container,FISH,2 - 8 °C,Daily 2 pm,8th Day 7 pm
+624,Maharashtra,Mumbai,GENP-O-150,test_624,4800,C6,4 ml Whole Blood Sodium Heparin,FISH,2 - 8 °C,Daily 2 pm,8th Day 7 pm
+625,Maharashtra,Mumbai,GENP-O-156,test_625,4800,C6,4 ml Peripheral Blood in Sodium Heparin,FISH,2 - 8 °C,Daily 2 pm,8th Day 7 pm
+626,Maharashtra,Mumbai,GENP-O-155,test_626,4800,C6,4 ml Peripheral Blood/Amniotic fluid in Sodium Heparin,FISH,2 - 8 °C,Daily 2 pm,8th Day 7 pm
+627,Maharashtra,Mumbai,POP-O-044,test_627,1250,C6,3 ml EDTA Whole Blood,Microscopy and Immunochromatography,Room Temp,Daily 12 pm,Same Day 9 pm
+628,Maharashtra,Mumbai,HAEM025,test_628,330,C3,3 ml EDTA Whole Blood,Smear & Stain,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+629,Maharashtra,Mumbai,SERO-O-030,test_629,1070,C6,3 ml EDTA Whole Blood,Immuno Chromatography,2 - 8 °C,Daily 5 pm,Next Day 3 pm
+630,Maharashtra,Mumbai,SERO-O-029,test_630,1190,C6,3 ml Serum,Immuno Chromatography,2 - 8 °C,Daily 5 pm,Next Day 3 pm
+631,Maharashtra,Mumbai,GENP-O-149,test_631,6000,C6,20 mg skin tissue in sterile container conrain normal saline,Cell Culture,2 - 8 °C,Daily 2 pm,21 to 30 Days 7 pm
+632,Maharashtra,Mumbai,HAEM024,test_632,1040,C2,2 ml Citrated Plasma,Optomechanical,Frozen,Daily 9 am to 7 pm,Same Day
+633,Maharashtra,Mumbai,POP316,test_633,1849,C4,"3 ml EDTA whole blood, 5 ml Serum, 10 ml Urine",As per indvidual test,2 - 8 °C,Daily 9 am to 5 pm,Same Day
+634,Maharashtra,Mumbai,POP315,test_634,999,C4,"3 ml EDTA whole blood, 5 ml Serum, 10 ml Urine",As per indvidual test,2 - 8 °C,Daily 9 am to 5 pm,Same Day
+635,Maharashtra,Mumbai,POP319,test_635,3000,C6,2 tubes of 3 ml EDTA whole blood,As per indvidual test,2 - 8 °C,Daily 3 pm,Same day 11 pm
+636,Maharashtra,Mumbai,POP467,test_636,4300,C6,2 tubes of 3 ml EDTA whole blood,As per indvidual test,2 - 8 °C,Daily 3 pm,Same day 11 pm
+637,Maharashtra,Mumbai,POP318,test_637,3300,C6,2 tubes of 3 ml EDTA whole blood,As per indvidual test,2 - 8 °C,Daily 3 pm,Same day 11 pm
+638,Maharashtra,Mumbai,POP047,test_638,3900,C4,"3 ml EDTA Whole Blood, 5 ml Serum, 10 ml Morning Urine Sample ,Blood in  Bactec Aerobic Bottles",Refer Individual  Test,2 - 8 °C,Daily 9 am to 5 pm,"Same Day 10 pm, For Culture sample refer individual TAT"
+639,Maharashtra,Mumbai,POP046,test_639,2300,C4,"3 ml EDTA whole blood,  4 ml Serum, 5 ml morning urine sample",Refer Individual  Test,2 - 8 °C,Daily 9 am to 5 pm,Same Day 10 pm
+640,Maharashtra,Mumbai,POP045,test_640,1950,C4,"3 ml EDTA whole blood,  4 ml Serum, 5 ml morning urine sample",Refer Individual  Test,2 - 8 °C,Daily 9 am to 5 pm,Same Day 10 pm
+641,Maharashtra,Mumbai,POP354,test_641,1850,C4,3 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+642,Maharashtra,Mumbai,POP353,test_642,1800,C4,3 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+643,Maharashtra,Mumbai,IMMU033,test_643,840,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+644,Maharashtra,Mumbai,HAEM-O-014,test_644,1440,C6,3 ml Serum,Agglutination,2 - 8 °C,Daily 5 pm,3rd Day 8 pm
+645,Maharashtra,Mumbai,HAEM-O-013,test_645,1150,C5,2 ml platelet poor Citrated plasma,Latex agglutination,Frozen,Daily 3 pm,Next day 8 pm
+646,Maharashtra,Mumbai,IMMUD-O-011,test_646,5500,C9,3ml Citrated Plasma,Chromogenic,Frozen,Daily 6 pm,5th Day 7 pm
+647,Maharashtra,Mumbai,IMMUD-O-006,test_647,6000,C5,3 ml EDTA Whole Blood,Real Time PCR,2 - 8 °C,Mon to Sat 12 pm,3rd Day 8 pm
+648,Maharashtra,Mumbai,BIOC-O-080,test_648,5200,C5,"3 ml EDTA Whole Blood, Provide date & time of sample, Amount & time of Dose, Ideal time- 1 hour before next dose",LC-MS/MS,2 - 8 °C,Mon to Sat 3 pm,Next day 7 pm
+649,Maharashtra,Mumbai,BIOC-O-079,test_649,7350,C9,5 ml Serum (fasting reqd),RIA,2 - 8 °C,Daily 5 pm,28 Days
+650,Maharashtra,Mumbai,HAEM021,test_650,150,C1,3 ml EDTA Whole Blood,Photometrical capillary kinetic analysis,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+651,Maharashtra,Mumbai,IMMU-O-041,test_651,2250,C5,2 ml Serum,CLIA,2 - 8 °C,Mon to Sat 12 pm,Next day 7 pm
+652,Maharashtra,Mumbai,SERO015,test_652,6600,C8,3 ml EDTA Whole Blood (Sample Shoud Reach Lab within 1 Hr after collection). Communicate with Aspira before collecting sample,CLIA,Room Temp,Daily 9 am to 7 pm,Same Day
+653,Maharashtra,Mumbai,ELISA-O-060,test_653,3100,C6,3 ml Serum,IFA,2 - 8 °C,Wed / Sat 5 pm,Next Day 9 pm
+654,Maharashtra,Mumbai,ELISA-O-059,test_654,1980,C5,3 ml Serum,IFA,2 - 8 °C,Daily 12 pm,Next Day 9 pm
+655,Maharashtra,Mumbai,ELISA015,test_655,7800,C5,3 ml Serum,EIA,2 - 8 °C,Mon/ Thu 12 pm,Next day 9 pm
+656,Maharashtra,Mumbai,SERO-O-028,test_656,5000,C5,3 ml Serum (over fasting mandatory),CMIA,2 - 8 °C,Wed / Sat 3 pm,3rd Day 8 pm
+657,Maharashtra,Mumbai,BIOC087,test_657,630,C6,2 ml Dialysis Fluid in Sterile Container,ISE,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+658,Maharashtra,Mumbai,BIOC089,test_658,600,C2,10 ml Spot Urine,ISE,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+659,Maharashtra,Mumbai,BIOC088,test_659,630,C2,10 ml Aliquot of 24 hrs Urine,ISE,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+660,Maharashtra,Mumbai,BIOC085,test_660,500,C1,2 ml Serum,ISE,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+661,Maharashtra,Mumbai,BIOC083,test_661,300,C1,2 ml Serum,Jaffe,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+662,Maharashtra,Mumbai,MOLBI071,test_662,8500,C6,FFPE Block (>10% of tumor containt),Real Time PCR,Room Temp,Tue / Thu / Sat 6 pm,6th Day 9 pm
+663,Maharashtra,Mumbai,IMMU-O-040,test_663,3300,C3,"3 ml Serum With Usg Report, NT Value, (MAP & UTPI) Value, Clinical History required",Time Resolve Fluorometry,2 - 8 °C,Daily 5 pm,4th Day 7 pm
+664,Maharashtra,Mumbai,MICRO057,test_664,600,C5,1 ml Cyst Fluid,Microscopy,2 - 8 °C,Daily 3 pm,3rd Day 9 pm
+665,Maharashtra,Mumbai,ELISA-O-058,test_665,1350,C5,3 ml Serum,EIA,2 - 8 °C,Mon/ Wed/ Fri 12 pm,Next Day 9 pm
+666,Maharashtra,Mumbai,MOLBI070,test_666,6650,C6,"3 ml EDTA Whole Blood, CSF, Tissue in normal saline",PCR,2 - 8 °C,Wed / Sat 3 pm,Fri/ Tue 7 pm
+667,Maharashtra,Mumbai,ELISA-O-057,test_667,1850,C6,3 ml Serum,CLIA,2 - 8 °C,Daily 6 pm,3rd Day 7 pm
+668,Maharashtra,Mumbai,ELISA-O-056,test_668,2180,C6,3 ml Serum,EIA,2 - 8 °C,Mon/ Thu 6 pm,Next day 8 pm
+669,Maharashtra,Mumbai,ELISA-O-055,test_669,2050,C6,3 ml Serum,CLIA,2 - 8 °C,Sat 6 pm,Mon 8 pm
+670,Maharashtra,Mumbai,ELISA-O-054,test_670,2060,C6,3 ml Serum,CLIA,2 - 8 °C,Sat 6 pm,Mon 8 pm
+671,Maharashtra,Mumbai,ELISA-O-053,test_671,2100,C6,3 ml Serum,CLIA,2 - 8 °C,Sat 6 pm,Mon 8 pm
+672,Maharashtra,Mumbai,MOLBI068,test_672,4550,C6,2ml CSF in sterile Container,Real Time PCR,2 - 8 °C,Wed/ Sat 6 pm,Fi/ Tue 7 pm
+673,Maharashtra,Mumbai,MOLBI067,test_673,4240,C6,3 ml EDTA Whole Blood,Real Time PCR,2 - 8 °C,Wed/ Sat 6 pm,Fi/ Tue 7 pm
+674,Maharashtra,Mumbai,IMMU032,test_674,700,C2,2 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+675,Maharashtra,Mumbai,MICRO056,test_675,370,C6,Stool In Sterile Container,Microscopy,2 - 8 °C,Daily 5 pm,Next day 7 pm
+676,Maharashtra,Mumbai,CIPA-O-017,test_676,160,C6,20 ml Spot Urine,Urine chemistry & Microscopy,2 - 8 °C,Daily 5 pm,Next Day 12 pm
+677,Maharashtra,Mumbai,IMMU-O-039,test_677,2350,C3,3 ml Serum With Usg Report & Clinical History,Time Resolve Flurometry,2 - 8 °C,Daily 5 pm,3rd Day 10 pm
+678,Maharashtra,Mumbai,BIOC082,test_678,1600,C3,2 ml Serum,IFA,2 - 8 °C,Mon / Wed / Sat 1 pm,Same Day 7 pm
+679,Maharashtra,Mumbai,POP-O-043,test_679,4370,C6,10 ml Spot Urine,Biochemical,Room Temp,Daily 6 pm,Next Day 3 pm
+680,Maharashtra,Mumbai,POP-O-042,test_680,2900,C6,10 ml Spot Urine,Lateral flow Immuunoassay,2 - 8 °C,Daily 12 pm,Next Day 6 pm
+681,Maharashtra,Mumbai,POP-O-041,test_681,2550,C6,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 6 pm,Next Day 3 pm
+682,Maharashtra,Mumbai,POP-O-040,test_682,6350,C6,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 6 pm,Next Day 3 pm
+683,Maharashtra,Mumbai,BIOC-O-077,test_683,4140,C6,"10 ml Aliquot of 24 Hrs. Urine. In 10 ml of 6 M HCl, Mention volume",EIA,2 - 8 °C,Tue 5 pm,3rd Day 9 pm
+684,Maharashtra,Mumbai,ELISA014,test_684,2650,C6,3 ml EDTA Plasma or Na Heparin Plasma,EIA,2 - 8 °C,Tue 5 pm,3rd Day 9 pm
+685,Maharashtra,Mumbai,BIOC-O-076,test_685,140,C5,10 ml Spot Urine (1st morning urine),Biochemical,2 - 8 °C,Daily 3 pm,Next day 7 pm
+686,Maharashtra,Mumbai,SERO-O-021,test_686,2700,C6,3 ml Serum,EIA,2 - 8 °C,Mon/ Thu 3 pm,3rd Day 6 pm
+687,Maharashtra,Mumbai,IMMU031,test_687,1050,C5,"3 ml Serum, Do not use SST, Separate serum within 2 hrs of collection, Collect sample 6-8 hrs after the dose",CLIA,2 - 8 °C,Daily 3 pm,Next day 7 pm
+688,Maharashtra,Mumbai,GENP-O-157,test_688,6600,C6,4 ml Peripheral Blood in Na Heparin,FISH,2 - 8 °C,Daily 2 pm,8th Day 7 pm
+689,Maharashtra,Mumbai,HAEM018,test_689,2350,C4,"3 ml EDTA Whole Blood, 2 ml Platelet Poor Citrated Plasma",Refer Individual  Test,Frozen,Daily 9 am to 7 pm,Same Day
+690,Maharashtra,Mumbai,POP037,test_690,580,C4,"3 ml EDTA Whole Blood, 2 ml Fluoride Plasma",As per indvidual test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+691,Maharashtra,Mumbai,POP104,test_691,1150,C4,"3 ml EDTA Whole Blood, 2 ml Fluoride Plasma, 5 ml Serum, 10 ml Morning Urine Sample",Refer Individual  Test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+692,Maharashtra,Mumbai,POP105,test_692,2600,C4,"3 ml EDTA Whole Blood, 2 ml Fluoride Plasma, 5 ml Serum, 10 ml Morning Urine Sample",Refer Individual  Test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+693,Maharashtra,Mumbai,IMMU-O-037,test_693,2700,C5,3 ml Serum,EIA,2 - 8 °C,Tue / Thu / Sat 6 pm,Next day 7 pm
+694,Maharashtra,Mumbai,IMMU-O-029,test_694,1150,C5,"3 ml Serum (overnight fasting preferred, specify age & sex)",CMIA,2 - 8 °C,Daily 3 pm,Next day 7 pm
+695,Maharashtra,Mumbai,IMMU-O-025,test_695,2680,C5,"3 ml Serum (overnight fasting preferred, specify age & sex)",EIA,2 - 8 °C,Mon / Thu 12 pm,Next day 7 pm
+696,Maharashtra,Mumbai,SERO-O-020,test_696,3000,C6,3 ml serum,EIA,2 - 8 °C,Wed/ Sat 6 pm,Next Day 10 pm
+697,Maharashtra,Mumbai,SERO-O-019,test_697,3000,C6,3 ml serum,EIA,2 - 8 °C,Wed/ Sat 6 pm,Next Day 10 pm
+698,Maharashtra,Mumbai,MOLBI168,test_698,1850,C3,2 tubes of 3 ml EDTA whole blood,Real Time PCR,2 - 8 °C,Daily 3 pm,Same Day 11 pm
+699,Maharashtra,Mumbai,MOLBI062,test_699,3300,C5,2 ml CSF in Sterile Container,Real Time PCR,2 - 8 °C,Mon/ Wed/ Fri 12 pm,3rd Day 7 pm
+700,Maharashtra,Mumbai,MOLBI063,test_700,1600,C3,2 Tubes of 3 ml EDTA Plasma,Real Time PCR,2 - 8 °C,Daily 3 pm,Same Day 11 pm
+701,Maharashtra,Mumbai,POP336,test_701,1950,C6,"3 ml EDTA Whole Blood, 2 ml Serum",As per indvidual test,2 - 8 °C,Daily 12 pm & 4 pm,Same Day 5 Hrs
+702,Maharashtra,Mumbai,ELISA013,test_702,600,C4,2 ml Serum,ELISA,2 - 8 °C,Daily 12 pm & 4 pm,Same Day 5 Hrs
+703,Maharashtra,Mumbai,SERO014,test_703,600,C4,2 ml Serum,Immuno Chromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+704,Maharashtra,Mumbai,SERO013,test_704,600,C4,2 ml Serum,Immuno Chromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+705,Maharashtra,Mumbai,ELISA012,test_705,600,C4,2 ml Serum,ELISA,2 - 8 °C,Daily 12 pm & 4 pm,Same Day 5 Hrs
+706,Maharashtra,Mumbai,SERO012,test_706,600,C4,2 ml Serum,Immuno Chromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+707,Maharashtra,Mumbai,ELISA011,test_707,600,C4,2 ml Serum,ELISA,2 - 8 °C,Daily 12 pm & 4 pm,Same Day 5 Hrs
+708,Maharashtra,Mumbai,POP-O-032,test_708,12700,C6,"3 ml Serum, 2 ml Citrate Plasma, Prepare Platelet Poor Plasma Within 1 Hrs. of Collection",Clotting,Frozen,Wed / Sat 6 pm,3rd Day 7 pm
+709,Maharashtra,Mumbai,HAEM-O-012,test_709,3550,C6,3 ml Serum,CMIA,2 - 8 °C,Tue/ Thu/ Sat 6 pm,Next day 7 pm
+710,Maharashtra,Mumbai,BIOC-O-075,test_710,1140,C6,3 ml Serum,Enzymatic,2 - 8 °C,Daily 5 pm,Next Day 12 pm
+711,Maharashtra,Mumbai,IMMUD017,test_711,1300,C2,3 ml Citrated Platelet Poor Plasma,ELFA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+712,Maharashtra,Mumbai,CYTO027,test_712,1200,C3,Stained Slides,Microscopy,Room Temp,Daily 9 am to 8 pm,Next Day
+713,Maharashtra,Mumbai,CYTO026,test_713,4150,C6,2 ml Fluid in Sterile Container,Microscopy & IHC,Room Temp,Daily 6 pm,6th Day 8 pm
+714,Maharashtra,Mumbai,CYTO025,test_714,1150,C3,2 ml Synovial Fluid,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 5 pm
+715,Maharashtra,Mumbai,CYTO024,test_715,1150,C3,2 ml Sputum In Sterile Container,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 5 pm
+716,Maharashtra,Mumbai,CYTO023,test_716,1150,C3,2 ml Pleural Fluid In Sterile Container,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 5 pm
+717,Maharashtra,Mumbai,CYTO022,test_717,1150,C3,2 ml Peritoneal Fluid,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 5 pm
+718,Maharashtra,Mumbai,CYTO021,test_718,1150,C3,2 ml Pericardial Fluid In Plain Tube,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 5 pm
+719,Maharashtra,Mumbai,CYTO020,test_719,1150,C3,2 ml Fluid or Smears,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 5 pm
+720,Maharashtra,Mumbai,CYTO019,test_720,1150,C3,2 ml Discharge or Smears,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 5 pm
+721,Maharashtra,Mumbai,CYTO018,test_721,1150,C3,2 ml Drain Fluid in Sterile Container,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 5 pm
+722,Maharashtra,Mumbai,CYTO017,test_722,1150,C3,2 ml CSF in Sterile Container,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 5 pm
+723,Maharashtra,Mumbai,CYTO016,test_723,1150,C3,2 ml Ascitic Fluid in Sterile Container,Staining &  microscopy,Room Temp,Daily 9 am to 6 pm,3rd Day 5 pm
+724,Maharashtra,Mumbai,POP-O-031,test_724,2300,C6,Direct Smears & 3 ml EDTA Whole Blood,Microscopy,Room Temp,Daily 5 pm,6h Day 8 pm
+725,Maharashtra,Mumbai,BIOC-O-074,test_725,6500,C9,20 ml Spot Urine,LCMS,2 - 8 °C,Wed 5 pm,Tue 8 pm
+726,Maharashtra,Mumbai,IMMU-O-024,test_726,6550,C6,3 ml EDTA Plasma,LCMS,2 - 8 °C,Wed 5 pm,Tue 8 pm
+727,Maharashtra,Mumbai,SERO-O-018,test_727,1640,C6,3 ml Serum,EIA,2 - 8 °C,Mon / Thu 6 pm,Next day 7 pm
+728,Maharashtra,Mumbai,SERO-O-017,test_728,1780,C6,2 ml CSF in Sterile Container,EIA,2 - 8 °C,Mon / Thu 6 pm,Next day 7 pm
+729,Maharashtra,Mumbai,GENP-O-044,test_729,630,C5,3 Blood Spots of heel prick on DBS card,Fluoroimmunoassay,2 - 8 °C,Mon to Fri 12 pm,3rd Day 8 pm
+730,Maharashtra,Mumbai,BIOC-O-238,test_730,1380,C5,"2 ml Serum, Age & Gender mandatory",Nephelometry,2 - 8 °C,Tue/ Thu & Sat 3 pm,Next Day 9 pm
+731,Maharashtra,Mumbai,IMMU-O-022,test_731,2980,C5,2 ml Serum,ECLIA,2 - 8 °C,Sat 3 pm,Mon 8 pm
+732,Maharashtra,Mumbai,BIOC-O-073,test_732,2700,C5,"3 ml EDTA Whole Blood, Provide date & time of sample, Amount & time of Dose",LC-MS/MS,2 - 8 °C,Daily 3 pm,Next Day 9 pm
+733,Maharashtra,Mumbai,BIOC-O-072,test_733,3330,C6,"3 ml EDTA Whole Blood, Provide date & time of sample, Amount & time of Dose",LCMS,Room Temp,Daily 6 pm,Next Day 9 pm
+734,Maharashtra,Mumbai,MICRO055,test_734,570,C3,Stool In Sterile Container,Modified Ziehl Neelsen Stain,2 - 8 °C,Daily 9 am to 6 pm,Next Day 6 pm
+735,Maharashtra,Mumbai,MICRO053,test_735,1200,C3,Cervical Or Vaginal Discharge In Sterile Thioglycollate / Rcm Transport Medium,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+736,Maharashtra,Mumbai,MICRO052,test_736,1250,C3,Tissue / Biospy In Sterile Thioglycollate / Rcm Transport Medium,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+737,Maharashtra,Mumbai,MICRO051,test_737,990,C3,1-2 ml Of Pus In Sterile Container,Culture,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+738,Maharashtra,Mumbai,MICRO050,test_738,1300,C3,Vaginal Discharge/ Cervical Secretions In Transport Media,Culture,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+739,Maharashtra,Mumbai,MICRO047,test_739,1050,C3,2 ml Fluid in  Bactec Plus Anaerobic Bottle,BACTEC FX /BACT ALERT /VITEK 2,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+740,Maharashtra,Mumbai,MICRO-O-004,test_740,1050,C3,10 ml Blood In Bactec Anaerobic Plus Bottle Or Bact Alert Fn,BACTEC FX /BACT ALERT /VITEK 2,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+741,Maharashtra,Mumbai,MICRO044,test_741,990,C3,2 ml Bone Marrow In  Bactec Plus Anaerobic Bottle,BACTEC FX /BACT ALERT /VITEK 2,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+742,Maharashtra,Mumbai,MICRO-O-003,test_742,990,C3,"Pus, Fluid Etc In Anaerobic Bottle",Culture,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+743,Maharashtra,Mumbai,MICRO034,test_743,990,C3,Vaginal Swab In Amies Transport Medium,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+744,Maharashtra,Mumbai,MICRO023,test_744,990,C3,Sample In Sterile Container,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+745,Maharashtra,Mumbai,MICRO033,test_745,990,C3,5 ml Midstream Urine Sample In Sterile  Container,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+746,Maharashtra,Mumbai,MICRO032,test_746,990,C3,Urethral Discharge In Sterile Container / Amies Transport Medium,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+747,Maharashtra,Mumbai,MICRO031,test_747,990,C3,Tissue In Sterile Container/ Small Biopsy In Sterile Saline,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+748,Maharashtra,Mumbai,MICRO030,test_748,990,C3,Throat Swab In Amies Transport Medium,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+749,Maharashtra,Mumbai,MICRO029,test_749,990,C3,Throat Swab In Amies Transport Medium,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+750,Maharashtra,Mumbai,MICRO028,test_750,990,C3,Stool In Sterile Container,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+751,Maharashtra,Mumbai,MICRO027,test_751,990,C3,3 ml Sputum In Sterile Container,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+752,Maharashtra,Mumbai,MICRO026,test_752,990,C3,3 ml Semen Sample In Sterile Container,Culture / VITEK 2,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+753,Maharashtra,Mumbai,MICRO025,test_753,990,C3,Respiratory Samples Except Sputum In Sterile Container,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+754,Maharashtra,Mumbai,MICRO024,test_754,990,C3,2 ml Pus /Pus Swab In Sterile Container / Amies Transport Medium,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+755,Maharashtra,Mumbai,MICRO022,test_755,990,C3,Eye Specimen in Sterile Container / Amies Transport Medium,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+756,Maharashtra,Mumbai,MICRO021,test_756,990,C3,Endotracheal Tube Secretion In Sterile Container,Culture,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+757,Maharashtra,Mumbai,MICRO020,test_757,990,C3,Ear specimen In Sterile  Container / Amies Transport Medium,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+758,Maharashtra,Mumbai,MICRO019,test_758,990,C3,2 ml CSF in Sterile Container,Culture / VITEK 2,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+759,Maharashtra,Mumbai,MICRO018,test_759,990,C3,Central Line Tip in Sterile Container,Culture / VITEK 2,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+760,Maharashtra,Mumbai,MICRO017,test_760,990,C3,8 - 10 ml Body Fluid In Bactec Plus Aerobic Bottle,BACTEC FX /BACT ALERT /VITEK 2,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+761,Maharashtra,Mumbai,MICRO015,test_761,990,C3,2 ml Bone Marrow In  Bactec Plus Aerobic Bottle,BACTEC FX /BACT ALERT /VITEK 2,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+762,Maharashtra,Mumbai,MICRO014,test_762,990,C3,"Tissue , Urine, Fluid Etc In Sterile Container",Culture,2 - 8 °C,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+763,Maharashtra,Mumbai,CYTO-O-014,test_763,2900,C6,"2 ml CSF in Sterile Container, 3 ml Serum",Immunoturbidimetry,2 - 8 °C,Daily 5 pm,Next Day 3 pm
+764,Maharashtra,Mumbai,CYTO-O-013,test_764,13700,C6,2 ml CSF in Sterile Container,Western Blotting & SABD Systerm,2 - 8 °C,Daily 5 pm,3rd Day 5 pm
+765,Maharashtra,Mumbai,MICRO010,test_765,330,C3,2 ml CSF in Sterile Container,Microscopy,Room Temp,Daily 9 am to 5 pm,Next day 2 pm
+766,Maharashtra,Mumbai,SERO-O-015,test_766,1780,C5,3 ml Serum,ICT,2 - 8 °C,Daily 12 pm,Next day 7 pm
+767,Maharashtra,Mumbai,SERO-O-014,test_767,1780,C5,2 ml CSF in Sterile Container,ICT,2 - 8 °C,Daily 12 pm,Next day 7 pm
+768,Maharashtra,Mumbai,IMMU-O-021,test_768,1200,C6,2 ml Serum,Biochemical,Room Temp,Daily 6 pm,3rd day 8 pm
+769,Maharashtra,Mumbai,BIOC080,test_769,580,C2,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+770,Maharashtra,Mumbai,BIOC078,test_770,580,C2,"2 ml Serum, 10 ml aliquot of 24 Hrs Urine. No Preservative",Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+771,Maharashtra,Mumbai,BIOC183,test_771,300,C1,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+772,Maharashtra,Mumbai,BIOC076,test_772,270,C6,2 ml Body Fluid in Sterile Container,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day 6 Hrs
+773,Maharashtra,Mumbai,BIOC001,test_773,360,C1,"10 ml Aliquot of 24 Hrs. Urine. No Preservative, Mention volume",Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+774,Maharashtra,Mumbai,BIOC074,test_774,230,C1,2 ml Serum,Jaffe,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+775,Maharashtra,Mumbai,BIOC072,test_775,440,C2,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+776,Maharashtra,Mumbai,IMMU030,test_776,800,C2,2 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+777,Maharashtra,Mumbai,IMMU-O-019,test_777,8000,C6,2 ml Serum,Electrophoresis,2 - 8 °C,Thu 6 pm,Next day 9 pm
+778,Maharashtra,Mumbai,IMMU029,test_778,1270,C3,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+779,Maharashtra,Mumbai,IMMU028,test_779,1270,C3,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+780,Maharashtra,Mumbai,IMMU027,test_780,1270,C3,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+781,Maharashtra,Mumbai,GENP-O-039,test_781,7550,C9,"3 ml EDTA Whole Blood, Do not keep EDTA whole blood with ice pack, genetic history is mandatory",Sanger Sequencing,2 - 8 °C,Daily 6pm,9th Day 9 pm
+782,Maharashtra,Mumbai,ELISA-O-052,test_782,1700,C5,2 ml Serum,EIA,2 - 8 °C,Tue 5 pm,3rd Day 7 pm
+783,Maharashtra,Mumbai,ELISA-O-051,test_783,1700,C5,2 ml Serum,EIA,2 - 8 °C,Sat 3 pm,3rd Day 7 pm
+784,Maharashtra,Mumbai,MOLBI139,test_784,500,C7,Nasophyragenal & Throat Swab in VTM medium,RT PCR,Room Temp,Daily 9 am to 6 pm,Next Day
+785,Maharashtra,Mumbai,IMMU025,test_785,700,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+786,Maharashtra,Mumbai,IMMU024,test_786,700,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+787,Maharashtra,Mumbai,IMMU023,test_787,700,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+788,Maharashtra,Mumbai,BIOC-O-071,test_788,2920,C6,3 ml Serum In Metal Free Tube. Use powder less gloves for collection,ICPMS,2 - 8 °C,Daily 6 pm,4th Day 9 pm
+789,Maharashtra,Mumbai,CIPA-O-016,test_789,2100,C5,"10 ml random Urine. Collected in a acid wash metal free container, Use powder less gloves",ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 8 pm
+790,Maharashtra,Mumbai,CIPA-O-015,test_790,2100,C5,"20 ml Aliquot of 24 Hrs. Urine. Collected in a acid wash metal free container, Mention volume, Use powder less gloves",ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 8 pm
+791,Maharashtra,Mumbai,BIOC-O-070,test_791,1500,C5,3 ml Serum In Metal Free Tube ( Royal Blue top tube). Use powder less gloves for collection,ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 8 pm
+792,Maharashtra,Mumbai,HAEM017,test_792,700,C2,2 ml Serum,Agglutination,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+793,Maharashtra,Mumbai,HAEM016,test_793,700,C2,3 ml EDTA Whole Blood,Agglutination,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+794,Maharashtra,Mumbai,MOLBI-O-059,test_794,16000,C8,"respiratory samples in sterile container, Swab in VTM",Multiplex PCR,Room Temp,Daily 3 pm,3rd Day 7 pm
+795,Maharashtra,Mumbai,CIPA-O-013,test_795,2900,C6,"10 ml Aliquot of Urine. No Preservative, Mention volume",ICPMS,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+796,Maharashtra,Mumbai,CIPA-O-012,test_796,2900,C6,"20 ml Aliquot of 24 Hrs. Urine. No Preservative, Mention volume",ICPMS,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+797,Maharashtra,Mumbai,BIOC-O-069,test_797,2900,C6,3 ml Blood in Metal Free Tube ( Serum Royal Blue Tube),ICPMS,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+798,Maharashtra,Mumbai,BIOC-O-068,test_798,3500,C6,3 ml Blood in Metal Free Tube ( K2 EDTA Royal Blue Tube),ICPMS,2 - 8 °C,Daily 6 pm,4th Day 8 pm
+799,Maharashtra,Mumbai,MOLBI-O-007,test_799,7700,C6,"2 ml BAL, Saliva, CSF, Urine  in Sterile Container",Real Time PCR,2 - 8 °C,Tue/ Thu/ Sat 6 pm,Next Day 10 pm
+800,Maharashtra,Mumbai,MOLBI031,test_800,8250,C6,3 ml EDTA Plasma,Real Time PCR,2 - 8 °C,Tue/ Thu/ Sat 6 pm,Next Day 10 pm
+801,Maharashtra,Mumbai,IMMU022,test_801,700,C2,2 ml Serum,ELFA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 6 hrs
+802,Maharashtra,Mumbai,IMMU021,test_802,700,C2,2 ml Serum,ELFA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 6 hrs
+803,Maharashtra,Mumbai,IMMU020,test_803,1300,C2,3 ml Serum,ELFA,2 - 8 °C,Tue / Thu / Sat 2 pm,Same Day 6 hrs
+804,Maharashtra,Mumbai,MOLBI035,test_804,4300,C5,"2 ml BAL, Saliva, CSF, Urine,  Tissue in Sterile Container, 3 ml EDTA Whole Blood, Serum",Real Time PCR,2 - 8 °C,Tue/Thu/Sat 12 pm,3rd Day 12 pm
+805,Maharashtra,Mumbai,GENP-O-035,test_805,11600,C9,3 ml EDTA Whole Blood,PCR & Sequencing,2 - 8 °C,Mon 6 pm,14th Day 7 pm
+806,Maharashtra,Mumbai,SERO-O-012,test_806,680,C5,2 ml Serum,EIA,2 - 8 °C,Tue / Thu / Sat 3 pm,Mon/ Wed/ Fri 8 pm
+807,Maharashtra,Mumbai,IMMU019,test_807,2300,C5,Stool In Sterile Container,Immunochromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+808,Maharashtra,Mumbai,IMMU018,test_808,2500,C6,Stool In Sterile Container,CLIA,2 - 8 °C,Daily 6 pm,Next Day 7 pm
+809,Maharashtra,Mumbai,MOLBI-O-063,test_809,3450,C6,Stool In Sterile Container,Real Time PCR,2 - 8 °C,Tue/ Fri 6 pm,3rd Day 8 pm
+810,Maharashtra,Mumbai,GENP-O-172,test_810,19800,C6,5 ml EDTA Whole Blood,NGS,2 - 8 °C,Daily 5 pm,23 Days
+811,Maharashtra,Mumbai,CIPA-O-010,test_811,900,C5,10 ml aliquot of 24 hrs Urine. Collect urine in 25 ml 50% HCL container. Mention volume,"Spectophotometry,Enzymatic",2 - 8 °C,Daily 3 pm,Next day 7 pm
+812,Maharashtra,Mumbai,BIOC-O-064,test_812,540,C6,10 ml spot Urine,Enzymatic,2 - 8 °C,Daily 6 pm,Next Day 12 pm
+813,Maharashtra,Mumbai,GENP-O-147,test_813,5800,C6,Chorionic Villus Sterile container containing Transport medium/ normal saline and Sodium Heparin vaccute for Cord blood (30 mg),Cell Culture,2 - 8 °C,Daily 2 pm,22nd Day 7 pm
+814,Maharashtra,Mumbai,GENP-O-143,test_814,10000,C6,50 mg CVS sample Sterile container containing Transport medium/Normal Saline,Cell Culture,2 - 8 °C,Daily 2 pm,22nd Day 7 pm
+815,Maharashtra,Mumbai,GENP-O-144,test_815,10000,C6,20-30ml Amniotic Fluid Sterile Container,Cell Culture,2 - 8 °C,Daily 2 pm,22nd Day 7 pm
+816,Maharashtra,Mumbai,GENP-O-146,test_816,5800,C6,4 ml Cord blood in Na Heparin,Cell Culture,2 - 8 °C,Daily 2 pm,15th Day 7 pm
+817,Maharashtra,Mumbai,GENP-O-140,test_817,3400,C6,4 ml Whole Blood Sodium Heparin,Cell Culture,2 - 8 °C,Daily 2 pm,22nd Day 7 pm
+818,Maharashtra,Mumbai,ELISA023,test_818,7200,C6,Serum,EIA,2 - 8 °C,Tue / Fri 6 pm,Next Day 8 pm
+819,Maharashtra,Mumbai,CIPA-O-009,test_819,3500,C5,10 ml Spot Urine collected in acid wash metal free container,ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 8 pm
+820,Maharashtra,Mumbai,CIPA-O-008,test_820,3500,C5,"10 ml Aliquot of 24 Hrs. Urine collected in acid wash metal free container, Mention volume",ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 8 pm
+821,Maharashtra,Mumbai,BIOC-O-062,test_821,3500,C5,5 ml EDTA whole Blood in metal free tube (K2 EDTA in royal blue top),ICPMS,2 - 8 °C,Thu 3 pm,Sat 8 pm
+822,Maharashtra,Mumbai,BIOC068,test_822,270,C6,3 ml Body Fluids in Sterile Container,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+823,Maharashtra,Mumbai,BIOC065,test_823,270,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+824,Maharashtra,Mumbai,BIOC067,test_824,300,C1,3 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+825,Maharashtra,Mumbai,BIOC064,test_825,300,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+826,Maharashtra,Mumbai,BIOC063,test_826,350,C1,10 ml Spot Urine,ISE,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+827,Maharashtra,Mumbai,BIOC062,test_827,360,C1,10 ml 24 Hrs. Urine. No Preservative,ISE,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+828,Maharashtra,Mumbai,BIOC061,test_828,270,C6,3 ml Body Fluids in Sterile Container,ISE,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+829,Maharashtra,Mumbai,BIOC060,test_829,260,C1,2 ml Serum,ISE,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+830,Maharashtra,Mumbai,ELISA-O-048,test_830,1250,C6,3 ml Serum,EIA,2 - 8 °C,Tue/ Thu/ Sat 5 pm,Next day 7 pm
+831,Maharashtra,Mumbai,ELISA-O-047,test_831,1300,C6,3 ml Serum,EIA,2 - 8 °C,Tue/ Thu/ Sat 5 pm,Next day 7 pm
+832,Maharashtra,Mumbai,ELISA-O-046,test_832,1250,C6,3 ml Serum,EIA,2 - 8 °C,Tue/ Thu/ Sat 6 pm,Next day 7 pm
+833,Maharashtra,Mumbai,ELISA-O-045,test_833,2300,C6,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,3rd Day 7 pm
+834,Maharashtra,Mumbai,ELISA-O-044,test_834,2300,C6,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,3rd Day 7 pm
+835,Maharashtra,Mumbai,MOLBI-O-006,test_835,1600,C3,3 ml EDTA whole blood,PCR,2 - 8 °C,Daily 3 pm,Same day 11 pm
+836,Maharashtra,Mumbai,SERO011,test_836,950,C2,2 ml Serum,Immuno Chromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+837,Maharashtra,Mumbai,SERO-O-082,test_837,1000,C3,2 ml serum,Immunochromatography,2 - 8 °C,Daily 9 am to 7 pm,Same Day 4 Hrs
+838,Maharashtra,Mumbai,SERO-O-009,test_838,3900,C5,3 ml Serum,Automated Lipososme Lysis assay,2 - 8 °C,Mon 12 pm,Next Day 10 pm
+839,Maharashtra,Mumbai,POP097,test_839,2900,C5,Cervical Scrapping in LBC Container,As per indvidual test,Room Temp,Wed / Sat 3 pm,4th Day 7 pm
+840,Maharashtra,Mumbai,BIOC059,test_840,1300,C6,2 ml Serum,Nephelometry,2 - 8 °C,Daily 9 am to 6 pm,Next Day 1 pm
+841,Maharashtra,Mumbai,SERO-O-008,test_841,1550,C5,2 ml Serum,EIA,2 - 8 °C,Mon/ Thu 12 pm,Next Day 8 pm
+842,Maharashtra,Mumbai,IMMU017,test_842,860,C3,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+843,Maharashtra,Mumbai,MOLPA-O-046,test_843,2300,C5,"3 ml EDTA Whole Blood, 3 ml Na Heparin Whole Blood",Flow Cytometry,2 - 8 °C,Daily 3 pm,3rd Day 7 pm
+844,Maharashtra,Mumbai,MOLPA-O-038,test_844,2000,C6,5 ml EDTA Whole Blood,Flow Cytometry,Room Temp,Daily 3 pm,3rd Day 7 pm
+845,Maharashtra,Mumbai,MOLPA-O-033,test_845,2000,C6,5 ml EDTA Whole Blood,Flow Cytometry,Room Temp,Daily 3 pm,3rd Day 7 pm
+846,Maharashtra,Mumbai,MOLPA-O-025,test_846,4200,C5,"3 ml EDTA Whole Blood, 3 ml Na Heparin Whole Blood",Flow Cytometry,Room Temp,Daily 3 pm,3rd Day 7 pm
+847,Maharashtra,Mumbai,MOLPA-O-019,test_847,1150,C6,5 ml EDTA Whole Blood,Flow Cytometry,Room Temp,Daily 3 pm,3rd Day 7 pm
+848,Maharashtra,Mumbai,HAEM023,test_848,430,C1,3 ml EDTA Whole Blood,Refer Individual  Test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+849,Maharashtra,Mumbai,HAEM022,test_849,310,C1,3 ml EDTA Whole Blood,Flow Cytometry,Room Temp,Daily 9 am to 8 pm,Same Day
+850,Maharashtra,Mumbai,ELISA009,test_850,950,C3,2 ml Serum,ELISA,2 - 8 °C,Wed / Sat 1 pm,Same Day 7 pm
+851,Maharashtra,Mumbai,ELISA008,test_851,950,C3,2 ml Serum,ELISA,2 - 8 °C,Wed / Sat 1 pm,Same Day 7 pm
+852,Maharashtra,Mumbai,ELISA007,test_852,950,C5,2 ml Serum,EIA,2 - 8 °C,Daily 3 pm,3r day 7 pm
+853,Maharashtra,Mumbai,POP096,test_853,4300,C4,"3 ml of blood in Na Citrate, 5 ml serum",As per indvidual test,2 - 8 °C,Daily 9 AM to 8 pm,Next  day 5 pm
+854,Maharashtra,Mumbai,POP343,test_854,2500,C4,4 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 AM to 8 pm,Same day
+855,Maharashtra,Mumbai,POP095,test_855,2500,C4,3 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+856,Maharashtra,Mumbai,BIOC-O-058,test_856,950,C5,2 ml Serum (do not collect in SST),Petinia,2 - 8 °C,Daily 3 pm,Next day 7 pm
+857,Maharashtra,Mumbai,POP009,test_857,5600,C4,"3 ml EDTA Whole Blood, 2 ml Serum",As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,Next Day 5 pm
+858,Maharashtra,Mumbai,POP008,test_858,6600,C4,"3 ml EDTA Whole Blood, 3 ml Serum, Cervical Scrapping in LBC Container",As per indvidual test,2 - 8 °C,Daily 9 am to 6 pm,"Next Day 1 pm, LBC 3rd day 7 pm"
+859,Maharashtra,Mumbai,MICRO-O-008,test_859,685,C6,Stool In Sterile Container,Vitek/ MALDITOF,2 - 8 °C,Daily 6 pm,6th Day 9 pm
+860,Maharashtra,Mumbai,ELISA016,test_860,2700,C3,Stool in Sterile Container,ELISA,2 - 8 °C,Wed / Sat 1 pm,Same Day
+861,Maharashtra,Mumbai,BIOC058,test_861,430,C1,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+862,Maharashtra,Mumbai,BIOC054,test_862,230,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+863,Maharashtra,Mumbai,BIOC057,test_863,330,C1,"10 ml Spot Urine  Use 10 ml 6 M HCl  Preservative,",Biochemical,2 - 8 °C,Daily 9 am to 6pm,Next day 2 pm
+864,Maharashtra,Mumbai,BIOC056,test_864,320,C1,"10 ml Aliquot of 24 Hrs. Urine. Use 10 ml 6 M HCl  Preservative, Mention volume",Biochemical,2 - 8 °C,Daily 9 am to 6pm,Next day 2 pm
+865,Maharashtra,Mumbai,SERO-O-007,test_865,2340,C6,2 ml Serum,CLIA,Frozen,Daily 9 am to 6 pm,Next day 2 pm
+866,Maharashtra,Mumbai,CIPA-O-007,test_866,3500,C5,10 ml aliquot of random urine collected in acid wash metal free container. Use powder less gloves. Patient should avoid sea food 3 days prior to test,ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 7 pm
+867,Maharashtra,Mumbai,CIPA-O-006,test_867,3500,C5,10 ml aliquot of 24 Hrs urine collected in acid wash metal free container. Mention Volume. Use powder less gloves. Patient should avoid sea food 3 days prior to test,ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 7 pm
+868,Maharashtra,Mumbai,BIOC-O-056,test_868,3500,C5,5 ml EDTA whole Blood in metal free tube (K2 EDTA). Patient should avoid sea food 3 days prior to test,ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 7 pm
+869,Maharashtra,Mumbai,IMMU015,test_869,1680,C5,2 ml Serum,ECLIA,2 - 8 °C,Wed / Sat 3 pm,Next Day 8 pm
+870,Maharashtra,Mumbai,IMMU093,test_870,1350,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+871,Maharashtra,Mumbai,IMMU014,test_871,1570,C5,2 ml Serum,CMIA,2 - 8 °C,Daily 9 am to 5 pm,Next Day 1 pm
+872,Maharashtra,Mumbai,IMMU013,test_872,1250,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+873,Maharashtra,Mumbai,GENP-O-027,test_873,2650,C5,2 ml Serum (Over night fasting preferred),Nephelometry,2 - 8 °C,Mon 3 pm,Wed 8 pm
+874,Maharashtra,Mumbai,BIOC201,test_874,1600,C5,3 ml Serum,Blot,2 - 8 °C,Daily 12 pm,Same Day
+875,Maharashtra,Mumbai,BIOC071,test_875,720,C5,2 ml Serum,Nephelometry,2 - 8 °C,Daily 9 am to 5 pm,Same Day 6 hrs
+876,Maharashtra,Mumbai,BIOC070,test_876,720,C5,2 ml Serum,Nephelometry,2 - 8 °C,Daily 9 am to 5 pm,Same Day 6 hrs
+877,Maharashtra,Mumbai,BIOC053,test_877,270,C1,"10 ml Aliquot of 24 Hrs. Urine. No Preservative, Mention volume",Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+878,Maharashtra,Mumbai,BIOC-O-055,test_878,270,C6,2 ml Pericardial Fluid In Plain Tube,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Next Day 11 am
+879,Maharashtra,Mumbai,BIOC050,test_879,220,C1,2 ml Serum,Urease with GLDH,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+880,Maharashtra,Mumbai,CYTO014,test_880,1600,C3,Smear,Microscopy,Room Temp,Daily 9 am to 8 pm,3rd Day
+881,Maharashtra,Mumbai,ELISA-O-037,test_881,1350,C5,3 ml Serum,EIA,2 - 8 °C,Tue/ Thu/ Sat 3 pm,3rd Day 7 pm
+882,Maharashtra,Mumbai,ELISA-O-036,test_882,1350,C5,3 ml Serum,EIA,2 - 8 °C,Tue/ Thu/ Sat 3 pm,3rd Day 7 pm
+883,Maharashtra,Mumbai,GENP-O-162,test_883,18500,C6,"5 Ml EDTA Whole blood, DBS card, Amniotic Fluid/  Chorionic Villi - Sterile in 15 ml Falcon tube  nutrient medium  DNA - 1.5ml  sterile cryotube""",NGS,Room Temp,Daily 5 pm,21 Days
+884,Maharashtra,Mumbai,GENP-O-160,test_884,19800,C4,3 ml EDTA Whole Blood - FFPE Tissue/Paraffin,NGS,Room Temp,Daily 5 pm,20 Days
+885,Maharashtra,Mumbai,GENP-O-161,test_885,14000,C7,"5 Ml EDTA Whole blood, DBS card, Amniotic Fluid/  Chorionic Villi - Sterile in 15 ml Falcon tube  nutrient medium  DNA - 1.5 ml  sterile cryotube""",NGS,Room Temp,Daily 5 pm,15 Days
+886,Maharashtra,Mumbai,GENP-O-019,test_886,5840,C6,5 ml EDTA Whole Blood,Sanger sequencing,2 - 8 °C,Wed / Sat 6 pm,8th Day 9 pm
+887,Maharashtra,Mumbai,GENP-O-018,test_887,6640,C6,FFPE Block (>40% of tumor containt),Sanger sequencing,Room Temp,Tue/ Thu/ Sat 6 pm,6th Day 9 pm
+888,Maharashtra,Mumbai,GENP-O-016,test_888,4500,C6,"3 ml Serum, 20 ml Spot Urine",As per indvidual test,2 - 8 °C,Daily 6 pm,Next Day 7 pm
+889,Maharashtra,Mumbai,POP082,test_889,2450,C4,4 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,Same day
+890,Maharashtra,Mumbai,GENP-O-142,test_890,4000,C7,2 ml bone marrow sample in Sodium Heparin,FISH,2 - 8 °C,Daily 2 pm,8th Day 7 pm
+891,Maharashtra,Mumbai,CYTO077,test_891,1350,C6,"2 Stained,2 Unstained Fixed BM Smears and 2 Peripheral Smears Required",Microscopy,2 - 8 °C,Daily 6 pm,3rd Day
+892,Maharashtra,Mumbai,GENP-O-014,test_892,6600,C6,3 ml Serum,As per indvidual test,2 - 8 °C,Wed / Sat 6 pm,Next day 8 pm
+893,Maharashtra,Mumbai,PATHO321,test_893,6200,C4,"5 ml Serum, 2 ml citrated plasma",As per indvidual test,"Serum 2 - 8 °C, Plasma Frozen",Daily 9 am to 5 pm,4th Day 5 pm
+894,Maharashtra,Mumbai,PATHO320,test_894,11400,C4,"5 ml Serum, 5 ml Na Heparin Whole Blood, 2 ml Citrated plasma",As per indvidual test,"Serum 2 - 8 °C, Plasma Frozen",Daily 9 am to 8 pm,22 Days
+895,Maharashtra,Mumbai,BIOC-O-054,test_895,3200,C6,2 ml EDTA Plasma,Nephelometry,2 - 8 °C,Daily 9 am to 5 pm,3rd Day 5 pm
+896,Maharashtra,Mumbai,HAEM-O-007,test_896,1060,C6,3 ml EDTA Whole Blood,Column agglutination,2 - 8 °C,Daily 6 pm,4th Day
+897,Maharashtra,Mumbai,HAEM010,test_897,230,C1,"3 ml EDTA Whole Blood, 2 ml Serum",Agglutination,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+898,Maharashtra,Mumbai,MICRO039,test_898,1600,C3,10 ml Blood In Bactec Aerobic / Anaerobic Bottle,BACTEC FX /VITEK 2,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+899,Maharashtra,Mumbai,MICRO035,test_899,1050,C3,10 ml Blood In Blood Culture Bottle,BACTEC FX /VITEK 2,Room Temp,Daily 9 am to 5 pm,"Preliminary report 48 to 72 Hrs, Final report 5th Day"
+900,Maharashtra,Mumbai,MOLPA-O-013,test_900,5700,C5,3ml EDTA plasma or 15 ml random urine,Real Time PCR,2 - 8 °C,Daily 12 pm,3rd day 9 pm
+901,Maharashtra,Mumbai,ELISA-O-035,test_901,760,C5,3 Blood Spots of heel prick on DBS card,Fluoroimmunoassay,2 - 8 °C,Mon to Fri 3 pm,3rd Day 8 pm
+902,Maharashtra,Mumbai,MOLBI-O-061,test_902,16000,C7,"Sputum, BAL in Sterile Container",Biofire,Room Temp,Daily 9 am to 5 pm,Same Day 7 Hrs
+903,Maharashtra,Mumbai,MOLBI077,test_903,14500,C7,CSF in Sterile Container,Biofire,Room Temp,Daily 9 am to 5 pm,Same Day 7 Hrs
+904,Maharashtra,Mumbai,MOLBI076,test_904,14200,C7,Stool in Cary Blair Medium,Biofire,Room Temp,Daily 9 am to 5 pm,Same Day 7 Hrs
+905,Maharashtra,Mumbai,MOLBI-O-062,test_905,17000,C7,10 ml Blood In Blood Culture Bottle,Biofire,Room Temp,Daily 9 am to 5 pm,Same Day 7 Hrs
+906,Maharashtra,Mumbai,MOLBI078,test_906,14000,C7,Nasopharyngeal Swab in VTM,Biofire,Room Temp,Daily 9 am to 5 pm,Same Day 7 Hrs
+907,Maharashtra,Mumbai,BIOC048,test_907,250,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+908,Maharashtra,Mumbai,CIPA004,test_908,150,C2,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+909,Maharashtra,Mumbai,BIOC-O-051,test_909,1600,C5,2 ml Serum (Over night fasting preferred),Enzymatic Colorimetric,2 - 8 °C,Mon to Sat 3 pm,Next day 7 pm
+910,Maharashtra,Mumbai,BIOC045,test_910,590,C3,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+911,Maharashtra,Mumbai,IMMU-O-056,test_911,740,C5,10 ml Aliquot of 24 hrs Urine,CMIA,2 - 8 °C,Daily 12 pm,Next day 7 pm
+912,Maharashtra,Mumbai,IMMU041,test_912,800,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+913,Maharashtra,Mumbai,BIOC-O-045,test_913,1480,C5,10 ml Aliquot of Urine. No preservative.,CLIA,2 - 8 °C,Daily 3 pm,Next Day 8 pm
+914,Maharashtra,Mumbai,PATHO56,test_914,1770,C6,2 ml CSF in Sterile Container,CLIA,2 - 8 °C,Daily 9 am to 6 pm,Next Day 1 pm
+915,Maharashtra,Mumbai,IMMU012,test_915,1480,C5,2 ml Serum (Over night fasting preferred),CLIA,2 - 8 °C,Daily 3 pm,Next Day 8 pm
+916,Maharashtra,Mumbai,ELISA-O-032,test_916,1050,C5,3 ml Serum,EIA,2 - 8 °C,Wed/ Sat 3 pm,3rd Day 7 pm
+917,Maharashtra,Mumbai,ELISA-O-031,test_917,1050,C5,3 ml Serum,EIA,2 - 8 °C,Wed/ Sat 3 pm,3rd Day 7 pm
+918,Maharashtra,Mumbai,ELISA-O-030,test_918,1050,C5,3 ml Serum,EIA,2 - 8 °C,Wed/ Sat 3 pm,3rd Day 7 pm
+919,Maharashtra,Mumbai,BIOC-O-044,test_919,710,C6,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 5 pm,Next day 2 pm
+920,Maharashtra,Mumbai,CIPA-O-003,test_920,1100,C2,10 ml Urine In Sterile Container,Chemical,2 - 8 °C,Daily 9 am to 8 pm,Next Day 11 am
+921,Maharashtra,Mumbai,CIPA-O-001,test_921,1150,C9,10 ml 24 Hrs. Urine,Immuno Chromatography,Room Temp,Daily 5 pm,6th Day 7 pm
+922,Maharashtra,Mumbai,MOLPA-O-012,test_922,6000,C4,3 ml EDTA Whole Blood / Bone marrow,RT PCR,Room Temp,Daily 5 pm,6th Day 7 pm
+923,Maharashtra,Mumbai,GENP-O-152,test_923,5500,C6,4 ml Blood/Bone marrow in Sodium Heparin sterile vacutte/ transport medium for bone marrow,FISH,2 - 8 °C,Daily 2 pm,8th Day 7 pm
+924,Maharashtra,Mumbai,MICRO004,test_924,900,C3,Pure Culture,VITEK 2,2 - 8 °C,Daily 9 am to 8 pm,4th Day
+925,Maharashtra,Mumbai,POP-O-008,test_925,6000,C5,3 ml serum,IFA,2 - 8 °C,Tue/ Thu/ Sat 6 pm,3rd day 9 pm
+926,Maharashtra,Mumbai,POP-O-007,test_926,23000,C8,3 ml serum,IFA,2 - 8 °C,Tue/ Thu/ Sat 6 pm,3rd day 9 pm
+927,Maharashtra,Mumbai,ELISA-O-124,test_927,6000,C8,"Respiratory samples in sterile container, Swab in VTM",Multiplex PCR,Room Temp,Daily 3 pm,3rd day 9 pm
+928,Maharashtra,Mumbai,POP065,test_928,2200,C4,"3ml of blood in fluoride, 5 ml of serum",As per indvidual test,2 - 8 °C,Daily 9 AM to 8 pm,Next  day 8 pm
+929,Maharashtra,Mumbai,IMMUD-O-003,test_929,1250,C5,2 ml Serum,Immunocap,2 - 8 °C,Daily 12 pm,Next day 9 pm
+930,Maharashtra,Mumbai,SERO009,test_930,600,C2,2 ml Serum,Turbidimetry,2 - 8 °C,Daily 9 am to 7 pm,Same Day 5 Hrs
+931,Maharashtra,Mumbai,CYTO-O-001,test_931,2000,C5,3 ml Serum (overnight fasting),IFA,2 - 8 °C,Daily 3 pm,3rd Day 7 pm
+932,Maharashtra,Mumbai,SERO-O-006,test_932,2300,C5,3 ml Serum (overnight fasting),IFA,2 - 8 °C,Mon/ Fri 3 pm,5th Day 9 pm
+933,Maharashtra,Mumbai,ELISA-O-027,test_933,1600,C5,3 ml Serum,EIA,2 - 8 °C,Wed 3 Pm,Next Day 9 pm
+934,Maharashtra,Mumbai,ELISA-O-026,test_934,1600,C5,3 ml Serum,EIA,2 - 8 °C,Wed 3 Pm,Next Day 9 pm
+935,Maharashtra,Mumbai,POP029,test_935,3700,C4,"3 ml EDTA Whole blood, 5 ml serum",As per indvidual test,2 - 8 °C,Daily 9 AM to 8 pm,3rd day 6 pm
+936,Maharashtra,Mumbai,BIOC-O-034,test_936,3100,C5,3 ml Whole Blood In Metal Free Tube (Royal Blue Top K2 EDTA),ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 9 pm
+937,Maharashtra,Mumbai,HAEM008,test_937,440,C1,3 ml Citrated Platelet Poor Plasma,Optomechanical,2 - 8 °C,Daily 9 am to 8 pm,Same Day 5 Hrs
+938,Maharashtra,Mumbai,POP028,test_938,2000,C4,3 ml Serum,Refer Individual  Test,2 - 8 °C,Daily 9 am to 6 pm,Next Day 8 pm
+939,Maharashtra,Mumbai,BIOC-O-031,test_939,4300,C6,2 ml Serum,Nephelometry,2 - 8 °C,Tue 6 pm,5th Day 9 pm
+940,Maharashtra,Mumbai,BIOC044,test_940,900,C3,2 ml Serum,Immunoturbidimetry,2 - 8 °C,Daily 9 am to 6 pm,Same Day 5 Hrs
+941,Maharashtra,Mumbai,BIOC043,test_941,480,C3,2 ml Serum,Immunoturbidimetry,2 - 8 °C,Daily 9 am to 6 pm,Same Day 5 Hrs
+942,Maharashtra,Mumbai,BIOC042,test_942,480,C3,2 ml Serum,Immunoturbidimetry,2 - 8 °C,Daily 9 am to 6 pm,Same Day 5 Hrs
+943,Maharashtra,Mumbai,POP351,test_943,4700,C4,"3 ml Serum, 2 ml citrated plasma",As per indvidual test,"Serum 2 - 8 °C, Plasma Frozen",Daily 9 am to 5 pm,4th Day 5 pm
+944,Maharashtra,Mumbai,HAEM-O-006,test_944,4450,C6,2 ml Citrated platelet poor Plasma,Clotting,2 - 8 °C,Wed / Sat 6 pm,3rd Day 4 pm
+945,Maharashtra,Mumbai,ELISA006,test_945,1050,C3,2 ml Serum,ELISA,2 - 8 °C,Wed / Sat 1 pm,Same Day
+946,Maharashtra,Mumbai,ELISA005,test_946,1050,C3,2 ml Serum,ELISA,2 - 8 °C,Wed / Sat 1 pm,Same Day
+947,Maharashtra,Mumbai,ELISA-O-024,test_947,1090,C6,2 ml Serum,EIA,2 - 8 °C,Mon / Wed / Fri 6 pm,Next day 9 pm
+948,Maharashtra,Mumbai,MYCBA012,test_948,8900,C3,Tissue/Fluid/Swab,MGIT,2 - 8 °C,Daily 5 pm,6th Day 7 pm
+949,Maharashtra,Mumbai,IMMU011,test_949,1250,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+950,Maharashtra,Mumbai,HAEM-O-005,test_950,5100,C6,"2 ml Citrate Plasma, Prepare Platelet Poor Plasma Within 1 Hrs. of Collection",Immunoturbidimetry,Frozen,Wed / Sat 6 pm,Next Day 5 pm
+951,Maharashtra,Mumbai,HAEM-O-004,test_951,4600,C5,"2 ml Citrate Plasma, Prepare Platelet Poor Plasma Within 1 Hrs. of Collection",Chromogenic,Frozen,Daily 6 pm,Next Day 5 pm
+952,Maharashtra,Mumbai,SERO001,test_952,750,C2,3 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+953,Maharashtra,Mumbai,IMMU008,test_953,900,C3,2 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+954,Maharashtra,Mumbai,IMMU007,test_954,1150,C5,2 ml Serum,CMIA,2 - 8 °C,Daily 6 pm,Next day 7 pm
+955,Maharashtra,Mumbai,IMMU006,test_955,1250,C5,2 ml Serum,CMIA,2 - 8 °C,Daily 6 pm,Next day 7 pm
+956,Maharashtra,Mumbai,IMMU005,test_956,1250,C5,2 ml Serum,CMIA,2 - 8 °C,Daily 6 pm,Next day 7 pm
+957,Maharashtra,Mumbai,ELISA-O-019,test_957,1400,C5,2 ml Serum,Latex Enhanced Nephelometry,2 - 8 °C,Mon/ Thu 3 pm,Next Day 10 pm
+958,Maharashtra,Mumbai,IMMU016,test_958,1450,C2,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+959,Maharashtra,Mumbai,HAEM-O-003,test_959,1650,C6,2 ml Serum,Column agglutination,2 - 8 °C,Daily 6 pm,Next day 9 pm
+960,Maharashtra,Mumbai,HAEM-O-002,test_960,1650,C6,2 ml Serum,Column agglutination,2 - 8 °C,Daily 6 pm,Next day 9 pm
+961,Maharashtra,Mumbai,ELISA-O-018,test_961,6200,C6,3 ml Serum,CLIA,2 - 8 °C,Mon / Wed / Fri 6 pm,Next Day 9 pm
+962,Maharashtra,Mumbai,POP341,test_962,2150,C4,"3 ml EDTA whole blood, 2 ml Fluoride Plasma, 5 ml Serum",As per indvidual test,2 - 8 °C,Daily 9 am to 5 pm,Same Day
+963,Maharashtra,Mumbai,POP025,test_963,1950,C4,"3 ml EDTA whole blood, 2 ml Fluoride Plasma, 5 ml Serum, 10 ml Urine",As per indvidual test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+964,Maharashtra,Mumbai,POP019,test_964,3600,C4,"2 ml Fluoride Plasma, 3 ml EDTA Whole Blood, 3 ml Serum & 10 ml Urine",As per indvidual test,2 - 8 °C,Daily 9 am to 7 pm,3rd Day 6 pm
+965,Maharashtra,Mumbai,POP027,test_965,1950,C4,"3 ml EDTA whole blood, 2 ml Fluoride Plasma, 5 ml Serum, 10 ml Urine",As per indvidual test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+966,Maharashtra,Mumbai,GENP-O-159,test_966,6800,C6,4 ml Blood in Sodium Heparin,FISH,2 - 8 °C,Daily 2 pm,8th Day 7 pm
+967,Maharashtra,Mumbai,IMMU-O-011,test_967,2100,C5,3 ml Serum,CLIA,2 - 8 °C,Daily 5 pm,3rd Day 7 pm
+968,Maharashtra,Mumbai,POP026,test_968,4650,C5,4 ml Serum,As per indvidual test,2 - 8 °C,Mon & Thu 6 pm,3rd day 8 pm
+969,Maharashtra,Mumbai,BIOC041,test_969,2450,C5,2 ml Serum,Immunoblot,2 - 8 °C,Daily 12 pm,Same Day
+970,Maharashtra,Mumbai,POP024,test_970,1650,C4,"3 ml of blood in EDTA, 5 ml of serum",As per indvidual test,2 - 8 °C,Daily 9 AM to 8 pm,Same day
+971,Maharashtra,Mumbai,POP344,test_971,6000,C4,"3 ml EDTA Whole blood, 5ml of serum",As per indvidual test,2 - 8 °C,Daily 9 am to 8 pm,3rd day 5 pm
+972,Maharashtra,Mumbai,POP346,test_972,3100,C4,"3 ml EDTA Whole blood, 5 ml of serum",As per indvidual test,2 - 8 °C,Daily 9 AM to 8 pm,3rd day 5 pm
+973,Maharashtra,Mumbai,ELISA004,test_973,5200,C6,3 ml Serum,EIA,2 - 8 °C,Daily 6 pm,Next Day 8 pm
+974,Maharashtra,Mumbai,BIOC040,test_974,1000,C2,2 ml Serum,IFA,2 - 8 °C,Mon / Wed / Sat 1 pm,Same Day
+975,Maharashtra,Mumbai,BIOC039,test_975,3400,C2,2 ml Serum,Blot,2 - 8 °C,Mon / Wed / Sat 1 pm,Same Day
+976,Maharashtra,Mumbai,BIOC038,test_976,4300,C6,3 ml Serum,Nephelometry,2 - 8 °C,Mon 6 pm,3rd day 8 pm
+977,Maharashtra,Mumbai,BIOC034,test_977,590,C3,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+978,Maharashtra,Mumbai,SERO-O-085,test_978,1500,C5,2 ml Serum,EIA,2 - 8 °C,Tue / Thu / Fri 3 pm,Next day 9 pm
+979,Maharashtra,Mumbai,GENP-O-145,test_979,12000,C6,20 - 30 ml Amniotic Fluid in Sterile Container,Cell Culture + FISH,2 - 8 °C,Daily 2 pm,22nd Day 9 pm
+980,Maharashtra,Mumbai,BIOC033,test_980,1700,C3,2 ml Heparinised Plasma,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+981,Maharashtra,Mumbai,PATHO58,test_981,4300,C5,2 ml EDTA Whole Blood/ 1 drop of Heel prick on 3 spot of DBS Card,TMS,2 - 8 °C,Tue / Thu / Sat 3 pm,3rd Day
+982,Maharashtra,Mumbai,ELISA-O-009,test_982,1350,C5,2 ml Sodium Heparin Plasma,Thin Layer Chromatography,2 - 8 °C,Tue / Thu / Sat 3 pm,3rd Day
+983,Maharashtra,Mumbai,POP174,test_983,3700,C4,4 ml Serum,As per indvidual test,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+984,Maharashtra,Mumbai,IMMU003,test_984,2100,C3,2 ml Serum,ELFA,2 - 8 °C,Daily 9 am to 7 pm,Same Day
+985,Maharashtra,Mumbai,BIOC-O-028,test_985,2800,C6,"10 ml Aliquot of 24 Hrs. Urine. No Preservative, Mention volume",ICPMS,2 - 8 °C,Daily 5 pm,4th Day 7 pm
+986,Maharashtra,Mumbai,BIOC-O-027,test_986,2300,C5,2 ml Serum In Metal Free Vacutainer (Royal Blue tube),ICPMS,2 - 8 °C,Daily 3 pm,3rd Day 7 pm
+987,Maharashtra,Mumbai,BIOC029,test_987,3280,C8,3 ml Serum,Nephelometry,2 - 8 °C,Sat & Wed 6 pm,Mon & Thu 9 pm
+988,Maharashtra,Mumbai,BIOC028,test_988,2290,C6,3 ml Serum,Immunoturbidimetry,2 - 8 °C,Daily 9 am to 6 pm,Same Day 6 Hrs
+989,Maharashtra,Mumbai,BIOC027,test_989,2490,C6,3 ml Serum,Nephelometry,2 - 8 °C,Wed / Sat 5 pm,Thu & Mon 8 pm
+990,Maharashtra,Mumbai,IMMUD-O-002,test_990,1250,C6,3 ml serum,Immunocap,2 - 8 °C,Daily 12 pm,Next Day 7 pm
+991,Maharashtra,Mumbai,DINUT-O-140,test_991,1250,C6,3 ml serum,Immunocap,2 - 8 °C,Daily 12 pm,Next Day 7 pm
+992,Maharashtra,Mumbai,DINUT-O-136,test_992,6600,C6,5 ml Serum,ImmunoCAP,2 - 8 °C,Daily 6 pm,3rd Day 7 pm
+993,Maharashtra,Mumbai,DINUT004,test_993,9000,C4,5 ml Serum,ELISA,2 - 8 °C,Daily 6 pm,5th Day 7 pm
+994,Maharashtra,Mumbai,DINUT005,test_994,9900,C4,5 ml Serum,ELISA,2 - 8 °C,Daily 9 am to 8 pm,5th Day 7 pm
+995,Maharashtra,Mumbai,IMMUD015,test_995,8800,C4,5 ml Serum,ELISA,2 - 8 °C,Daily 6 pm,5th Day 7 pm
+996,Maharashtra,Mumbai,DINUT003,test_996,9900,C4,5 ml Serum,ELISA,2 - 8 °C,Daily 6 pm,5th Day 7 pm
+997,Maharashtra,Mumbai,DINUT-O-001,test_997,3500,C4,4 ml Serum,ELISA,2 - 8 °C,Daily 9 am to 8 pm,6th Day 6 pm
+998,Maharashtra,Mumbai,IMMUD004,test_998,10500,C4,5 ml Serum,ELISA,2 - 8 °C,Daily 6 pm,6th Day 7 pm
+999,Maharashtra,Mumbai,DINUT-O-135,test_999,1450,C6,2 ml Serum,Immunocap,2 - 8 °C,Daily 6 pm,Next day 7 pm
+1000,Maharashtra,Mumbai,DINUT-O-063,test_1000,1250,C6,3 ml serum,Immunocap,2 - 8 °C,Daily 12 pm,Next Day 7 pm
+1001,Maharashtra,Mumbai,DINUT-O-013,test_1001,1450,C6,3 ml serum,Immunocap,2 - 8 °C,Daily 6 pm,Next Day 5 pm
+1002,Maharashtra,Mumbai,DINUT-O-012,test_1002,1250,C6,3 ml serum,Immunocap,2 - 8 °C,Daily 12 pm,Next Day 7 pm
+1003,Maharashtra,Mumbai,DINUT-O-011,test_1003,1250,C6,3 ml serum,Immunocap,2 - 8 °C,Daily 12 pm,Next Day 7 pm
+1004,Maharashtra,Mumbai,DINUT-O-008,test_1004,1250,C6,3 ml serum,Immunocap,2 - 8 °C,Daily 12 pm,Next Day 7 pm
+1005,Maharashtra,Mumbai,DINUT-O-134,test_1005,1200,C5,2 ml Serum,immunocap,2 - 8 °C,Daily 3 pm,Next day 7 pm
+1006,Maharashtra,Mumbai,SERO-O-053,test_1006,1350,C6,2 ml Serum,EIA,2 - 8 °C,Wed / Sat 6 pm,Fri & Tue 8 pm
+1007,Maharashtra,Mumbai,BIOC-O-019,test_1007,2100,C6,3 ml Serum,CLIA,2 - 8 °C,Sat 3 pm,Mon 9 pm
+1008,Maharashtra,Mumbai,BIOC025,test_1008,230,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 9 pm,Same Day
+1009,Maharashtra,Mumbai,GENP-O-005,test_1009,8500,C6,FFPE Tissue/Paraffin block. Histopathology report Mandatory,FISH,Room Temp,Daily 5 pm,8th Day 8 pm
+1010,Maharashtra,Mumbai,GENP-O-003,test_1010,4850,C6,2 ml Bone Marrow in Sodium Heparin,FISH,2 - 8 °C,Daily 5 pm,4th Day 8 pm
+1011,Maharashtra,Mumbai,GENP-O-004,test_1011,4850,C6,3 ml Whole Blood in Sodium Heparin,FISH,2 - 8 °C,Daily 5 pm,4th Day 8 pm
+1012,Maharashtra,Mumbai,BIOC-O-017,test_1012,7350,C6,3 ml EDTA plasma & 2 ml serum,CLIA,2 - 8 °C,Daily 6 pm,Next Day 7 pm
+1013,Maharashtra,Mumbai,ELISA-O-007,test_1013,1900,C5,"5 ml Aliquot Of 24-Hrs. Urine, Add Boric Acid (1G/100 Ml Urine) To The 24-Hrs. Collection, Mention Volume",CLIA,2 - 8 °C,Thu 3 pm,Fri 9 pm
+1014,Maharashtra,Mumbai,BIOC-O-015,test_1014,1900,C5,3 ml EDTA Plasma,CLIA,Frozen,Mon & Thu 3 pm,Tue & Fri 9 pm
+1015,Maharashtra,Mumbai,BIOC-O-014,test_1015,800,C5,2 ml Serum / 2ml Heparin or EDTA plasma,Spectrophotometry,2 - 8 °C,Wed & Sat 3 pm,Thu & Mon 9 pm
+1016,Maharashtra,Mumbai,PATHO08,test_1016,300,C5,2 ml Serum,Tube clotting,2 - 8 °C,Daily 3 pm,Next Day 8 pm
+1017,Maharashtra,Mumbai,BIOC-O-013,test_1017,1350,C6,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 6 pm,Next Day 2 pm
+1018,Maharashtra,Mumbai,BIOC-O-012,test_1018,1040,C6,"3 ml Serum, always collect in gel vacuatiner & centrifuge seperately",Enzymatic,2 - 8 °C,Daily 6 pm,Next Day 2 pm
+1019,Maharashtra,Mumbai,BIOC003,test_1019,600,C1,10 ml 24 Hrs. Urine. No Preservative,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day 5 Hrs
+1020,Maharashtra,Mumbai,BIOC024,test_1020,600,C1,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+1021,Maharashtra,Mumbai,BIOC021,test_1021,400,C1,"10 ml Aliquot of 24 Hrs. Urine. No Preservative, Mention volume",Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+1022,Maharashtra,Mumbai,CIPA002,test_1022,140,C1,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+1023,Maharashtra,Mumbai,BIOC184,test_1023,560,C1,10 ml Spot Urine,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+1024,Maharashtra,Mumbai,BIOC020,test_1024,220,C5,2 ml Synovial Fluid,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Next Day 2 pm
+1025,Maharashtra,Mumbai,BIOC022,test_1025,230,C1,2 ml Serum,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+1026,Maharashtra,Mumbai,BIOC019,test_1026,280,C1,2 ml Pleural Fluid In Sterile Container,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+1027,Maharashtra,Mumbai,BIOC018,test_1027,340,C1,2 ml Ascitic Fluid in Sterile Container,Biochemical,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+1028,Maharashtra,Mumbai,MICRO002,test_1028,350,C3,Throat Swab/ Naso-Pharyngeal Swab (1 Swab/ 1 Slide),Microscopy,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+1029,Maharashtra,Mumbai,IMMUD003,test_1029,900,C3,2 ml Serum,CLIA,2 - 8 °C,Daily 9 am to 8 pm,Same Day
+1030,Maharashtra,Mumbai,IMMU-O-002,test_1030,1040,C6,2 ml CSF in Sterile Container,CLIA,2 - 8 °C,Daily 9 am to 6 pm,Next Day 2 pm
+1031,Maharashtra,Mumbai,IMMU-O-001,test_1031,950,C5,"3 ml Amniotic Fluid In Sterile Container, Duly filled form G & duly filled prescription mandatory",CLIA,2 - 8 °C,Daily 3 pm,Next Day 8 pm
+1032,Maharashtra,Mumbai,MOLBI019,test_1032,2500,C3,Pure Culture (Mtb Complex) Bottle Or Mgit Tube Or Lj Slant,MGIT,2 - 8 °C,Daily 9 am to 6 pm,21 Days
+1033,Maharashtra,Mumbai,MYCBA011,test_1033,400,C3,2-3 ml (All Respiratory And Non Respiratory Samples) In Sterile Container,ZN Stain,2 - 8 °C,Daily 9 am to 6 pm,Next Day
+1034,Maharashtra,Mumbai,MYCBA010,test_1034,440,C3,2-3 ml All Respiratory And Non Respiratory Samples,Fluorescent stain and microscopy,2 - 8 °C,Daily 9 am to 6 pm,Next Day 6 pm
+1035,Maharashtra,Mumbai,MOLBI018,test_1035,1800,C3,Pulmonary & Extra Pulmonary Specimen,Line Probe Assay,2 - 8 °C,Daily 9 am to 6 pm,4th Day 8 pm
+1036,Maharashtra,Mumbai,MYCBA008,test_1036,1050,C3,"2-3 ml Sputum, BAL In Sterile Container",MGIT,2 - 8 °C,Daily 9 am to 6 pm,"AFB Stain Next Day, Preliminary Report 3 Weeks, Final Report 6 Weeks"
+1037,Maharashtra,Mumbai,MYCBA002,test_1037,1050,C3,2-3 ml Site Specific Sample In Sterile Container,MGIT,2 - 8 °C,Daily 9 am to 6 pm,"AFB Stain Next Day, Preliminary Report 3 Weeks, Final Report 6 Weeks"
+1038,Maharashtra,Mumbai,ELISA-O-006,test_1038,3280,C6,"20 ml Aliquot Of 24 Hr Urine,  Use 10 ml of 6 M HCl, Mention Urine Volume, Do Not Consume Bananas, Pineapple, Chocolates, Coffee, Icecream,  High Diet in Cereals & Vanilla, Potato & B complex. 48 hrs before collection, Need CT scan, USG report & medication detail",EIA,2 - 8 °C,Tue 6 pm,Thu 8 pm
+1039,Maharashtra,Mumbai,ELISA-O-005,test_1039,3800,C6,"3 ml EDTA Plasma , Do Not Consume Bananas, Pineapple, Chocolates, Coffee, Icecream, High Diet in Cereals & Vanilla, Potato & B complex. 48 hrs before collection, Need CT scan, USG report & medication detail",EIA,2 - 8 °C,Tue 6 pm,Thu 8 pm
+1040,Maharashtra,Mumbai,ELISA-O-004,test_1040,3150,C6,3 ml Serum,EIA,2 - 8 °C,Tue 6 pm,Wed 10 pm
+1041,Maharashtra,Mumbai,ELISA-O-003,test_1041,5720,C6,"3 ml EDTA Plasma to be sent in Aliquot Tube at frozen temperature, Fasting Mandatory",EIA,Frozen,Sat 6 pm,Tue 9 pm
+1042,Maharashtra,Mumbai,ELISA-O-002,test_1042,1750,C6,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,Thu 9 pm
+1043,Maharashtra,Mumbai,ELISA-O-001,test_1043,1750,C6,3 ml Serum,EIA,2 - 8 °C,Wed 6 pm,Thu 9 pm
+1044,Maharashtra,Mumbai,BIOC009,test_1044,800,C3,2 ml Serum,Enzymatic,2 - 8 °C,Daily 9 am to 8 pm,Same Day 6 Hrs
+1045,Maharashtra,Mumbai,BIOC017,test_1045,800,C3,Synovial Fluid in Sterile container,Enzymatic,2 - 8 °C,Daily 9 am to 8 pm,Next Day 4 pm
+1046,Maharashtra,Mumbai,BIOC016,test_1046,800,C3,2 ml Serum,Enzymatic,2 - 8 °C,Daily 9 am to 8 pm,Same Day 6 Hrs
+1047,Maharashtra,Mumbai,BIOC015,test_1047,800,C3,2 ml Pleural Fluid In Sterile Container,Enzymatic,2 - 8 °C,Daily 9 am to 8 pm,Same Day 6 Hrs
+1048,Maharashtra,Mumbai,BIOC014,test_1048,800,C3,2 ml Peritoneal Fluid In Plain Tube,Enzymatic,2 - 8 °C,Daily 9 am to 8 pm,Same Day 6 Hrs
+1049,Maharashtra,Mumbai,BIOC013,test_1049,800,C3,2 ml Pericardial Fluid In Plain Tube,Enzymatic,2 - 8 °C,Daily 9 am to 8 pm,Same Day 6 Hrs
+1050,Maharashtra,Mumbai,BIOC012,test_1050,800,C3,2 ml CSF in Sterile Container,Enzymatic,2 - 8 °C,Daily 9 am to 8 pm,Same Day 6 Hrs
+1051,Maharashtra,Mumbai,BIOC011,test_1051,800,C3,2 ml Body Fluid in Sterile Container,Enzymatic,2 - 8 °C,Daily 9 am to 8 pm,Same Day 6 Hrs
+1052,Maharashtra,Mumbai,BIOC010,test_1052,800,C3,2 ml Ascitic Fluid in Sterile Container,Enzymatic,2 - 8 °C,Daily 9 am to 8 pm,Same Day 6 Hrs
+1053,Maharashtra,Mumbai,MICRO-O-001,test_1053,1300,C5,Pus / intrauterine Devices / Exudate / CSF / Pleural Or Other Fluids / Tissue in an Anaerobic Transport Medium,"Microscopy,  MALDITOF-MS",Room Temp,Daily 3 pm,1 Week & Final 3 Weeks
+1054,Maharashtra,Mumbai,IMMU-O-003,test_1054,1650,C5,2 ml EDTA Plasma (Collect Between 8-10 am),CLIA,Frozen,Daily 3 pm,Next Day 8 pm
+1055,Maharashtra,Mumbai,BIOC-O-010,test_1055,325,C5,2 ml Serum,Spectrophotometry,2 - 8 °C,Daily 3 pm,Next Day 8 pm
+1056,Maharashtra,Mumbai,BIOC-O-011,test_1056,600,C5,2 ml Serum,Spectrophotometry,2 - 8 °C,Daily 3 pm,Next Day 8 pm
+1057,Maharashtra,Mumbai,BIOC-O-008,test_1057,2400,C5,2 ml Serum,EIA,2 - 8 °C,Mon to Sat 12 pm,Next day 9 pm
+1058,Maharashtra,Mumbai,BIOC-O-007,test_1058,600,C5,2 ml Serum,Spectrophotometry,2 - 8 °C,Daily 3 pm,Next Day 8 pm
+1059,Maharashtra,Mumbai,CIPA001,test_1059,130,C1,10 ml Spot Urine,Enzymatic,2 - 8 °C,Daily 9 am to 8 pm,Same Day 6 Hrs
+1060,Maharashtra,Mumbai,BIOC-O-005,test_1060,900,C6,2 ml Serum,Enzymatic,2 - 8 °C,Daily 9 am to 8 pm,Same Day 6 Hrs
+1061,Maharashtra,Mumbai,BIOC-O-001,test_1061,3400,C8,2 ml CSF in Sterile Container,Enzymatic,2 - 8 °C,Daily 6 pm,5th Day 9 pm
+1062,Maharashtra,Mumbai,IMMU-O-068,test_1062,1250,C5,2 ml Serum,Enzymatic,2 - 8 °C,Daily 9 am to 7 pm,Same Day 6 Hrs
+1063,Maharashtra,Mumbai,DINUT-O-139,test_1063,3000,C6,3 ml Serum,Immunocap,2 - 8 °C,Wed/ Sat 6 pm,3rd Day 7 pm
+1064,Maharashtra,Mumbai,BIOC-O-004,test_1064,3440,C6,"10 ml Aliquot of 24 Hrs. Urine.  10 ml Preservative of 6 M HCL in container, Mention volume",Column Chromatography,2 - 8 °C,Mon & Thu 6 pm,Tue & Fri 10 pm
+1065,Maharashtra,Mumbai,SERO-O-003,test_1065,300,C5,3 Blood Spots of heel prick on DBS card,DELFIA,2 - 8 °C,Mon to Fri 3 pm,3rd Day 10 pm
+1066,Maharashtra,Mumbai,ELISA001,test_1066,1400,C5,2 ml Serum,CLIA,2 - 8 °C,Mon to Sat 3 pm,Next Day 10 pm
+1067,Maharashtra,Mumbai,SERO-O-001,test_1067,4340,C6,"10 ml Aliquot of 24 Hrs. Urine.  10 ml Preservative of 6 M HCL in container, Mention volume",Column Chromatography,2 - 8 °C,Mon & Thu 6 pm,Tue & Fri 10 pm
+1068,Maharashtra,Mumbai,SERO010,test_1068,7380,C6,3 ml Serum,Protease Zymogen Colorimetry,2 - 8 °C,Daily 6 pm,Next day 9 pm
