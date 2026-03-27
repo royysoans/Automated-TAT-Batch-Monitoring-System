@@ -3,7 +3,7 @@ from datetime import datetime
 from database import get_db
 from notification_service import send_alert_notification
 
-def check_and_create_alerts(sample_id, test_code, received_at, batch_cutoff, eta, missed_batch=False):
+def check_and_create_alerts(sample_id, test_code, received_at, batch_cutoff, eta, missed_batch=False, user_email=None):
 
     conn = get_db()
     cursor = conn.cursor()
@@ -22,7 +22,7 @@ def check_and_create_alerts(sample_id, test_code, received_at, batch_cutoff, eta
         """, (sample_id, message))
         alerts_created.append({"type": "missed_batch", "severity": "warning", "message": message})
         try:
-            send_alert_notification("missed_batch", "warning", message, sample_id, test_code)
+            send_alert_notification("missed_batch", "warning", message, sample_id, test_code, user_email=user_email)
         except Exception:
             pass
 
@@ -39,7 +39,7 @@ def check_and_create_alerts(sample_id, test_code, received_at, batch_cutoff, eta
         """, (sample_id, message))
         alerts_created.append({"type": "extended_tat", "severity": "info", "message": message})
         try:
-            send_alert_notification("extended_tat", "info", message, sample_id, test_code)
+            send_alert_notification("extended_tat", "info", message, sample_id, test_code, user_email=user_email)
         except Exception:
             pass
 
@@ -57,7 +57,7 @@ def check_and_create_alerts(sample_id, test_code, received_at, batch_cutoff, eta
         """, (sample_id, severity, message))
         alerts_created.append({"type": "tat_breach", "severity": severity, "message": message})
         try:
-            send_alert_notification("tat_breach", severity, message, sample_id, test_code)
+            send_alert_notification("tat_breach", severity, message, sample_id, test_code, user_email=user_email)
         except Exception:
             pass
 

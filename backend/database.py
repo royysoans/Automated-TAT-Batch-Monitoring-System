@@ -71,6 +71,8 @@ def init_db():
         CREATE INDEX IF NOT EXISTS idx_samples_test_code ON samples(test_code);
         CREATE INDEX IF NOT EXISTS idx_alerts_sample_id ON alerts(sample_id);
         CREATE INDEX IF NOT EXISTS idx_alerts_acknowledged ON alerts(acknowledged);
+
+        ALTER TABLE samples ADD COLUMN IF NOT EXISTS user_email TEXT;
     """)
 
     conn.commit()
