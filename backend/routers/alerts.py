@@ -1,13 +1,10 @@
-"""
-Alerts Router — manage alerts and notifications.
-"""
 
 from fastapi import APIRouter, Query
 from database import get_db
 from alert_service import check_all_samples_for_breaches
+from notification_service import NOTIFICATIONS_ENABLED, NOTIFICATION_TO, SMTP_HOST
 
 router = APIRouter(prefix="/api/alerts", tags=["Alerts"])
-
 
 @router.get("")
 def list_alerts(
@@ -15,7 +12,7 @@ def list_alerts(
     acknowledged: bool = Query(None, description="Filter by acknowledged status"),
     limit: int = Query(50, ge=1, le=500),
 ):
-    """List all alerts with optional filtering."""
+
     conn = get_db()
     cursor = conn.cursor()
 
@@ -35,7 +32,6 @@ def list_alerts(
     cursor.execute(query, params)
     rows = cursor.fetchall()
 
-    # Stringify TIMESTAMP columns for JSON serialization
     alerts = []
     for row in rows:
         alert_dict = dict(row)
@@ -47,10 +43,9 @@ def list_alerts(
 
     return {"alerts": alerts, "total": len(alerts)}
 
-
 @router.post("/{alert_id}/acknowledge")
 def acknowledge_alert(alert_id: int):
-    """Mark an alert as acknowledged."""
+
     conn = get_db()
     cursor = conn.cursor()
 
@@ -63,9 +58,18 @@ def acknowledge_alert(alert_id: int):
     conn.close()
     return {"success": True, "alert_id": alert_id}
 
-
 @router.post("/check-breaches")
 def trigger_breach_check():
-    """Manually trigger a check for TAT breaches across all samples."""
+
     results = check_all_samples_for_breaches()
     return {"breaches_found": len(results), "details": results}
+
+@router.get("/notification-status")
+def notification_status():
+
+    return {
+        "email_enabled": NOTIFICATIONS_ENABLED,
+        "smtp_host": SMTP_HOST if NOTIFICATIONS_ENABLED else None,
+        "recipients": NOTIFICATION_TO.split(",") if NOTIFICATIONS_ENABLED and NOTIFICATION_TO else [],
+        "message": "Email notifications are active" if NOTIFICATIONS_ENABLED else "Email notifications are not configured. Set SMTP_HOST, SMTP_USER, SMTP_PASSWORD, and NOTIFICATION_TO in your .env file."
+    }

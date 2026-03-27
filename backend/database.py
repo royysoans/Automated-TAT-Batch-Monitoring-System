@@ -1,7 +1,3 @@
-"""
-Database setup for the TAT & Batch Monitoring System.
-Connects to a PostgreSQL database (e.g., Neon or Supabase) using psycopg2.
-"""
 
 import os
 import psycopg2
@@ -13,22 +9,19 @@ load_dotenv()
 DATABASE_URL = os.environ.get("DATABASE_URL")
 
 def get_db():
-    """Get a database connection with RealDictCursor factory."""
+
     if not DATABASE_URL:
         raise ValueError("DATABASE_URL environment variable is not set. Please set it in .env")
-    
+
     conn = psycopg2.connect(DATABASE_URL, cursor_factory=RealDictCursor)
-    conn.autocommit = False  # Use explicit commits for data integrity
+    conn.autocommit = False
     return conn
 
-
 def init_db():
-    """Initialize database tables with proper PostgreSQL types."""
+
     conn = get_db()
     cursor = conn.cursor()
 
-    # Use TIMESTAMP for time columns so NOW() comparisons work correctly.
-    # Use BOOLEAN for missed_batch instead of INTEGER.
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS tests (
             test_code TEXT PRIMARY KEY,
@@ -50,6 +43,7 @@ def init_db():
             id SERIAL PRIMARY KEY,
             sample_id TEXT UNIQUE NOT NULL,
             test_code TEXT NOT NULL,
+            user_email TEXT,
             received_at TEXT NOT NULL,
             batch_cutoff TEXT,
             batch_processing_start TEXT,
@@ -82,7 +76,6 @@ def init_db():
     conn.commit()
     cursor.close()
     conn.close()
-
 
 if __name__ == "__main__":
     init_db()

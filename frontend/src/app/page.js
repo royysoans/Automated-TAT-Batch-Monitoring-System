@@ -33,7 +33,8 @@ function timeAgo(iso) {
   return `${Math.floor(diff / 86400)}d ago`;
 }
 
-// Icons
+
+
 const SunIcon = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
 );
@@ -50,25 +51,30 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState(null);
   
-  // UI States
+
+
   const [toasts, setToasts] = useState([]);
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [showWebhookModal, setShowWebhookModal] = useState(false);
   
-  // New Advanced UI States
+
+
   const [searchQuery, setSearchQuery] = useState("");
   const [sortConfig, setSortConfig] = useState({ key: "received_at", direction: "desc" });
   const [selectedSample, setSelectedSample] = useState(null);
   const [sampleDetails, setSampleDetails] = useState(null);
 
-  // Webhook tester state
+
+
   const [sampleId, setSampleId] = useState("");
   const [testCode, setTestCode] = useState("BIOC007");
   const [receivedAt, setReceivedAt] = useState("");
+  const [userEmail, setUserEmail] = useState("");
   const [sending, setSending] = useState(false);
   const [deleting, setDeleting] = useState(false);
 
-  // Initialize theme
+
+
   useEffect(() => {
     const saved = localStorage.getItem('theme');
     const isDark = saved === 'dark'; 
@@ -114,10 +120,12 @@ export default function Dashboard() {
     return () => clearInterval(interval);
   }, [fetchData]);
 
-  // Fetch full sample details when drawer opens
+
+
   useEffect(() => {
     if (selectedSample) {
-      setSampleDetails(null); // Clear previous
+      setSampleDetails(null); 
+
       fetch(`${API}/api/samples/${selectedSample.sample_id}`)
         .then(res => res.json())
         .then(data => setSampleDetails(data))
@@ -125,13 +133,15 @@ export default function Dashboard() {
     }
   }, [selectedSample]);
 
-  // Webhook initial setup
+
+
   useEffect(() => {
     if (showWebhookModal) {
       const now = new Date();
       now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
       setReceivedAt(now.toISOString().slice(0, 16));
       setSampleId(`SAMP-${String(Date.now()).slice(-4)}`);
+      setUserEmail("");
     }
   }, [showWebhookModal]);
 
@@ -153,6 +163,7 @@ export default function Dashboard() {
         body: JSON.stringify({
           sample_id: sampleId,
           test_code: testCode,
+          user_email: userEmail || undefined,
           received_at: receivedAt + ":00",
         }),
       });
@@ -201,7 +212,8 @@ export default function Dashboard() {
     setDeleting(false);
   };
 
-  // Sorting Handler
+
+
   const handleSort = (key) => {
     let direction = "asc";
     if (sortConfig.key === key && sortConfig.direction === "asc") {
@@ -210,7 +222,8 @@ export default function Dashboard() {
     setSortConfig({ key, direction });
   };
 
-  // Filter & Sorted Data
+
+
   const processedSamples = useMemo(() => {
     let result = [...samples];
     if (searchQuery) {
@@ -249,7 +262,8 @@ export default function Dashboard() {
 
   return (
     <div className="app-container">
-      {/* Header */}
+
+
       <header className="header">
         <div className="header-left">
           <div className="header-logo">
@@ -275,7 +289,8 @@ export default function Dashboard() {
         </div>
       </header>
 
-      {/* Navigation */}
+
+
       <nav className="nav-tabs">
         {["dashboard", "alerts"].map((tab) => (
           <button
@@ -290,7 +305,8 @@ export default function Dashboard() {
 
       {activeTab === "dashboard" && (
         <>
-          {/* Stats Cards */}
+
+
           <div className="stats-grid">
             <motion.div initial={{y: 20, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{delay: 0.1}} className="stat-card blue">
               <div className="stat-label">Total Volume (24h)</div>
@@ -315,7 +331,8 @@ export default function Dashboard() {
           </div>
 
           <div className="content-grid">
-            {/* Interactive Sample Pipeline */}
+
+
             <div className="panel">
               <div className="table-controls">
                 <div className="search-bar">
@@ -395,7 +412,8 @@ export default function Dashboard() {
               </div>
             </div>
 
-            {/* Right Panel */}
+
+
             <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
               <div className="panel">
                 <div className="panel-header" style={{ background: "var(--accent-red-bg)" }}>
@@ -448,7 +466,9 @@ export default function Dashboard() {
                         </div>
                         <div className="batch-counts">
                           <span className="samples" title="Queued Samples">{b.sample_count} pending</span>
+
                           {b.missed_count > 0 && <span className="missed" title="Delayed intakes">({b.missed_count} delayed)</span>}
+
                         </div>
                       </div>
                     ))
@@ -495,7 +515,8 @@ export default function Dashboard() {
         </div>
       )}
 
-      {/* Advanced Draw Component for Timeline visualization */}
+
+
       <AnimatePresence>
         {selectedSample && (
           <div className="drawer-overlay" onClick={() => setSelectedSample(null)}>
@@ -522,7 +543,8 @@ export default function Dashboard() {
               </div>
               
               <div className="drawer-body">
-                {/* EDOS Meta details */}
+
+
                 {sampleDetails && (
                   <div className="drawer-section">
                     <div className="drawer-section-title">Test Parameters (EDOS)</div>
@@ -547,7 +569,8 @@ export default function Dashboard() {
                   </div>
                 )}
 
-                {/* Vertical Timeline */}
+
+
                 <div className="drawer-section">
                   <div className="drawer-section-title">Lifecycle Timeline</div>
                   <div className="timeline">
@@ -605,7 +628,8 @@ export default function Dashboard() {
         )}
       </AnimatePresence>
 
-      {/* Webhook Modal */}
+
+
       <AnimatePresence>
         {showWebhookModal && (
           <div className="modal-overlay" onClick={() => setShowWebhookModal(false)}>
@@ -624,6 +648,10 @@ export default function Dashboard() {
                   <input className="mono" value={testCode} onChange={(e) => setTestCode(e.target.value)} placeholder="BIOC007" />
                 </div>
                 <div className="form-group">
+                  <label>Notification Email (Optional)</label>
+                  <input type="email" value={userEmail} onChange={(e) => setUserEmail(e.target.value)} placeholder="patient@example.com" />
+                </div>
+                <div className="form-group">
                   <label>Accession Time (Received At)</label>
                   <input type="datetime-local" className="mono" value={receivedAt} onChange={(e) => setReceivedAt(e.target.value)} />
                 </div>
@@ -637,7 +665,8 @@ export default function Dashboard() {
         )}
       </AnimatePresence>
 
-      {/* Toasts */}
+
+
       <div className="toast-container">
         <AnimatePresence>
           {toasts.map(t => (

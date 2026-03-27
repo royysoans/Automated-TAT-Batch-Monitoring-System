@@ -1,6 +1,3 @@
-"""
-EDOS CSV Parser — ingests the master reference file and loads tests into the database.
-"""
 
 import csv
 import json
@@ -8,12 +5,10 @@ import os
 from database import get_db, init_db
 from schedule_engine import parse_schedule, parse_tat
 
-
 EDOS_PATH = os.path.join(os.path.dirname(__file__), "data", "edos_list.csv")
 
-
 def load_edos():
-    """Parse the EDOS CSV and insert/update tests in the database."""
+
     init_db()
     conn = get_db()
     cursor = conn.cursor()
@@ -24,10 +19,8 @@ def load_edos():
     with open(EDOS_PATH, "r", encoding="utf-8-sig") as f:
         reader = csv.reader(f)
 
-        # Skip the title row "Edos List,,,,..."
         header_row = next(reader)
 
-        # Read the actual header
         headers = next(reader)
         headers = [h.strip().lower() for h in headers]
 
@@ -57,7 +50,6 @@ def load_edos():
                 skipped += 1
                 continue
 
-            # Use test_name as fallback for test_code
             if not test_code:
                 test_code = f"UNKNOWN_{row_num}"
 
@@ -66,11 +58,9 @@ def load_edos():
             except ValueError:
                 mrp = 0
 
-            # Parse schedule and TAT
             schedule_parsed = parse_schedule(schedule_raw)
             tat_parsed = parse_tat(tat_raw)
 
-            # Convert to JSON for storage (handle tuples)
             schedule_json = json.dumps(schedule_parsed, default=str)
             tat_json = json.dumps(tat_parsed, default=str)
 
@@ -101,7 +91,6 @@ def load_edos():
     conn.commit()
     conn.close()
     return {"loaded": count, "skipped": skipped}
-
 
 if __name__ == "__main__":
     result = load_edos()

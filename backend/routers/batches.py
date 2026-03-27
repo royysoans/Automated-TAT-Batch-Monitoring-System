@@ -1,6 +1,3 @@
-"""
-Batches Router — view batch queues and upcoming batch windows.
-"""
 
 import json
 from datetime import datetime, timedelta
@@ -10,19 +7,14 @@ from schedule_engine import parse_schedule, find_next_batch
 
 router = APIRouter(prefix="/api/batches", tags=["Batches"])
 
-
 @router.get("")
 def list_batches(
     limit: int = Query(20, ge=1, le=100),
 ):
-    """
-    List upcoming batch windows across all tests.
-    Shows which tests have upcoming batches and how many samples are queued.
-    """
+
     conn = get_db()
     cursor = conn.cursor()
 
-    # PostgreSQL strict GROUP BY: must include all non-aggregated SELECT columns.
     cursor.execute("""
         SELECT
             s.batch_cutoff,
@@ -69,18 +61,14 @@ def list_batches(
     conn.close()
     return {"batches": batches}
 
-
 @router.get("/upcoming")
 def upcoming_batches():
-    """
-    Show the next batch window for each unique test that has samples.
-    """
+
     conn = get_db()
     cursor = conn.cursor()
 
     now = datetime.now()
 
-    # Get distinct test codes with pending samples
     cursor.execute("""
         SELECT DISTINCT ON (s.test_code) s.test_code, t.test_name, t.schedule_json, t.schedule_raw
         FROM samples s
@@ -92,7 +80,6 @@ def upcoming_batches():
     for row in cursor.fetchall():
         schedule = json.loads(row["schedule_json"]) if row["schedule_json"] else {}
 
-        # Convert lists back to tuples
         if "cutoff_time" in schedule and isinstance(schedule["cutoff_time"], list):
             schedule["cutoff_time"] = tuple(schedule["cutoff_time"])
         if "cutoff_times" in schedule:

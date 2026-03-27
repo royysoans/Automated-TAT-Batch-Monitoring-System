@@ -1,10 +1,3 @@
-"""
-Automated TAT & Batch Monitoring System — FastAPI Application
-
-Fully API-driven pipeline: no manual triggers or manual data entry required.
-On startup, automatically initializes the DB, ingests EDOS data.
-Background TAT breach checking is handled by GitHub Actions (external cron).
-"""
 
 import os
 from contextlib import asynccontextmanager
@@ -16,12 +9,9 @@ from edos_parser import load_edos
 from alert_service import check_all_samples_for_breaches
 from routers import webhook, samples, alerts, tests, batches
 
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Initialize database, load EDOS data on startup (local only)."""
-    # Vercel functions must boot instantly. We skip heavy CSV parsing
-    # because the Neon Postgres DB is already fully seeded.
+
     if not os.environ.get("VERCEL"):
         print("🔧 Initializing Postgres database...")
         init_db()
@@ -29,11 +19,10 @@ async def lifespan(app: FastAPI):
         result = load_edos()
         print(f"✅ Loaded {result['loaded']} tests ({result['skipped']} skipped)")
     else:
-        print("⚡ Vercel Serverless Boot (Skipping DB Init)")
+        pass
 
     yield
     print("👋 Shutting down...")
-
 
 app = FastAPI(
     title="TAT & Batch Monitoring System",
@@ -46,26 +35,23 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# CORS — allow the Next.js frontend (both local and production)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins for Vercel deployment
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Mount all API routers
 app.include_router(webhook.router)
 app.include_router(samples.router)
 app.include_router(alerts.router)
 app.include_router(tests.router)
 app.include_router(batches.router)
 
-
 @app.get("/")
 def root():
-    """API index — lists all available endpoints for documentation."""
+
     return {
         "name": "TAT & Batch Monitoring System",
         "version": "1.0.0",
@@ -84,12 +70,12 @@ def root():
             "test_groups": "GET /api/tests/groups — Test groups with counts",
             "batches_active": "GET /api/batches — Active batch queues with sample counts",
             "batches_upcoming": "GET /api/batches/upcoming — Next batch window per test",
+            "notification_status": "GET /api/alerts/notification-status — Email notification config status",
             "api_docs": "GET /docs — Interactive Swagger API documentation",
         }
     }
 
-
 @app.get("/api/health")
 def health():
-    """Health check endpoint."""
+
     return {"status": "healthy"}

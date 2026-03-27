@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
-/* Default Light Theme (Clinical Standard) */
+
+
 :root {
   --bg-primary: #f8fafc;
   --bg-secondary: #ffffff;
@@ -27,7 +28,8 @@
   --shadow-modal: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-/* Refined Dark Theme */
+
+
 .dark {
   --bg-primary: #0f172a;
   --bg-secondary: #1e293b;
@@ -71,14 +73,16 @@ html, body {
   font-family: 'JetBrains Mono', monospace;
 }
 
-/* Layout */
+
+
 .app-container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 24px;
 }
 
-/* Header */
+
+
 .header {
   display: flex;
   align-items: center;
@@ -194,12 +198,14 @@ html, body {
   color: var(--text-primary);
 }
 
-/* Navigation Tabs */
+
+
 .nav-tabs {
   display: flex;
   gap: 2px;
   padding: 4px;
-  background: var(--border-color); /* Acts as border for tabs container */
+  background: var(--border-color);
+
   border-radius: calc(var(--radius) + 2px);
   margin-bottom: 24px;
   width: fit-content;
@@ -228,7 +234,8 @@ html, body {
   box-shadow: var(--shadow-sm);
 }
 
-/* Stats Cards */
+
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -276,14 +283,16 @@ html, body {
   color: var(--text-muted);
 }
 
-/* Content Grid */
+
+
 .content-grid {
   display: grid;
   grid-template-columns: 1fr 360px;
   gap: 24px;
 }
 
-/* Card Panels */
+
+
 .panel {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
@@ -317,7 +326,8 @@ html, body {
   color: var(--text-secondary);
 }
 
-/* Table Controls (Search & Filter) */
+
+
 .table-controls {
   padding: 12px 20px;
   border-bottom: 1px solid var(--border-color);
@@ -357,7 +367,8 @@ html, body {
   color: var(--text-muted);
 }
 
-/* Clinical Table (Compact Density) */
+
+
 .table-container {
   overflow-x: auto;
 }
@@ -402,7 +413,8 @@ td {
   white-space: nowrap;
 }
 
-/* Let the row handle hover effects */
+
+
 tr.interactive-row {
   cursor: pointer;
   transition: background-color 0.15s;
@@ -422,7 +434,8 @@ td:first-child {
   color: var(--text-primary);
 }
 
-/* Solid Status Badges */
+
+
 .status-badge {
   display: inline-flex;
   align-items: center;
@@ -441,7 +454,8 @@ td:first-child {
 .status-badge.completed { background: var(--accent-blue-bg); color: var(--accent-blue); }
 .status-badge.processing { background: var(--bg-hover); color: var(--text-secondary); }
 
-/* Alert Items */
+
+
 .alert-list {
   max-height: 400px;
   overflow-y: auto;
@@ -499,7 +513,8 @@ td:first-child {
   color: var(--text-primary);
 }
 
-/* Batch Queue */
+
+
 .batch-list {
   max-height: 400px;
   overflow-y: auto;
@@ -535,7 +550,8 @@ td:first-child {
 .batch-counts .samples { color: var(--accent-blue); }
 .batch-counts .missed { color: var(--accent-yellow); }
 
-/* Modal */
+
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -631,7 +647,8 @@ td:first-child {
   border-radius: 0 0 var(--radius-lg) var(--radius-lg);
 }
 
-/* Toast */
+
+
 .toast-container {
   position: fixed;
   bottom: 24px;
@@ -655,7 +672,8 @@ td:first-child {
 .toast.success { border-left: 4px solid var(--accent-green); }
 .toast.error { border-left: 4px solid var(--accent-red); }
 
-/* ETA Highlight */
+
+
 .eta-text {
   font-weight: 600;
 }
@@ -663,7 +681,8 @@ td:first-child {
 .eta-text.at-risk { color: var(--accent-yellow); }
 .eta-text.on-time { color: var(--accent-green); }
 
-/* Empty States */
+
+
 .empty-state {
   padding: 40px 20px;
   text-align: center;
@@ -673,7 +692,8 @@ td:first-child {
 .empty-state-sub { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
 
 
-/* DRAWER CLASSES */
+
+
 .drawer-overlay {
   position: fixed;
   top: 0;
@@ -759,7 +779,8 @@ td:first-child {
   font-weight: 600;
 }
 
-/* Timeline Layout */
+
+
 .timeline {
   display: flex;
   flex-direction: column;

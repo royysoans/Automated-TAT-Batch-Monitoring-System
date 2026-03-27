@@ -1,13 +1,9 @@
-"""
-Tests Router — browse EDOS test data.
-"""
 
 import json
 from fastapi import APIRouter, Query
 from database import get_db
 
 router = APIRouter(prefix="/api/tests", tags=["Tests"])
-
 
 @router.get("")
 def list_tests(
@@ -16,7 +12,7 @@ def list_tests(
     limit: int = Query(50, ge=1, le=1000),
     offset: int = Query(0, ge=0)
 ):
-    """List all tests from the EDOS data."""
+
     conn = get_db()
     cursor = conn.cursor()
 
@@ -56,7 +52,6 @@ def list_tests(
             "tat_parsed": tat,
         })
 
-    # Get total count
     count_query = "SELECT COUNT(*) as total FROM tests WHERE 1=1"
     count_params = []
     if group:
@@ -72,10 +67,9 @@ def list_tests(
     conn.close()
     return {"tests": tests, "total": total}
 
-
 @router.get("/groups")
 def get_groups():
-    """Get all test groups with counts."""
+
     conn = get_db()
     cursor = conn.cursor()
 
@@ -90,10 +84,9 @@ def get_groups():
     conn.close()
     return {"groups": groups}
 
-
 @router.get("/{test_code}")
 def get_test(test_code: str):
-    """Get detail for a specific test."""
+
     conn = get_db()
     cursor = conn.cursor()
 

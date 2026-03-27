@@ -1,12 +1,9 @@
-"""
-Samples Router — CRUD operations for samples in the pipeline.
-Supports full lifecycle: assigned → processing → completed / breached.
-"""
 
 from datetime import datetime
 from fastapi import APIRouter, Query, HTTPException
 from pydantic import BaseModel
 from database import get_db
+from notification_service import send_completion_email
 
 router = APIRouter(prefix="/api/samples", tags=["Samples"])
 
@@ -16,13 +13,11 @@ VALID_TRANSITIONS = {
     "reassigned": {"processing", "completed", "breached"},
     "processing": {"completed", "breached"},
     "completed": set(),
-    "breached": {"processing"},  # allow retry
+    "breached": {"processing"},
 }
-
 
 class StatusUpdate(BaseModel):
     status: str
-
 
 @router.get("")
 def list_samples(
@@ -31,7 +26,7 @@ def list_samples(
     limit: int = Query(100, ge=1, le=1000),
     offset: int = Query(0, ge=0)
 ):
-    """List all samples with optional filtering."""
+
     conn = get_db()
     cursor = conn.cursor()
 
@@ -89,28 +84,23 @@ def list_samples(
     conn.close()
     return {"samples": samples, "total": len(samples)}
 
-
 @router.get("/stats")
 def get_stats():
-    """Get aggregate statistics for the dashboard."""
+
     conn = get_db()
     cursor = conn.cursor()
 
-    # Total samples
     cursor.execute("SELECT COUNT(*) as total FROM samples")
     total = cursor.fetchone()["total"]
 
-    # By status
     cursor.execute("""
         SELECT status, COUNT(*) as count FROM samples GROUP BY status
     """)
     status_counts = {row["status"]: row["count"] for row in cursor.fetchall()}
 
-    # Missed batches
     cursor.execute("SELECT COUNT(*) as count FROM samples WHERE missed_batch = 1")
     missed = cursor.fetchone()["count"]
 
-    # Overdue (past ETA)
     now = datetime.now().isoformat()
     cursor.execute("""
         SELECT COUNT(*) as count FROM samples
@@ -118,11 +108,9 @@ def get_stats():
     """, (now,))
     overdue = cursor.fetchone()["count"]
 
-    # Active alerts
     cursor.execute("SELECT COUNT(*) as count FROM alerts WHERE acknowledged = 0")
     active_alerts = cursor.fetchone()["count"]
 
-    # Recent samples (last 24h) — created_at is now a TIMESTAMP column
     cursor.execute("""
         SELECT COUNT(*) as count FROM samples
         WHERE created_at > NOW() - INTERVAL '1 day'
@@ -141,7 +129,6 @@ def get_stats():
         "active_alerts": active_alerts,
         "recent_24h": recent,
     }
-
 
 @router.get("/{sample_id}")
 def get_sample(sample_id: str):
@@ -162,12 +149,11 @@ def get_sample(sample_id: str):
         conn.close()
         return {"error": "Sample not found"}
 
-    # Get alerts for this sample
     cursor.execute("""
         SELECT * FROM alerts WHERE sample_id = %s ORDER BY created_at DESC
     """, (sample_id,))
     alert_rows = cursor.fetchall()
-    # Convert RealDictRow to plain dicts, stringify datetimes
+
     alerts = []
     for a in alert_rows:
         alert_dict = dict(a)
@@ -204,14 +190,9 @@ def get_sample(sample_id: str):
         "alerts": alerts,
     }
 
-
 @router.put("/{sample_id}/status")
 def update_sample_status(sample_id: str, body: StatusUpdate):
-    """
-    Update a sample's lifecycle status.
-    Valid statuses: assigned, reassigned, processing, completed, breached.
-    Valid transitions: assigned/reassigned → processing → completed/breached.
-    """
+
     new_status = body.status.lower()
     if new_status not in VALID_STATUSES:
         raise HTTPException(status_code=400, detail=f"Invalid status '{new_status}'. Valid: {VALID_STATUSES}")
@@ -219,7 +200,7 @@ def update_sample_status(sample_id: str, body: StatusUpdate):
     conn = get_db()
     cursor = conn.cursor()
 
-    cursor.execute("SELECT status FROM samples WHERE sample_id = %s", (sample_id,))
+    cursor.execute("SELECT status, test_code, user_email FROM samples WHERE sample_id = %s", (sample_id,))
     row = cursor.fetchone()
     if not row:
         conn.close()
@@ -242,12 +223,17 @@ def update_sample_status(sample_id: str, body: StatusUpdate):
     conn.commit()
     conn.close()
 
-    return {"success": True, "sample_id": sample_id, "old_status": current_status, "new_status": new_status}
+    if new_status == "completed" and row.get("user_email"):
+        try:
+            send_completion_email(sample_id, row["test_code"], row["user_email"])
+        except Exception:
+            pass
 
+    return {"success": True, "sample_id": sample_id, "old_status": current_status, "new_status": new_status}
 
 @router.delete("/{sample_id}")
 def delete_sample(sample_id: str):
-    """Delete a sample and its associated alerts."""
+
     conn = get_db()
     cursor = conn.cursor()
 
@@ -256,7 +242,6 @@ def delete_sample(sample_id: str):
         conn.close()
         raise HTTPException(status_code=404, detail="Sample not found")
 
-    # Delete associated alerts first due to foreign key constraint
     cursor.execute("DELETE FROM alerts WHERE sample_id = %s", (sample_id,))
     cursor.execute("DELETE FROM samples WHERE sample_id = %s", (sample_id,))
 
