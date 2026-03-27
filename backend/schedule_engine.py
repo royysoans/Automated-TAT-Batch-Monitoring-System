@@ -38,7 +38,7 @@ def parse_schedule(schedule_str):
     raw = schedule_str.strip()
     s = raw.lower().strip()
 
-    if s in ('test schedule', 'test', 'na', 'n/a', '-', ''):
+    if s in ('test schedule', 'test', 'na', 'n/a', '-', '', 'daily'):
         return {"type": "daily_cutoff", "days": None, "cutoff_time": (19, 0), "cutoff_times": [(19, 0)], "raw": raw}
 
     if 'walk in' in s or 'walk-in' in s:
