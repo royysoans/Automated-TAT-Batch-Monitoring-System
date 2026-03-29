@@ -25,5 +25,3 @@ To enable the 5-minute background breach check, add this to your GitHub Reposito
 3. **Breach Monitor:** GitHub Actions pings `/api/alerts/check-breaches` every 5 minutes to identify overdue samples.
 4. **Dashboard:** Live updates with animated alerts and vertical lifecycle timelines.
 
----
-*Built with Antigravity for Clinical Excellence.*
