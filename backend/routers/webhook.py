@@ -40,6 +40,9 @@ def receive_sample(payload: SampleWebhook):
 
     try:
         received_at = datetime.fromisoformat(payload.received_at)
+        # Normalise to naive datetime (strip timezone) so all comparisons are consistent
+        if received_at.tzinfo is not None:
+            received_at = received_at.replace(tzinfo=None)
     except ValueError:
         conn.close()
         raise HTTPException(status_code=400, detail="Invalid timestamp format. Use ISO format.")

@@ -9,11 +9,11 @@ router = APIRouter(prefix="/api/samples", tags=["Samples"])
 
 VALID_STATUSES = {"assigned", "reassigned", "processing", "completed", "breached"}
 VALID_TRANSITIONS = {
-    "assigned": {"processing", "completed", "breached"},
+    "assigned":   {"processing", "completed", "breached"},
     "reassigned": {"processing", "completed", "breached"},
     "processing": {"completed", "breached"},
-    "completed": set(),
-    "breached": {"processing"},
+    "completed":  set(),
+    "breached":   {"processing", "completed"},  # allow closing out breached samples
 }
 
 class StatusUpdate(BaseModel):

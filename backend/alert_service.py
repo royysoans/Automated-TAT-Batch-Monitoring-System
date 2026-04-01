@@ -4,6 +4,15 @@ from database import get_db
 from notification_service import send_alert_notification
 
 def check_and_create_alerts(sample_id, test_code, received_at, batch_cutoff, eta, missed_batch=False, user_email=None):
+    """
+    Called at sample intake time. Only creates alerts for:
+      - missed_batch: sample arrived after its batch cutoff
+      - extended_tat: TAT is more than 7 days
+
+    NOTE: TAT breach checking (now > eta) is intentionally NOT done here.
+    That check runs periodically via check_all_samples_for_breaches() so that
+    freshly-inserted samples are never immediately flagged as breached.
+    """
 
     conn = get_db()
     cursor = conn.cursor()
@@ -43,29 +52,6 @@ def check_and_create_alerts(sample_id, test_code, received_at, batch_cutoff, eta
         except Exception:
             pass
 
-    now = datetime.now()
-    if now > eta:
-        hours_overdue = (now - eta).total_seconds() / 3600
-        severity = "critical" if hours_overdue > 24 else "warning"
-        message = (
-            f"OVERDUE: Sample {sample_id} (test {test_code}) is {hours_overdue:.1f} hours "
-            f"past its ETA of {eta.strftime('%Y-%m-%d %H:%M')}."
-        )
-        cursor.execute("""
-            INSERT INTO alerts (sample_id, alert_type, severity, message)
-            VALUES (%s, 'tat_breach', %s, %s)
-        """, (sample_id, severity, message))
-        alerts_created.append({"type": "tat_breach", "severity": severity, "message": message})
-        try:
-            send_alert_notification("tat_breach", severity, message, sample_id, test_code, user_email=user_email)
-        except Exception:
-            pass
-
-        cursor.execute("""
-            UPDATE samples SET status = 'breached', updated_at = NOW()
-            WHERE sample_id = %s
-        """, (sample_id,))
-
     conn.commit()
     conn.close()
     return alerts_created
@@ -94,7 +80,7 @@ def check_all_samples_for_breaches():
         cursor.execute("""
             SELECT COUNT(*) as cnt FROM alerts
             WHERE sample_id = %s AND alert_type = 'tat_breach'
-            AND created_at > NOW() - INTERVAL '1 hour'
+            AND created_at > NOW() - INTERVAL '24 hours'
         """, (sample_id,))
 
         if cursor.fetchone()["cnt"] == 0:
